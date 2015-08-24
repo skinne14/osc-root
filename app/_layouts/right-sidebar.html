@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<main id="main" tabindex="-1" class="col-lg-9 col-md-8">
+  {% include breadcrumbs.html %}
+  <article>{{ content }}</article>
+</main>
+<aside class="col-lg-3 col-md-4 sidebar full-sidebar">
+  {% capture sidebar %}{% if page.sidebar %}{% include sidebars/{{page.sidebar}}.html %}{% else %}{% include sidebars/default.html %}{% endif %}{% endcapture %} 
+  {{ sidebar | markdownify }}
+</aside>

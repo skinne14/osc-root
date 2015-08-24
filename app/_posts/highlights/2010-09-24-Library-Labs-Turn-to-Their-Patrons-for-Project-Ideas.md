@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Library Labs Turn to Their Patrons for Project Ideas"
+categories: about highlights
+permalink: /about/highlights/2010/09/library-labs-turn-their-patrons-project-ideas/index.html
+---
+<p>"University librarians are turning to their patrons for ideas on how to improve library services.&nbsp;This fall, the new&nbsp;Harvard University Library Lab&nbsp;invited students and faculty and staff members to help enhance the facility's offerings by proposing projects of their own." Read the <a href="http://chronicle.com/blogPost/Library-Labs-Turn-to-Their/27111/" target="_blank">full article</a>&nbsp;in <em>The Chronicle of Higher Education</em>.</p>

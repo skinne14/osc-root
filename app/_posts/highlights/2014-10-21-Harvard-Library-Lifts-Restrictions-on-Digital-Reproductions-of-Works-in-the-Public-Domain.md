@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Harvard Library Lifts Restrictions on Digital Reproductions of Works in the Public Domain"
+categories: about highlights
+permalink: /about/highlights/2014/10/harvard-library-lifts-restrictions-digital-reproductions-works-public domain/index.html
+---
+<p>The <a href="http://library.harvard.edu/">Harvard Library</a> is pleased to announce a new <a href="https://osc.hul.harvard.edu/pdpolicy">policy</a> on the use of digital reproductions of works in the public domain. When the Library makes such reproductions and makes them openly available online, it will treat the reproductions themselves as objects in the public domain. It will not try to restrict what users can do with them, nor will it grant or deny permission for any use. For more detail, see the <a href="https://osc.hul.harvard.edu/pdfaq">policy FAQ</a>.</p><p>For the full announcement, see the OSC <a href="https://osc.hul.harvard.edu/oaweek2014#publicdomain">Open Access Week page</a>.</p>

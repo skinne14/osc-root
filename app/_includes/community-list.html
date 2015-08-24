@@ -1,0 +1,7 @@
+{% assign policies = site.policies | where: 'type', include.type | sort: 'abbr' %}
+{% assign target = include.link-to | prepend: "/" %}
+<ul class="community-list">
+{% for policy in policies %}
+  <li><a href="{{target}}/{{policy.abbr}}/">{{ policy.abbr}}</a></li>
+{% endfor %}
+</ul>

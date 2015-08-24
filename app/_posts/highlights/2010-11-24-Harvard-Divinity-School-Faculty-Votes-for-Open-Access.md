@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Harvard Divinity School Faculty Votes for Open Access"
+categories: about highlights
+permalink: /about/highlights/2010/11/harvard-divinity-school-faculty-votes-open-access/index.html
+---
+<p>"The faculty of Harvard Divinity School voted, in a meeting on November 15, to allow Harvard University to make electronic versions of their current scholarly articles available to the public." Read the <a href="http://www.hds.harvard.edu/news/pr/openaccess.html" target="_blank">full press release</a> at the HDS website.</p>

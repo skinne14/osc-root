@@ -1,0 +1,20 @@
+{% assign liaisons = site.data.liaisons | where: "liaison-to", page.abbr %}
+
+{% if liaisons != empty %}
+  <section class="liaisons text-center">
+    <h2>Your Open Access {% if liaisons.size > 1 %}Liaisons{% else %} Liaison {% endif%}</h2>
+    {% for liaison in liaisons %}
+      <h3>{{liaison.name}}</h3>
+      <p><a href="mailto:{{liaison.email}}">{{liaison.email}}</a></p>
+      <p><a href="tel:+1{{liaison.phone | remove: "-"}}">{{liaison.phone}} </a></p>
+    {% endfor %}
+  </section>   
+{% endif %}
+
+<section class="text-center">
+  <a href="{{page.home}}}"><img alt="{{page.school}} logo" src="{{ site.baseurl }}/assets/img/{{page.logo}}" class="img-responsive center-block"></a>
+
+  <p>Read the {{page.org}} <a href="/policies/{{page.abbr}}/">Open Access Policy</a></p>
+
+</section>
+

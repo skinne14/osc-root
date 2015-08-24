@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Library Lab Videos"
+categories: about highlights
+permalink: /about/highlights/2012/01/library-lab-videos/index.html
+---
+<p>Sixteen library lab projects have produced videos or screencasts that demonstrate the project and provide commentary from the creators. You can find a <a href="http://www.youtube.com/playlist?list=PL1C200E17E0656FB4" target="_blank">playlist featuring all of these videos</a> on Harvard's YouTube channel.&nbsp;</p>

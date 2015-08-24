@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Highbrow and Innovation at the Harvard Library"
+categories: about highlights
+permalink: /about/highlights/2012/10/highbrow-and-innovation-harvard-library/index.html
+---
+<p>Today's issue of the <em>Harvard Gazette</em> contains a feature about the new structure of the Harvard Library.&nbsp;<a href="http://osc.hul.harvard.edu/liblab/proj/highbrow-textual-annotation-browser" target="_blank">Highbrow</a>, a&nbsp;web-based textual visualization tool&nbsp;that began as&nbsp;a&nbsp;<a href="liblab">Library Lab</a>&nbsp;project, is singled out as an example of the Library's Innovation Initiative. Read the full article <a href="http://news.harvard.edu/gazette/story/2012/10/library-in-transition/" target="_blank">here</a>.</p>

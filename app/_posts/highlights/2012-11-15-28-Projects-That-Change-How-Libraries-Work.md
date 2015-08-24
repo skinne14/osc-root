@@ -1,0 +1,7 @@
+---
+layout: post
+title: "28 Projects That Change How Libraries Work"
+categories: about highlights
+permalink: /about/highlights/2012/11/28-projects-change-how-libraries-work/index.html
+---
+<p>Harvard's Library Lab hosted a showcase this week at Radcliffe Gymnasium. To learn more about the event and the twenty-eight funded projects, see <a href="http://www.thecrimson.com/article/2012/11/15/library-lab-projects/" target="_blank">this article</a> in <em>The Harvard Crimson.</em></p>

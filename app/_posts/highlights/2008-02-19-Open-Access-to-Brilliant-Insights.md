@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Open Access to Brilliant Insights"
+categories: about highlights
+permalink: /about/highlights/2008/02/open-access-brilliant-insights/index.html
+---
+<p>"Harvard's arts and sciences professors have decided to give the world a look at their research, agreeing to place journal articles in a digital repository that any Web surfer will be able to use for free."</p><p>Read the <a href="http://www.boston.com/news/education/higher/articles/2008/02/19/open_access_to_brilliant_insights/" target="_blank">full article</a> in <em>The Boston Globe</em>.</p>

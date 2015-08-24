@@ -1,0 +1,34 @@
+---
+layout: right-inner-sidebar
+sidebar: subscribe
+breadcrumbs: true
+title: OSC Highlights
+---
+
+{% for post in site.categories["highlights"] limit:1 %}
+## Latest News
+<section class="first-post">
+  <heading>
+    <h3>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl | remove: "index.html"}}">{{ post.title }}</a>
+    </h3>
+    <p class="policy-adoption"> {{ post.date | date: "%B %-d, %Y" }}</p>
+  </heading>
+  {{ post.excerpt | markdownify }}
+  <a class="btn btn-default" href="{{ post.url | prepend: site.baseurl | remove: "index.html"}}" role="button">Read more »</a>
+</section>
+{% endfor %}
+
+<hr>
+
+## Older Posts
+<ul class="post-list">
+{% for post in site.categories["highlights"] offset: 1 %}
+  <li>
+    <h3>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl | remove: "index.html"}}">{{ post.title }}</a>
+    </h3>
+    <p class="policy-adoption"> {{ post.date | date: "%B %-d, %Y" }}</p>
+  </li>
+{% endfor %}
+</ul>

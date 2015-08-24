@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Good Practices for University OA Policies"
+categories: about highlights
+permalink: /about/highlights/2012/10/good-practices-university-oa-policies/index.html
+---
+<p>In anticipation of worldwide <a href="http://osc.hul.harvard.edu/oaweek2012">Open Access Week</a>, the Harvard Open Access Project has released <a href="http://cyber.law.harvard.edu/hoap/Good_practices_for_university_open-access_policies" target="_blank">version 1.0</a> of a guide to good practices for university open-access policies. Read the full announcement <a href="http://cyber.law.harvard.edu/node/8005" target="_blank">here</a>.&nbsp;</p>

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<main id="main" tabindex="-1" class="col-md-12">
+  {% include breadcrumbs.html %}    
+  <article>
+  {% if  page.breadcrumbs == true %}
+    <h1 id="top" tabindex="-1" class="after-breadcrumb">{{ page.title }}</h1>   
+  {% else %}
+    <h1 id="top" tabindex="-1">{{ page.title }}</h1>
+  {% endif %}  
+  {{ content }}
+  </article>
+</main>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Colin Lukens Elected President of New England Archivists"
+categories: about highlights
+permalink: /about/highlights/2014/03/colin-lukens-elected-president-new-england-archivists/index.html
+---
+<p>Colin B. Lukens, Repository Manager at the OSC, has been elected to serve as the president of <a href="http://www.newenglandarchivists.org/">New England Archivists</a>.</p>

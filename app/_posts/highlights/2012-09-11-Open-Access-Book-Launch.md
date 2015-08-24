@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Open Access Book Launch"
+categories: about highlights
+permalink: /about/highlights/2012/09/open-access-book-launch/index.html
+---
+<p>To celebrate the release of Peter Suber’s new book,&nbsp;<a href="http://cyber.law.harvard.edu/hoap/Open_Access_%28the_book%29" target="_blank">Open Access</a>, the Berkman Center will be hosting a discussion and reception tonight, Tuesday, September 11, at 6 p.m. Find all the details on the <a href="http://cyber.law.harvard.edu/events/2012/09/openaccess" target="_blank">Berkman Center site</a>.</p>

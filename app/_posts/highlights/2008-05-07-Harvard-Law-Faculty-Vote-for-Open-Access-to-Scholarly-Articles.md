@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Harvard Law Faculty Vote for Open Access to Scholarly Articles"
+categories: about highlights
+permalink: /about/highlights/2008/05/harvard-law-faculty-vote-open-access-scholarly-articles/index.html
+---
+<p>"In a move that will disseminate faculty research and scholarship as broadly as possible, the Harvard Law School faculty&nbsp;unanimously voted&nbsp;last week to make each faculty member’s scholarly articles available online for free, making HLS the first law school to commit to a mandatory open access policy."</p><p>Read the <a href="http://www.law.harvard.edu/news/2008/05/07_openaccess.php" target="_blank">full article</a> at the <em>Harvard Law School</em>.</p>

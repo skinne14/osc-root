@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Implementing OA Policies Using Institutional Repositories"
+categories: about highlights
+permalink: /about/highlights/2013/01/implementing-oa-policies-using-institutional-repositories/index.html
+---
+<p>In a book to be published by the American Library Association, MIT's Ellen&nbsp;Duranceau and the OSC's own&nbsp;Sue Kriegsman contribute a chapter that offers practical advice about&nbsp;how to establish an institutional open access policy as well as how to implement an OA repository. The full chapter from <em><a href="http://www.ala.org/alcts/resources/papers/irs#5" target="_blank">The Institutional Repository: Benefits and Challenges</a></em> is available as a free <a href="http://www.ala.org/alcts/sites/ala.org.alcts/files/content/resources/papers/ir_ch05_.pdf" target="_blank">download</a>.</p>

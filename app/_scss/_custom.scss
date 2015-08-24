@@ -1,0 +1,516 @@
+////////////////////////////////////// 
+// 1.0 Fonts
+//////////////////////////////////////
+
+////////////////////////////////////// 
+// 1.1 Text
+//////////////////////////////////////
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../fonts/NotoSans-Bold-webfont.eot');
+  src: url('../fonts/NotoSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/NotoSans-Bold-webfont.woff') format('woff'),
+       url('../fonts/NotoSans-Bold-webfont.ttf') format('truetype'),
+       url('../fonts/NotoSans-Bold-webfont.svg#noto_sansregular') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../fonts/NotoSans-Regular-webfont.eot');
+  src: url('../fonts/NotoSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/NotoSans-Regular-webfont.woff') format('woff'),
+       url('../fonts/NotoSans-Regular-webfont.ttf') format('truetype'),
+       url('../fonts/NotoSans-Regular-webfont.svg#noto_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Serif';
+  src: url('../fonts/NotoSerif-Bold-webfont.eot');
+  src: url('../fonts/NotoSerif-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/NotoSerif-Bold-webfont.woff') format('woff'),
+       url('../fonts/NotoSerif-Bold-webfont.ttf') format('truetype'),
+       url('../fonts/NotoSerif-Bold-webfont.svg#noto_serifregular') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Serif';
+  src: url('../fonts/NotoSerif-Regular-webfont.eot');
+  src: url('../fonts/NotoSerif-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/NotoSerif-Regular-webfont.woff') format('woff'),
+       url('../fonts/NotoSerif-Regular-webfont.ttf') format('truetype'),
+       url('../fonts/NotoSerif-Regular-webfont.svg#noto_serifregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+////////////////////////////////////// 
+// 1.2 Icons
+//////////////////////////////////////
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?hyrr47');
+  src:url('../fonts/icomoon.eot?#iefixhyrr47') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?hyrr47') format('truetype'),
+      url('../fonts/icomoon.woff?hyrr47') format('woff'),
+      url('../fonts/icomoon.svg?hyrr47#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google-plus2:before {
+  content: "\e600";
+}
+.icon-facebook2:before {
+  content: "\e601";
+}
+.icon-twitter:before {
+  content: "\e602";
+}
+
+////////////////////////////////////// 
+// 2.0 Banner (navbar, header, quicklinks)
+//////////////////////////////////////
+.navbar-nav a {
+  text-transform: uppercase;
+
+  &:hover, &:focus {
+  text-decoration: underline;
+  }
+}
+
+.navbar-nav .dropdown-menu a {
+  text-transform: capitalize;
+}
+
+.site-header {
+  background-color: #cccccc;
+  padding: 20px 20px 25px;
+}
+
+.nav-pills {
+  background-color: #e1e1e1;
+  font-size: 1.3em;
+  
+  a {
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+  }
+  
+  @media (max-width: 768px){
+    font-size: 1em;
+    li {
+      border-bottom: 1px solid #cdcdcd;
+    }
+    a {
+      text-align: left;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+////////////////////////////////////// 
+// 3.0 Content
+//////////////////////////////////////
+
+////////////////////////////////////// 
+// 3.1 General
+//////////////////////////////////////
+
+// Content Container
+.content-container {
+  a {
+    text-decoration: underline;
+  }  
+  .btn {
+    text-decoration: none;
+  }
+  h4, h5, h6, .h4, .h5, .h6 {
+    text-transform: uppercase;
+  }
+}
+
+// Main
+main {
+  background-color: white;      
+      
+  h1 {
+    @extend .page-header;
+  }
+  .after-breadcrumb {
+    margin-top: 30px;
+  }
+  .breadcrumb {
+    margin-left: 0px;
+    margin-top: 12px;
+    padding-left: 0px;
+    font-size: 0.9em;
+    text-transform: capitalize;
+  } 
+  .breadcrumbs li:last-of-type {
+    @extend .active;
+  }
+}
+
+article {        
+  font-size: 1.2em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  
+  @media (min-width: 992px) {
+    padding-right: 30px;
+    padding-bottom: 25px;
+    border-bottom: none;    
+  }
+}
+
+////////////////////////////////////// 
+// 3.2 Specific Page Elements
+//////////////////////////////////////
+
+// OA policy page
+.policy-adoption {
+  @extend .h5;
+}
+
+// Author pages
+.author-sub {
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+// Committee page
+.committee li {
+  margin: 20px 0px;
+}
+
+// Blogs (journal-flipping, orphan-works, OSC highlights)
+.post-date {
+  @extend .h5;
+  margin-top: 0px;
+}
+
+.first-post {
+  margin-left: 25px;
+
+  a.btn {
+    margin: 10px 0px;
+  }
+  heading {
+    display: block;
+    margin-left: -24px;
+    margin-bottom: 17px;
+  }
+}
+
+.post-list h3 {
+  font-size: 1em;
+}
+
+// Long Lists (FAQs, Staff List, etc.)
+.long-list {
+  line-height: 2;
+  
+  &:last-of-type {
+    margin-bottom: 50px
+  }
+  p {
+    line-height:  1.42857143;
+  }
+}
+
+.long-list-heading {
+  border-bottom: 1px dashed black;
+  padding-bottom: 5px;
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.long-list-content {
+  margin-bottom: 55px;
+  @media (min-width: 992px) {
+    padding-left:40px;
+  }
+
+  a[href="#top"] {
+    display: block;
+    margin-top: 15px;
+    font-size: .8em;
+  }
+  h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+}
+
+.long-list-content a[role="button"]{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.long-list-content.address a[href^="mailto"]{
+  color: #333;
+}
+
+.long-list-content.address a[href^="tel"]{
+  color: #333;
+}
+
+// Statements
+.letter {
+  border: 1px solid #777;
+  padding: 1.5em 3em;
+  margin-top: 2em;
+
+  p {
+    margin: 1.5em 0;
+  }
+}
+
+////////////////////////////////////// 
+// 3.3 Sidebars
+//////////////////////////////////////
+
+// Sidebars, common styles
+.sidebar {     
+  font-size: 1.1em;
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 20px;
+    line-height: 2;
+    text-align: center;
+  }
+  .community-list {
+    li {
+      display: inline;
+      padding: 0px 7px;
+      border-right: 1px solid #333;
+      &:last-of-type {
+        border-right: none;
+      }
+    }
+  }
+  a{
+    color: #333;
+  }
+  blockquote {
+    border: none;
+  }
+  .blurb {
+    &:nth-child(even){
+      text-align: right;
+    }
+  }
+  .liaisons a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Sidebar, particulars
+.full-sidebar {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  padding: 0px 35px;
+  
+  @media (min-width: 992px) {
+     border-left: 1px solid #eee;
+  }
+  
+  section {
+    padding: 25px;
+    margin-top: 25px;
+    background-color: #d9edf7;
+  }
+  h2 {
+    margin-top: 10px;
+  }
+}
+
+.faq-sidebar {
+  font-size: .9em;
+  margin-top: 10px;
+  
+}
+.inner-sidebar, .faq-sidebar {
+  @media (min-width: 992px){
+    background-color: #d9edf7;
+    margin-bottom: 25px;
+  }
+  section {
+    // background color is for mobile appearance.
+    background-color: #d9edf7;
+    margin: 25px;
+    
+    img {
+      padding: 10px 0px;
+    }
+    &:nth-child(even) {
+      border-top: 1px solid white;
+      padding-top: 25px;
+      margin-top: 25px;
+
+      h2, h3 {
+        margin-top: 5px;
+      }
+    }
+    @media (max-width: 992px){
+      padding: 25px;
+      margin: 25px 10px;
+    }
+  }
+}
+
+////////////////////////////////////// 
+// 3.4 Featured Actions
+//////////////////////////////////////
+
+// Featured Actions
+.featured-actions {
+  border-top: 1px solid #eee;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+  
+  h3 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+  }
+  section {
+    position: relative;
+    @media (max-width: 768px){
+      background-color: #eee;
+      padding: 15px 25px;
+      margin: 25px;
+    }
+  }
+  a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    height: 100%;
+
+    &:hover, &:focus {
+      text-decoration: underline;
+    }
+
+    @media (min-width: 769px) {
+      min-height: 120px;
+      padding: 10px 15px;
+      &:hover, &:focus {
+        text-decoration: none;
+        border-color: #ccc;
+        border-color: rgba(82,168,236,.8);
+        outline: 0;
+        outline: thin dotted \9;
+        -webkit-box-shadow: 0 0 14px rgba(82,168,236,.6);
+        box-shadow: 0 0 14px rgba(82,168,236,.6);
+      }
+    }  
+  }
+}
+
+////////////////////////////////////// 
+// 4.0 Footer
+//////////////////////////////////////
+.footer-wrapper {
+  background-color: #f1f1f1;
+}
+.site-footer {
+  padding: 25px 20px;
+
+  .footer-info {
+    font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
+  }
+  a {
+    color: black;
+  }
+  abbr {
+    font-weight: bold;
+  }
+  .social {
+    margin-top:  10px;
+    margin-bottom:  25px;
+    a {
+      font-size: 1.5em;
+      padding-right: 0.7em;
+    }
+  }
+  p {
+    line-height: 1;
+  }
+  small {
+    line-height: 4.5;
+  }  
+  ul {
+    line-height: 2;
+  }
+
+  @media (min-width: 992px) {
+    nav {
+      border-left: 1px solid #cdcdcd;
+      padding-left: 30px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    ul:first-of-type {
+      margin-top: 20px;
+    }
+    li {
+      border-top: 1px solid #cdcdcd;
+      margin-top: 15px;
+      padding-top: 15px;
+    }
+    ul a {
+      display: block;
+    }
+  }
+}
+
+// Sticky footer 
+@media (min-width: 992px) {
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    // Margin bottom equals footer height
+    margin-bottom: 241px;
+  }
+  div.footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 241px;
+  }
+}

@@ -1,0 +1,97 @@
+# Build settings
+destination: ../builds/dev
+exclude: ['css', '_scss', '_sass']
+permalink: pretty
+markdown: kramdown
+
+# Site settings
+title: Office for Scholarly Communication
+email: osc@harvard.edu
+phone: +1 (617) 495 4089
+fax: +1 (617) 495 0370
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://osc.hul.harvard.edu" # the base hostname & protocol for your site
+twitter_url: https://twitter.com/oscharvard
+facebook_url: https://www.facebook.com/pages/Harvard-Library-Office-for-Scholarly-Communication/109048279146780
+google_url: https://plus.google.com/111058536544461893402
+github_username:  jekyll
+
+# Content Handling
+
+collections:
+ communities:
+   output: true
+   permalink: /authors/:path/index.html
+ policies:
+   output: true
+   permalink: /policies/:path/index.html
+ faq:
+   output: false
+
+defaults:
+ -
+    scope:
+       path: ""
+       type: "policies"
+    values:
+        layout: "policy"
+        sidebar: "policy"
+ -
+    scope:
+       path: ""
+       type: "posts"
+    values:
+        permalink: /:categories/:title/index.html
+ -
+    scope:
+       path: "_posts/journal-flipping"
+       type: "posts"
+    values:
+        sidebar: peter
+ -
+    scope:
+       path: "_posts/orphan-works"
+       type: "posts"
+    values:
+        sidebar: peter
+ -
+    scope:
+       path: "_posts/highlights"
+       type: "posts"
+    values:
+        sidebar: subscribe
+ -
+    scope:
+       path: "authors"
+       type: "communities"
+    values:
+        title: For Authors
+        layout: "right-sidebar-with-actions"
+        sidebar: "community"
+        featured-actions-1:
+          - submit-to-dash
+          - author-faqs
+          - apply-for-hope-funds
+        featured-actions-2:
+          - get-a-waiver
+          - amend-a-publishing-agreement
+          - publisher-treaties
+ -
+    scope:
+       path: "authors"
+       type: "pages"
+    values:
+        layout: "right-sidebar-with-actions"
+        sidebar: "policy"
+        featured-actions-1:
+          - submit-to-dash
+          - author-faqs
+          - apply-for-hope-funds
+        featured-actions-2:
+          - get-a-waiver
+          - amend-a-publishing-agreement
+          - publisher-treaties

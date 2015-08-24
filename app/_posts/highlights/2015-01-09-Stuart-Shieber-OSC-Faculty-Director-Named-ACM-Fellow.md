@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Stuart Shieber, OSC Faculty Director, Named ACM Fellow"
+categories: about highlights
+permalink: /about/highlights/2015/01/stuart-shieber-osc-faculty-director-named-acm-fellow/index.html
+---
+<p>The <a href="http://www.acm.org/">Association for Computing Machinery</a> (ACM) has announced the list of 2014 ACM Fellows, who are recognized "for their exceptional contributions to computing". Professor Shieber is <a href="http://awards.acm.org/award_winners/shieber_1887579.cfm">cited</a> "[f]or contributions to natural-language processing, and to open-access systems and policy". Further details may be found <a href="http://www.siggraph.org/discover/news/acm-names-fellows-achievements-computing#sthash.3rfDeIy7.dpuf">here</a>.</p>

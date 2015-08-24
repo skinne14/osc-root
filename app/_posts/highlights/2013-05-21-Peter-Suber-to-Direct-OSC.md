@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Peter Suber to Direct OSC"
+categories: about highlights
+permalink: /about/highlights/2013/05/peter-suber-direct-osc/index.html
+---
+<p>Open access advocate Peter Suber has been appointed the new director of Harvard's Office for Scholarly Communication. Read the <a href="http://library.harvard.edu/peter-suber-direct-harvard%E2%80%99s-office-scholarly-communication" target="_blank">full announcement</a> on the Harvard Library portal.</p>

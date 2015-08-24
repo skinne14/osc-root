@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Fair Use Week Day 3: Kenneth Crews"
+categories: about highlights
+permalink: /about/highlights/2014/02/fair-use-week-day-3-kenneth-crews/index.html
+---
+<p>We are pleased to welcome <a href="https://twitter.com/kcrews">Kenneth D. Crews</a> as the third guest blogger in our celebration of <a href="http://blogs.law.harvard.edu/copyrightosc/">Fair Use Week</a>. Crews is an internationally recognized expert on copyright, libraries, and fair use. He is currently Of Counsel to Gipson Hoffman &amp; Pancione in Los Angeles, and an adjunct professor at the Columbia Law School in New York. You can read his post, "The Expanding Importance of Fair Use: Virtues and Dimensions for Future Needs" <a href="http://blogs.law.harvard.edu/copyrightosc/2014/02/26/fair-use-week-day-three-with-guest-expert-kenneth-d-crews/">here</a>.</p>

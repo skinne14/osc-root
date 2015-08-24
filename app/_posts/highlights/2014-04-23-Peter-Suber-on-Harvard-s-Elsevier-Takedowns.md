@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Peter Suber on Harvard's Elsevier Takedowns"
+categories: about highlights
+permalink: /about/highlights/2014/04/peter-suber-harvards-elsevier-takedowns/index.html
+---
+<p>The Office for Scholarly Communication’s Peter Suber addresses the takedown notices Harvard received from the academic publisher Elsevier. Find the full article <a href="http://library.harvard.edu/03142014-1552/elsevier-takedown-notices-qa-peter-suber">here</a>.</p>

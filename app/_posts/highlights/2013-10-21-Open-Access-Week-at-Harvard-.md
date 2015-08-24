@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Open Access Week at Harvard "
+categories: about highlights
+permalink: /about/highlights/2013/10/open-access-week-harvard/index.html
+---
+<p>Harvard University, a leader in making scholarship freely available to the world, celebrates&nbsp;<a href="http://www.openaccessweek.org/" target="_blank">Open Access Week</a>. Find more information <a href="https://osc.hul.harvard.edu/oaweek2013" target="_blank">here</a>.</p>

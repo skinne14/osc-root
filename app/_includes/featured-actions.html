@@ -1,0 +1,24 @@
+<h2 class="sr-only">Featured Actions</h2>
+<div class="row">
+  {% for request in page.featured-actions-1 %}
+    {% assign action = site.data.featured-actions[request] %}
+    <section class="col-sm-4">
+      <a href="{{action.link-to}}"><div>
+      <h3>{{action.heading}}</h3>
+      {{action.call-to-action | truncatewords: 10 | markdownify}}
+      </div></a>
+    </section>
+  {% endfor %}
+
+   <div class="clearfix hidden-xs"></div>
+
+  {% for request in page.featured-actions-2 %}
+    {% assign action = site.data.featured-actions[request] %}
+    <section class="col-sm-4">
+      <a href="{{action.link-to}}"><div>
+      <h3>{{action.heading}}</h3>
+      {{action.call-to-action | truncatewords: 10 | markdownify}}
+      </div></a> 
+    </section>
+  {% endfor %}
+</div>

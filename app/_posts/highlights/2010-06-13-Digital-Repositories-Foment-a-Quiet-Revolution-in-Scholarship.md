@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Digital Repositories Foment a Quiet Revolution in Scholarship"
+categories: about highlights
+permalink: /about/highlights/2010/06/digital-repositories-foment-quiet-revolution-scholarship/index.html
+---
+<p>"There's been a lot of hoopla about institutional repositories in the last few years, as Harvard and other universities have adopted open-access policies and set up IR's into which faculty members could deposit their work." &nbsp;Read the <a href="http://chronicle.com/article/Digital-Repositories-Foment-a/65894/?key=HTkiJgUzbyRONyExc3BIfSEBYCYqckx6PyNENX4aYFBR" target="_blank">full article</a> in the <em>The Chronicle of Higher Education</em>.</p>

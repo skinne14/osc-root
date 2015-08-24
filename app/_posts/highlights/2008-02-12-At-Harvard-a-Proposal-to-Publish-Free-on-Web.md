@@ -1,0 +1,7 @@
+---
+layout: post
+title: "At Harvard, a Proposal to Publish Free on Web"
+categories: about highlights
+permalink: /about/highlights/2008/02/harvard-proposal-publish-free-web/index.html
+---
+<p>"Publish or perish has long been the burden of every aspiring university professor. But the question the Harvard&nbsp;faculty will decide on Tuesday is whether to publish — on the Web, at least — free."</p><p>Read the <a href="http://www.nytimes.com/2008/02/12/books/12publ.html?_r=1" target="_blank">full article</a> in <em>The New York Times</em>.</p>

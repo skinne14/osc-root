@@ -1,0 +1,7 @@
+---
+layout: post
+title: "The Year in Scholarly Communication"
+categories: about highlights
+permalink: /about/highlights/2011/08/year-scholarly-communication/index.html
+---
+<p>Join Sue Kriegsman (Office for Scholarly Communication) , Abigail Bordeaux (OIS) and Michelle Pearse (Law School Library) on August 31st, 12:30-1:30p.m., in Lamont Forum Room for a discussion of what they learned from various scholarly communication-related conferences during the 2010/2011 academic year. <a href="2011/13/lamont">Click here</a> for more information about the event.</p>

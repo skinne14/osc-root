@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Kick-Off Event for Harvard Library Strategic Conversations"
+categories: about highlights
+permalink: /about/highlights/2011/09/kick-event-harvard-library-strategic-conversations/index.html
+---
+<p>Are you imagining what a 21st-century library might look like? Are you curious how our patrons, staff and faculty envision the future of the Harvard Library? Then join your colleagues in an exciting <a href="http://osc.hul.harvard.edu/yopc/content/kick-event-harvard-library-strategic-conversations" target="_blank">kick-off event</a> to inaugurate the Harvard Library Strategic Conversations on October 4th, 2011 at 4 pm in Sanders Theater, with a reception to follow in the Queen’s Head Pub.</p>

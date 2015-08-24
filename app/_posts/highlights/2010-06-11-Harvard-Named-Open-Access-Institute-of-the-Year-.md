@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Harvard Named \"Open Access Institute of the Year\" "
+categories: about highlights
+permalink: /about/highlights/2010/06/harvard-named-open-access-institute-year/index.html
+---
+<p>BioMed Central has named Harvard University one of its three open access institutes of the year. &nbsp;The award recognizes institutions that have done the most to show leadership in taking steps to expand access to the published results of scholarly research. &nbsp;Read the <a href="http://www.biomedcentral.com/researchawards/winners/#open_access_inst" target="_blank">full announcement</a> at BioMed Central.</p>

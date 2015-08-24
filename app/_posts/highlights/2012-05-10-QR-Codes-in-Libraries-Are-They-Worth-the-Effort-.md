@@ -1,0 +1,7 @@
+---
+layout: post
+title: "QR Codes in Libraries: Are They Worth the Effort?"
+categories: about highlights
+permalink: /about/highlights/2012/05/qr-codes-libraries-are-they-worth-effort/index.html
+---
+<p>In his forthcoming article for the <em>Journal of Access Services</em>, Andrew M. Wilson reports on a Harvard Library Lab project to install QR codes in the stacks of the Eda Kuhn Loeb Music Library. The <a href="http://nrs.harvard.edu/urn-3:HUL.InstRepos:8705899" target="_blank">full text of the article</a> is already available in the DASH repository.</p>

@@ -1,0 +1,35 @@
+---
+layout: full-page
+breadcrumbs: true
+---
+{% assign filter = page.which-faq | append: '-faq' %}
+{% assign filtered-questions = site.faq | where: filter, 'include' | sort: 'order' | group_by: 'type' | reverse %}
+
+<div class="row">
+  <div class="col-md-8">
+  <h2 class="sr-only">Table of Contents</h2>
+  {% for group in filtered-questions %}
+  <h3 class="h4">{{group.name}}</h3>
+  <ul class="long-list">
+  {% for question in group.items %}
+    <li><a href="#{{question.anchor}}">{{question.q}}</a></li>
+  {% endfor %}
+  </ul>
+  {% endfor %}
+  </div>
+  <aside class="col-md-4 sidebar faq-sidebar">
+  {% capture sidebar %}{% if page.sidebar %}{% include sidebars/{{page.sidebar}}.html %}{% else %}{% include sidebars/default.html %}{% endif %}{% endcapture %} 
+  {{ sidebar | markdownify }}
+  </aside>
+</div> <!-- row -->
+
+{% for group in filtered-questions %}
+  {% for question in group.items %}
+  <h2 id="{{question.anchor}}" class="long-list-heading"><span>Q:</span> {{question.q}}</h2>
+  <div class="long-list-content">{{question.content}}
+    <a href="#top">Back to top</a>
+  </div>
+  {% endfor %}
+{% endfor %}
+
+{{content}}

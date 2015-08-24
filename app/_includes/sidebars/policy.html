@@ -1,0 +1,11 @@
+<a href="{{page.home}}"><img alt="{{page.school}} logo" src="{{ site.baseurl }}/assets/img/{{page.logo}}" class="img-responsive center-block"></a>
+
+<ul>
+  <li><a href="{{site.baseurl}}/policies/faq/">Read the OA Policy FAQ</a></li>
+  <li><a href="#">Submit to DASH</a></li>
+  <li><a href="#">Get A Waiver]</a></li>
+</ul>
+
+{% for quote in page.quotes %}
+  <section class="blurb"><q>{{ quote }}</q></section>
+{% endfor %}

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Opening the Door: How Faculty Authors Can Implement An Open Access Policy At Their Institutions"
+categories: about highlights
+permalink: /about/highlights/2010/08/opening-door-how-faculty-authors-can-implement-open-access-policy-their-institutions/index.html
+---
+<p>In this white paper Simon Frankel and Shannon Nestor,&nbsp;attorneys at Covington &amp; Burling, provide&nbsp;a thorough overview and careful analysis of legal issues related to public access policies. The paper credits Harvard and MIT with establishing a <a href="http://osc.hul.harvard.edu/modelpolicy" target="_blank">model open access policy</a> that can be adopted by other institutions. Read the <a href="http://sciencecommons.org/wp-content/uploads/Opening-the-Door.pdf">full paper</a> in <em>Science Commons</em>.</p>

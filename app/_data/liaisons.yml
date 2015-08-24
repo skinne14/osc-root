@@ -1,0 +1,79 @@
+galvin-john:
+  liaison-to: HBS
+  current: true
+  name: John Galvin
+  email: jgalvin@hbs.edu
+  phone: 617-496-3167
+  title: Assistant Director
+  location: Case Service Center
+
+kalnins-renata:
+  liaison-to: HDS
+  current: true
+  name: Renata Kalnins
+  email: rkalnins@hds.harvard.edu
+  phone: 617-384-7488 
+  title: Research Librarian
+  location: Andover-Harvard Theological Library
+
+bell-emily:
+  liaison-to: FAS
+  current: true
+  name: Emily Bell
+  email: emilybell@fas.harvard.edu
+  phone: 617-496-9988 
+  title: Research Librarian
+  location: Lamont Library
+
+dickson-sarah:
+  liaison-to: GSD
+  current: true
+  name: Sarah W. Dickinson
+  email: sdickinson@gsd.harvard.edu
+  phone: 617-496-1332 
+  title: Research Support Services Librarian
+  location: Frances Loeb Library
+
+kentner-carol:
+  liaison-to: GSE
+  current: true
+  name: Carol Kenter
+  email: carol_kentner@gse.harvard.edu
+  phone: 617-496-4799
+  title: Digital Course Content Manager
+  location: Gutman Library
+
+weis-valerie:
+  liaison-to: HKS
+  current: true
+  name: Valerie Weis
+  email: valerie_weis@hks.harvard.edu
+  phone: 617-496-1775
+  title: Research and Knowledge Services Librarian
+  location: HKS Library and Knowledge Services
+
+casey-june:
+  liaison-to: HLS
+  current: true
+  name: June Casey
+  email: jucasey@law.harvard.edu
+  phone: 617-495-4492 
+  title: Research Librarian for Open Access Initiatives and Scholarly Communication
+  location: Harvard Law School Library
+
+lapinski-scott:
+  liaison-to: HMS
+  current: true
+  name: P. Scott Lapinski
+  email: p_lapinski@hms.harvard.edu
+  phone: 617-432-6784
+  title: Digital Resources and Services Librarian
+  location: Countway Library
+
+spickard-amanda:
+  liaison-to: HSPH
+  current: true
+  name: Amanda B. Spickard
+  email: aspickar@hsph.harvard.edu
+  phone: 617-432-1711
+  title: Director of Research Strategy and Development

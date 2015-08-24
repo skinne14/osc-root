@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Open Access Week at Harvard"
+categories: about highlights
+permalink: /about/highlights/2014/10/open-access-week-harvard/index.html
+---
+Harvard is celebrating <a href="https://osc.hul.harvard.edu/oaweek">Open Access Week</a>, an international series of events highlighting open access to research, and promoting open access as the new default for peer-reviewed scholarship and research.

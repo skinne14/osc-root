@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Kyle Courtney named Library Journal Mover & Shaker"
+categories: about highlights
+permalink: /about/highlights/2015/03/kyle-courtney-named-library-journal-mover-shaker/index.html
+---
+<p><a href="http://lj.libraryjournal.com/">Library Journal</a> has named its 2015 Movers &amp; Shakers, library professionals who “see the future and bring it to life…[and] are committed to the mission of the library as an engine of democracy.” We are pleased to announce that Kyle K. Courtney, the OSC's Copyright Advisor and Program Manager, is one of 50 such awardees, cited for his work as a "change agent." Further details may be found <a href="http://lj.libraryjournal.com/2015/03/people/movers-shakers-2015/the-reveal-announcing-ljs-2015-movers-shakers">here</a>.</p>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Fair Use Week Begins"
+categories: about highlights
+permalink: /about/highlights/2014/02/fair-use-week-begins/index.html
+---
+<p><a href="http://blogs.law.harvard.edu/copyrightosc/">Fair Use Week</a> launches today with the first in a series of posts from guest experts. <a href="http://www.arl.org/about/staff/3091-krista-cox">Krista L. Cox</a>, the<em>&nbsp;</em>Director of Public Policy Initiatives<em>&nbsp;</em>for the<em>&nbsp;</em>Association of Research Libraries, discusses <a href="http://www.arl.org/focus-areas/copyright-ip/fair-use/code-of-best-practices">The Code of Best Practices in Fair Use for Academic and Research Libraries</a>&nbsp;and the recent fair use hearings in Congress.&nbsp;Read Cox's full article and find more information <a href="http://blogs.law.harvard.edu/copyrightosc/2014/02/24/fair-use-week-day-one-guest-expert-krista-l-cox/">here</a>.</p>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Harvard and American Physical Society Reach Accord on Journal Publications"
+categories: about highlights
+permalink: /about/highlights/2009/04/harvard-and-american-physical-society-reach-accord-journal-publications/index.html
+---
+<p>The Harvard Office for Scholarly Communication and the American Physical Society (<a href="http://www.aps.org/" target="_blank">APS</a>) announced jointly today that they have entered into an agreement to facilitate faculty compliance with the University’s open access policies when Harvard faculty members publish in the APS journals, comprising&nbsp;Physical Review,&nbsp;Physical Review Letters, and&nbsp;Reviews of Modern Physics.</p><p>As a result of the new agreement, APS recognizes Harvard's open access license and will not require copyright agreement addenda or waivers, in exchange for Harvard's clarification of its intended use of the license. In general terms, in exercising its license under the open access policies, Harvard will not use a facsimile of the published version without permission of the publisher, will not charge for the display or distribution of those articles, and will provide an online link to the publisher's definitive version of the articles where possible. The agreement does not restrict fair use of the articles in any way.</p>

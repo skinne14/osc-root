@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Report of the Task Force on University Libraries"
+categories: about highlights
+permalink: /about/highlights/2009/11/report-task-force-university-libraries/index.html
+---
+<p>In February 2009, Harvard's Provost Steven Hyman announced the formation of a task force charged with developing recommendations to make the Harvard Library system stronger and more responsive to the needs of students and faculty at a time of both technological change and financial challenge. The task force issued it's report November 12, 2009.</p><p><a href="http://www.provost.harvard.edu/reports/Library_Task_Force_Report.pdf"><img src="/sites/default/files/images/pdf%20icon_0.png" alt="pdf icon" width="25" height="25" class="floatleft"></a>Report of the Task Force on University Libraries</p>

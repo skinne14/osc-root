@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Introducing MyDASH"
+categories: about highlights
+permalink: /about/highlights/2011/03/introducing-mydash/index.html
+---
+<p>Harvard researchers have uploaded thousands of works into the DASH repository; MyDASH allows these same researchers to keep track of article downloads.</p><p>In this <a href="http://osc.hul.harvard.edu/dash/mydash/cast" target="_blank">OSC screencast</a>, DASH developer Reinhard Engels explains how Harvard-affiliated authors can use this new tool to track views, visitors, and downloads of their works in DASH.</p>
