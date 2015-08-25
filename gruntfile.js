@@ -159,28 +159,13 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-bootlint');
 
     // Register the grunt tasks
-    grunt.registerTask('build', [
-        'shell:jekyllBuild',
-        'concat',
-        'sass'
-    ]);
+    grunt.registerTask('build', ['shell:jekyllBuild','concat','sass']);
+    grunt.registerTask('rebuild', ['shell:jekyllClear','build']);
 
-    grunt.registerTask('rebuild', [
-        'shell:jekyllClear',
-        'build'
-    ]);
+    grunt.registerTask('test', ['bootlint']);
 
-    grunt.registerTask('test', [
-        'bootlint'
-    ]);
-
-    grunt.registerTask('deploy', [
-        'newer:htmlmin',
-        'newer:copy',
-        'newer:imagemin',
-        'purifycss',
-        'cssmin',
-        'newer:uglify'
+    grunt.registerTask('stage', ['newer:htmlmin','newer:copy','newer:imagemin',
+                       'purifycss','cssmin','newer:uglify'
     ]);
 
     // Register build as the default task fallback
