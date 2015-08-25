@@ -148,6 +148,8 @@
   h4, h5, h6, .h4, .h5, .h6 {
     text-transform: uppercase;
   }
+  // this is a hack: the border-on-hover of the quick links was being obscured
+  margin-top: 1px;
 }
 
 // Main
