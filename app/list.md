@@ -1,6 +1,6 @@
 ---
 layout: full-page
-breadcrumbs: true
+breadcrumbs: false
 title: Mailing List
 ---
 

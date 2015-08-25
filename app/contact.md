@@ -1,7 +1,7 @@
 ---
 layout: right-inner-sidebar
 sidebar: address
-breadcrumbs: true
+breadcrumbs: false
 title: Contact
 ---
 

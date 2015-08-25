@@ -1,6 +1,6 @@
 ---
 layout: right-sidebar
-breadcrumbs: true
+breadcrumbs: false
 title: Sample Waiver
 ---
 <h1 id="top" tabindex="-1" class="after-breadcrumb">{{page.title}}</h1>
