@@ -409,7 +409,7 @@ article {
     position: relative;
     @media (max-width: 768px){
       background-color: #eee;
-      padding: 15px 25px;
+      padding: 0px;
       margin: 25px;
     }
   }
@@ -418,6 +418,7 @@ article {
     color: #333;
     text-decoration: none;
     height: 100%;
+    padding: 10px 15px;
 
     &:hover, &:focus {
       text-decoration: underline;
@@ -425,7 +426,6 @@ article {
 
     @media (min-width: 769px) {
       min-height: 120px;
-      padding: 10px 15px;
       &:hover, &:focus {
         text-decoration: none;
         border-color: #ccc;
