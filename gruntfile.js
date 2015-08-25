@@ -38,13 +38,19 @@ module.exports = function (grunt) {
         // Static Assets
         //////////
         copy: {
+          bootstrapCustom: {
+            files: [{
+                src: 'app/_scss/_bootstrap-custom.scss', 
+                dest: 'vendor/bootstrap-sass/assets/stylesheets/_bootstrap-custom.scss'
+            }]
+          },
           fonts: {
             files: [{
                 expand: true,
                 cwd: 'builds/dev/assets/fonts',
                 src: '**', 
                 dest: 'builds/prod/assets/fonts/'
-            }],
+            }]
           },
           files: {
             files: [{
@@ -52,7 +58,7 @@ module.exports = function (grunt) {
                 cwd: 'builds/dev/assets/files',
                 src: '**', 
                 dest: 'builds/prod/assets/files/'
-            }],
+            }]
           },
         },
 
@@ -205,12 +211,12 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-rsync")
 
     // Register the grunt tasks
-    grunt.registerTask('build', ['shell:jekyllBuild','concat','sass']);
+    grunt.registerTask('build', ['copy:bootstrapCustom','shell:jekyllBuild','concat','sass']);
     grunt.registerTask('rebuild', ['shell:jekyllClear','build']);
 
     grunt.registerTask('test', ['bootlint', 'linkChecker:dev']);
 
-    grunt.registerTask('stage', ['newer:htmlmin','newer:copy','newer:imagemin',
+    grunt.registerTask('stage', ['newer:htmlmin','newer:copy:fonts','newer:copy:files','newer:imagemin',
                        'purifycss','cssmin','newer:uglify', 'rsync:stage'
     ]);
 
