@@ -144,7 +144,17 @@ module.exports = function (grunt) {
         // broken links
         linkChecker: {
           options: {
-            maxConcurrency: 20
+            maxConcurrency: 20,
+            callback: function (crawler) {
+                crawler.addFetchCondition(function(parsedURL) {
+                    // mailto links are obfuscated and confuse the crawler, exclude them
+                    return !parsedURL.path.match(/&$/i);
+                });
+                crawler.addFetchCondition(function(parsedURL) {
+                    // don't check the assets folder, causes error and doesn't make sense
+                    return !parsedURL.path.match(/assets/i);
+                });
+              }
           },
           dev: {
             site: 'localhost',

@@ -4,4 +4,4 @@ title: "Harvard Divinity School Approves OA Policy"
 categories: about highlights
 permalink: /about/highlights/2010/11/harvard-divinity-school-approves-oa-policy/index.html
 ---
-<p><a href="http://www.hds.harvard.edu/" target="_blank">Harvard Divinity School</a> has passed an <a href="../../hdspolicy">open access policy</a>, making it the sixth Harvard school with a similar policy.</p>
+<p><a href="http://www.hds.harvard.edu/" target="_blank">Harvard Divinity School</a> has passed an <a href="{{site.baseurl}}/policies/hds/">open access policy</a>, making it the sixth Harvard school with a similar policy.</p>
