@@ -139,6 +139,27 @@ module.exports = function (grunt) {
               relaxerror: ['W005']
             },
             files: ['builds/dev/**/*.html']
+        },
+
+
+        //////////
+        // Deploying
+        //////////
+
+        // rsync
+        rsync: {
+            options: {
+                args: ['-avz'],
+                exclude: ['.DS_Store']
+            },
+            stage: {
+                options: {
+                    src: './builds/prod/',
+                    dest: '/home/osc/osc-dev/htdocs',
+                    host: 'oscusr@eaton.hul.harvard.edu',
+                    delete: false // Careful this option could cause data loss, read the docs!
+                }
+            }
         }
 
 
@@ -157,6 +178,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-bootlint');
+    grunt.loadNpmTasks("grunt-rsync")
 
     // Register the grunt tasks
     grunt.registerTask('build', ['shell:jekyllBuild','concat','sass']);
@@ -165,7 +187,7 @@ module.exports = function (grunt) {
     grunt.registerTask('test', ['bootlint']);
 
     grunt.registerTask('stage', ['newer:htmlmin','newer:copy','newer:imagemin',
-                       'purifycss','cssmin','newer:uglify'
+                       'purifycss','cssmin','newer:uglify', 'rsync:stage'
     ]);
 
     // Register build as the default task fallback
