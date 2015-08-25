@@ -141,6 +141,19 @@ module.exports = function (grunt) {
             files: ['builds/dev/**/*.html']
         },
 
+        // broken links
+        linkChecker: {
+          options: {
+            maxConcurrency: 20
+          },
+          dev: {
+            site: 'localhost',
+          },
+          postDeploy: {
+            site: 'mysite.com'
+          }
+        },
+
 
         //////////
         // Deploying
@@ -178,13 +191,14 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-bootlint');
+    grunt.loadNpmTasks('grunt-link-checker');
     grunt.loadNpmTasks("grunt-rsync")
 
     // Register the grunt tasks
     grunt.registerTask('build', ['shell:jekyllBuild','concat','sass']);
     grunt.registerTask('rebuild', ['shell:jekyllClear','build']);
 
-    grunt.registerTask('test', ['bootlint']);
+    grunt.registerTask('test', ['bootlint', 'linkChecker:dev']);
 
     grunt.registerTask('stage', ['newer:htmlmin','newer:copy','newer:imagemin',
                        'purifycss','cssmin','newer:uglify', 'rsync:stage'
