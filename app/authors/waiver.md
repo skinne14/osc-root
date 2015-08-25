@@ -16,7 +16,7 @@ featured-actions-1:
 featured-actions-2: null
 ---
 
-To request a waiver under Harvard’s [Open Access Policy](/policies/), simply use the [Waiver Generator](https://osc.hul.harvard.edu/dash/authors/waiver/generate) and supply the information requested there. A formal letter notifying you of the waiver of the license will be emailed to you at the address you provide.
+To request a waiver under Harvard’s [Open Access Policy]({{site.baseurl}}/policies/), simply use the [Waiver Generator](https://osc.hul.harvard.edu/dash/authors/waiver/generate) and supply the information requested there. A formal letter notifying you of the waiver of the license will be emailed to you at the address you provide.
 
 Even if you are required by a publisher to waive the license as a condition of publication, chances are you can still make your article publicly available in the Harvard repository, as explained further below. Thus, whether your article is under a waiver or not, you should still [deposit the final manuscript](#) in [DASH](http://dash.harvard.edu).
 

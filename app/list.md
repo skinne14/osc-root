@@ -8,7 +8,7 @@ The Office for Scholarly Communication has created an email list to announce new
 
 This will be a low-traffic, announcement-only list limited to events, news, and other developments at Harvard. However, we welcome subscribers from beyond Harvard.
 
-Only the OSC can post messages to the list. But if you have a relevant announcement you'd like us to distribute, please send it to [osc@harvard.edu](mailto:osc@harvard.edu).
+Only the OSC can post messages to the list. But if you have a relevant announcement you'd like us to distribute, please send it to [{{site.email}}](mailto:{{site.email}}).
 
 <a role="button" class="btn btn-primary" href="https://confirmsubscription.com/h/t/5FDFD0FC6156D28D">Subscribe</a>
 

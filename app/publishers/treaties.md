@@ -5,7 +5,7 @@ title: Publisher Treaties
 ---
 The following journal publishers have formally indicated cooperation with Harvard’s open access policies and have agreed that Harvard faculty who publish in their journals may deposit those articles in Harvard’s DASH repository under the open access policy without modification of their publication agreements, attachment of addenda, or waiver of Harvard’s prior license. We are grateful to these publishers for their full support of access to Harvard faculty’s writings.
 
-We expect to add additional publishers and journals to this list in the near future. Publishers interested in being listed here should [contact us](mailto:osc@harvard.edu) for further information.
+We expect to add additional publishers and journals to this list in the near future. Publishers interested in being listed here should [contact us](mailto:{{site.email}}) for further information.
 
 ## Treaties
 

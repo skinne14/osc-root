@@ -40,4 +40,4 @@ The users of digital reproductions should not suggest or imply that Harvard Libr
 ## DISCLAIMER
 The use of digital reproductions made available by the Harvard Library shall be at the user’s sole risk. To the fullest extent permitted by law, Harvard disclaims all warranties of any kind (express, implied or otherwise), including but not limited to any implied warranties of merchantability, fitness for a particular use, non-infringement, and/or as to the accuracy or completeness of content or related information, in connection with such digital reproductions and your use thereof. Harvard shall not be responsible or liable for any damage that may occur due to your use of any material that Harvard Library makes openly available. As used in this paragraph, “Harvard” includes Harvard Library, Harvard University and their respective governing board members, officers, employees, agents and affiliates.</p>
 
-Also see the <a href="#">Policy FAQ</a>.
+Also see the <a href="{{site.baseurl}}/programs/open-initiatives/hl-pd/faq/">Policy FAQ</a>.

@@ -15,7 +15,7 @@
   {% for request in page.featured-actions-2 %}
     {% assign action = site.data.featured-actions[request] %}
     <section class="col-sm-4">
-      <a href="{{action.link-to}}"><div>
+      <a href="{{site.baseurl}}{{action.link-to}}"><div>
       <h3>{{action.heading}}</h3>
       {{action.call-to-action | truncatewords: 10 | markdownify}}
       </div></a> 

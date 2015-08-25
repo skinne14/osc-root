@@ -13,7 +13,7 @@ Due date for responses:  May 30, 2015
 Start date for the work:  July 1, 2015  
 End date for the work:  January 31, 2016   
 
-Issued by: Harvard Library [Office for Scholarly Communication (OSC)](/)
+Issued by: Harvard Library [Office for Scholarly Communication (OSC)]({{site.bsaeurl}})
 
 The project will be supervised by [Peter Suber](http://bit.ly/petersuber), Director of the Office for Scholarly Communication. 
 

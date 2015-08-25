@@ -10,7 +10,7 @@ This is a blurb about CFRs. Contact them. Lorem ipsum dolor sit amet, consectetu
 
 <ul class="long-list">
 {% for location in locations %}
-<li><a href="/copyright/first-responders#{{location.name | slugify}}">{{location.name}}</a></li>
+<li><a href="#{{location.name | slugify}}">{{location.name}}</a></li>
 {% endfor %}
 </ul>
 

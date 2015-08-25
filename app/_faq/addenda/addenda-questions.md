@@ -6,4 +6,4 @@ type: basic
 
 addenda-faq: include
 ---
-Yes. You can get help on all issues involving the Open Access Policy from the Office for Scholarly Communication at [osc@harvard.edu](mailto:osc@harvard.edu).
+Yes. You can get help on all issues involving the Open Access Policy from the Office for Scholarly Communication at [{{site.email}}](mailto:{{site.email}}).

@@ -6,4 +6,4 @@ type: publisher treaties
 
 publisher-faq: include
 ---
-A model agreement can be found [here](#).
+A model agreement can be found [here]({{site.baseurl}}/assets/files/model-pub-agreement-090430.pdf).

@@ -10,9 +10,9 @@ title: Contact
 <p>Fax: <a href="fax:{{site.fax | remove: " " | remove: "(" | remove: ")"}}">{{site.fax}}</a></p>
 
 ## Our Team
-- [OSC Staff](/about/staff/)
-- [Open Access Liaisons](/about/liaisons/)
-- [Copyright First Responders](/programs/copyright/first-responders/)
+- [OSC Staff]({{site.baseurl}}/about/staff/)
+- [Open Access Liaisons]({{site.baseurl}}/about/liaisons/)
+- [Copyright First Responders]({{site.baseurl}}/programs/copyright/first-responders/)
 
 <!-- ## Our Office
 Widener Library G-20  

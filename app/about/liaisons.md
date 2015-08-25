@@ -11,7 +11,7 @@ This is a description of what liaisons do. Contact them. Lorem ipsum dolor sit a
         {% assign liaisons = site.data.liaisons | where: "liaison-to", org.abbr %}
 
         {% if liaisons != empty %}
-        <li><a href="/about/liaisons#{{org.abbr}}">{{org.org}}</a></li>
+        <li><a href="{{site.baseurl}}/about/liaisons#{{org.abbr}}">{{org.org}}</a></li>
         {% endif %}
     
     {% endfor %}

@@ -10,7 +10,7 @@ Fellows facilitate deposits and answer questions about the Open Access Policies.
 
 ## Request Help from a Fellow
 
-If you are a Harvard faculty member or faculty assistant and would like an OA Fellow to assist you with the process of depositing work into DASH, just email us at [osc@harvard.edu](mailto:osc@harvard.edu).
+If you are a Harvard faculty member or faculty assistant and would like an OA Fellow to assist you with the process of depositing work into DASH, just email us at [{{site.email}}](mailto:{{site.email}}).
 
 ## Our Current Fellows
 

@@ -17,7 +17,7 @@ If you are a Harvard author and have questions about when and how the policy app
 
 ## Beyond Harvard
 
-If you are considering adopting an open access policy at your institution, we encourage you to download and review our [model policy language]({{site.baseurl}}/model_policy/), which represents the accumulated experience of multiple institutions that have drafted and implemented open access policies. See also our advocay section all about this.
+If you are considering adopting an open access policy at your institution, we encourage you to download and review our [model policy language]({{site.baseurl}}/modelpolicy/), which represents the accumulated experience of multiple institutions that have drafted and implemented open access policies. See also our advocay section all about this.
 
 ## Also
 Something about the FAQs

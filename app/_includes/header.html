@@ -12,19 +12,19 @@
     
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li><a href="/about/">About OSC</a></li>
+        <li><a href="{{site.baseurl}}/about/">About OSC</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a>
           <ul class="dropdown-menu">
           {% assign sorted_programs = site.data.programs | sort: 'name' %}
           {% for program in sorted_programs %}
-            <li><a href="{{ program.url}}">{{ program.name }}</a></li>
+            <li><a href="{{site.baseurl}}{{program.url}}">{{ program.name }}</a></li>
           {% endfor %}
             <li role="separator" class="divider"></li>
-            <li><a href="/programs/">All Programs</a></li>
+            <li><a href="{{site.baseurl}}/programs/">All Programs</a></li>
           </ul>
         </li>
-        <li><a href="/policies/">OA Policies</a></li>
+        <li><a href="{{site.baseurl}}/policies/">OA Policies</a></li>
       </ul>
       <div class="navbar-right">
         <ul class="nav navbar-nav">
@@ -43,13 +43,13 @@
 </nav>
 
 <header class="site-header">
-  <a href="/{{ site.baseurl }}"><img alt="Harvard Library OSC logo" src="{{ site.baseurl }}/assets/img/osc-logo-transparent.png" class="img-responsive center-block"></a> 
+  <a href="{{ site.baseurl }}"><img alt="Harvard Library OSC logo" src="{{site.baseurl}}/assets/img/osc-logo-transparent.png" class="img-responsive center-block"></a> 
 </header>
 
 <nav role="navigation" aria-label="quick links">
   <ul class="nav nav-pills nav-justified">
-    <li><a href="/authors/">for Authors</a></li>
-    <li><a href="/assistants/">for Assistants</a></li>
-    <li><a href="/publishers/">for Publishers</a></li>
+    <li><a href="{{site.baseurl}}/authors/">for Authors</a></li>
+    <li><a href="{{site.baseurl}}/assistants/">for Assistants</a></li>
+    <li><a href="{{site.baseurl}}/publishers/">for Publishers</a></li>
   </ul>
 </nav>

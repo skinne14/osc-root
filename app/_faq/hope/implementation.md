@@ -6,4 +6,4 @@ type: other
 
 hope-faq: include
 ---
-Implementation of the fund and reimbursement process is handled by the Office for Scholarly Communication, operating under the advisement of the [OSC Faculty Advisory Committee](#).
+Implementation of the fund and reimbursement process is handled by the Office for Scholarly Communication, operating under the advisement of the [OSC Faculty Advisory Committee]({{site.baseurl}}/about/committee/).

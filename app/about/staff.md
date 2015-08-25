@@ -4,11 +4,11 @@ breadcrumbs: true
 title: OSC Staff
 ---
 
-We are part of HL Collections. We work with our [Advisory Committee](/about/committee/), [Liaisons](/about/liaisons), [Copyright First Responders](/programs/copyright/first-responders), [Open Access Fellows](/about/fellows), and [Special Advisors](/about/staff#special-advisors). Shout out to anyone else we should mention.
+We are part of HL Collections. We work with our [Advisory Committee]({{site.baseurl}}/about/committee/), [Liaisons]({{site.baseurl}}/about/liaisons), [Copyright First Responders]({{site.baseurl}}/programs/copyright/first-responders), [Open Access Fellows]({{site.baseurl}}/about/fellows), and [Special Advisors]({{site.baseurl}}/about/staff/#special-advisors). Shout out to anyone else we should mention.
 
 <ul class="long-list">
     {% for person in site.data.staff %}
-    <li><a href="/about/staff#{{person.name | slugify }}">{{person.name}}</a></li>
+    <li><a href="{{site.baseurl}}/about/staff/#{{person.name | slugify }}">{{person.name}}</a></li>
     {% endfor %}
 </ul>
 

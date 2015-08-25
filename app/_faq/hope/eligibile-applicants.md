@@ -6,4 +6,4 @@ type: eligibility
 
 hope-faq: include
 ---
-Funds are available for researchers at Harvard schools that have instituted an [open-access policy](#). Faculty, researchers, staff, and students may request reimbursement for articles connected with their research activities at these schools. Funds for HMS affiliates are limited to quad-based faculty, researchers, staff, and students.
+Funds are available for researchers at Harvard schools that have instituted an [open-access policy]({{site.baseurl}}/policies/). Faculty, researchers, staff, and students may request reimbursement for articles connected with their research activities at these schools. Funds for HMS affiliates are limited to quad-based faculty, researchers, staff, and students.

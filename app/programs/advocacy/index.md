@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nemo consequu
 ## Other Institutions
 Considering an Open Access policy at your institution? Curious how Harvard does things? The OSC, with HOAP, does help others here. HOAP has lots of resource. In addition, see
 
-- [The Harvard-Model Open Access Policy](/modelpolicy/)
-- [A Sample Waiver](/sample_waiver/)
-- [A Sample Addendum](/sample_addendum/)
+- [The Harvard-Model Open Access Policy]({{site.baseurl}}/modelpolicy/)
+- [A Sample Waiver]({{site.baseurl}}/sample_waiver/)
+- [A Sample Addendum]({{site.baseurl}}/sample_addendum/)
  
