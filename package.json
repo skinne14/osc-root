@@ -1,5 +1,5 @@
 {
-  "name": "osc.hul.harvard.edu",
+  "name": "osc-root",
   "description": "Harvard Library Office for Scholarly Communication's main site, build and deploy",
   "version": "0.0.1",
   "private": true,

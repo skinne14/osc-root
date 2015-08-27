@@ -1,6 +1,5 @@
 {
-  "name": "osc.hul.harvard.edu",
-  "version": "0.0.1",
+  "name": "osc-root",
   "authors": [
     "Harvard Library OSC <osc@harvard.edu>"
   ],
