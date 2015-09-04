@@ -11,7 +11,7 @@ featured-actions-1:
   - fair-use-week
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus tempora asperiores molestias eos quo provident. 
+The Harvard Library Copyright Advisor program was established in 2014. In addition to responding directly to questions from around the university, Copyright Advisor Kyle Courtney has trained thirty librarians as Copyright First Responders.
 
 ## Mission
 
