@@ -3,53 +3,53 @@
 
 submit-to-dash:
   heading: Submit to DASH
-  link-to: "#"
-  call-to-action: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum recusandae laboriosam.
+  link-to: https://osc.hul.harvard.edu/dash/quicksubmit
+  call-to-action: "Submit your scholarly work to DASH, Harvard's open-access repository."
 
 author-faqs:
   heading: Author FAQs
   link-to: /authors/faq/
-  call-to-action: Get answers to commonly asked questions.
+  call-to-action: Get answers to commonly-asked questions.
 
 apply-for-hope-funds:
   heading: Apply for HOPE funds
-  link-to: "#"
-  call-to-action: Through the HOPE program, Harvard researchers can apply for funds for the reimbursement of reasonable article processing fees in eligible open-access journals for which no alternative funding is available.
+  link-to: https://osc.hul.harvard.edu/dash/authors/hope/apply
+  call-to-action: This program reimburses Harvard researchers for OA journal page charges.
 
 hope-faqs:
   heading: HOPE Fund FAQs
   link-to: /programs/hope/faq/
-  call-to-action: Who qualfies? How much funding is awarded? And more.
+  call-to-action: Eligibility and amount for HOPE awards, and more.
 
 get-a-waiver:
   heading: Get a waiver
-  link-to: "#"
-  call-to-action: Harvard authors subject to the Open Access Policy may request a waiver of Harvard’s nonexclusive license on an article-by-article basis.
+  link-to: /authors/waiver/
+  call-to-action: "Authors may obtain a waiver of Harvard's license per article."
 
 amend-a-publishing-agreement:
   heading: Amend a publishing agreement
-  link-to: "#"
-  call-to-action: Publishers’ agreements concerning publication of articles often contain provisions that are inconsistent with the prior license granted to Harvard under the Open Access Policy. An author addendum, however, is a simple legal tool that can resolve the conflict.
+  link-to: /authors/amend/
+  call-to-action: Make your publishing contract consistent with the open-access policy.
 
 publisher-faqs:
   heading: Publisher FAQs
   link-to: /publishers/faq/
-  call-to-action: Get answers to commonly asked questions.
+  call-to-action: Get answers to commonly-asked questions.
 
 publisher-treaties:
   heading: Publisher Treaties
   link-to: /publishers/treaties/
-  call-to-action: Some publishers have made treaties with Harvard. Learn more.
+  call-to-action: Several publishers have made treaties with Harvard. Learn more.
 
 sample-authors-addendum:
-  heading: Sample Author's Addendum
+  heading: "Sample Author's Addendum"
   link-to: /sample_addendum/
   call-to-action: Harvard authors routinely modify publication agreements. Read an example.
 
 our-programs:
   heading: Our Programs
   link-to: /programs/
-  call-to-action: Learn about the OSC's programs.
+  call-to-action: "Learn about the OSC's programs."
 
 our-staff:
   heading: Our Staff
@@ -59,17 +59,17 @@ our-staff:
 oa-liaisons:
   heading: OA Liaisons
   link-to: /about/liaisons/
-  call-to-action: Talk to experts from your local community.
+  call-to-action: Talk to open-access experts from your local community.
 
 advisory-committee:
   heading: Advisory Committee
   link-to: /about/committee/
-  call-to-action: Faculty from across the university.
+  call-to-action: Meet the committee.
 
 newsletter:
   heading: OSC Newsletter
   link-to: /about/dispatch/
-  call-to-action: Dispatch provides updates from OSC, statistics from DASH, Harvard's open-access repository, and featured news items on staff and liaison activity.
+  call-to-action: Read our newsletter.
 
 highlights:
   heading: OSC Highlights
@@ -83,45 +83,45 @@ copyright-first-responders:
 
 copyright-website:
   heading: Copyright Website
-  link-to: "#"
-  call-to-action: All the content lives there!
+  link-to: http://copyright.lib.harvard.edu/
+  call-to-action: Questions about copyright, fair use, and publishing?
 
 fair-use-week:
   heading: Fair Use Week
-  link-to: "/programs/copyright/fair-use-week/"
-  call-to-action: Celebrate Fair Use Week
+  link-to: /programs/copyright/fair-use-week/
+  call-to-action: Celebrate Fair Use Week.
 
 harvard-open-access-project:
   heading: Harvard Open Access Project
-  link-to: "#"
-  call-to-action: HOAP is a project that does stuff.
+  link-to: http://cyber.law.harvard.edu/hoap/Main_Page
+  call-to-action: HOAP fosters open access at Harvard and beyond.
 
 cope:
   heading: OA Compact
   link-to: /programs/advocacy/cope/
-  call-to-action: We do admin stuff for COPE.
+  call-to-action: Harvard has signed the Compact for Open-Access Publishing Equity.
 
 statements:
   heading: Statements
   link-to: /programs/advocacy/statements/
-  call-to-action: We have things to say.
+  call-to-action: Advocacy on open access and related issues.
 
 oa-week:
   heading: Open Access Week
   link-to: /programs/advocacy/oa-week/
-  call-to-action: It's an international thing.
+  call-to-action: Celebrate the global event.
 
 generate-your-addendum:
   heading: Generate Your Addendum
-  link-to: "#"
-  call-to-action: Get a PDF to print and attach.
+  link-to: https://osc.hul.harvard.edu/dash/authors/addendum/generate
+  call-to-action: "Amend a publisher's agreement."
 
 addenda-faqs:
   heading: Author Addenda FAQs
-  link-to: "#"
-  call-to-action: Get answers to commonly asked questions.
+  link-to: /authors/amend/faq/
+  call-to-action: Get answers to commonly-asked questions.
 
 generate-your-waiver:
   heading: Generate Your Waiver
-  link-to: "#"
-  call-to-action: Get an email to forward to the publisher.
+  link-to: https://osc.hul.harvard.edu/dash/authors/waiver/generate
+  call-to-action: "Waive Harvard's license for an article."
