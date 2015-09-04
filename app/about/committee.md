@@ -4,7 +4,7 @@ breadcrumbs: true
 title: Advisory Committee
 ---
 
-This is a description of what the advisory committee does. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque possimus minus vero dolor amet consectetur, praesentium quod natus dicta debitis autem dolorum nostrum eius quasi aliquid provident, quae culpa fugit?
+The Advisory Committee is a university-wide faculty group that provides the OSC with advice and expertise on specific programs and policies.
 
 <div class="committee">
 <ul class="list-unstyled">
