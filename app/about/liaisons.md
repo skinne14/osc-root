@@ -4,7 +4,7 @@ title: Open Access Liaisons
 breadcrumbs: true
 ---
 
-This is a description of what liaisons do. Contact them. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque possimus minus vero dolor amet consectetur, praesentium quod natus dicta debitis autem dolorum nostrum eius quasi aliquid provident, quae culpa fugit?
+Open Access Liaisons provide support to schools and research centers that have adopted open access policies. They seek out and process deposits into [DASH](http://dash/harvard.edu/), Harvard's open-access repository, and assist faculty with questions about the policy and its implementation.
 
 <ul class="long-list">
     {% for org in site.policies %}
