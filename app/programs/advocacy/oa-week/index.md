@@ -9,11 +9,9 @@ We do need this html file to actually exist, for the health of Jekyll (specifica
 
 Hmmm.
 
-<ul>
 {% assign pages = site.pages | sort: "title" %}
 {% for p in pages %}
 {% if p.url contains "/oa-week/" and p.url != "/programs/advocacy/oa-week/" %}
-    <li><a href="{{p.url}}">{{p.title}}</a></li>
+- [{{p.title}}]({{p.url}})
 {% endif %}
 {% endfor %}
-</ul>
