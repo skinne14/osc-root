@@ -164,9 +164,6 @@ module.exports = function (grunt) {
           },
           dev: {
             site: 'dev.osc.hul.harvard.edu',
-          },
-          postDeploy: {
-            site: 'mysite.com'
           }
         },
 
