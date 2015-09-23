@@ -231,6 +231,10 @@ article {
     display: block;
     margin-left: -24px;
     margin-bottom: 17px;
+    .post-link {
+      text-decoration: none;
+      color: #333333;
+    }
   }
 }
 
