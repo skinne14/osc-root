@@ -14,7 +14,7 @@
       <ul class="nav navbar-nav">
         <li><a href="{{site.baseurl}}/about/">About OSC</a></li>
         <li class="dropdown">
-          <button class="btn btn-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></button>
+          <button class="btn btn-link dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></button>
           <ul class="dropdown-menu">
           {% assign sorted_programs = site.data.programs | sort: 'name' %}
           {% for program in sorted_programs %}
