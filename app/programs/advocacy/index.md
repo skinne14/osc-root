@@ -11,9 +11,7 @@ featured-actions-1:
   - oa-week
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam modi, quo minus labore repellendus molestias, sit pariatur neque? Assumenda cupiditate animi unde praesentium, dignissimos id, nostrum optio beatae debitis veritatis.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nemo consequuntur error cum quia inventore incidunt illum, velit dolorem fugiat alias nobis placeat facere! Voluptates odio voluptas dolorem architecto aperiam.
+PLACEHOLDER TEXT
 
 ## Other Institutions
 Considering an Open Access policy at your institution? Curious how Harvard does things? The OSC, with HOAP, does help others here. HOAP has lots of resource. In addition, see
@@ -22,3 +20,4 @@ Considering an Open Access policy at your institution? Curious how Harvard does 
 - [A Sample Waiver]({{site.baseurl}}/sample_waiver/)
 - [A Sample Addendum]({{site.baseurl}}/sample_addendum/)
  
+END PLACEHOLDER TEXT

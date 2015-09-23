@@ -14,7 +14,4 @@ If you are a Harvard faculty member or faculty assistant and would like an OA Fe
 
 ## Our Current Fellows
 
-- Jane Doe, FAS, Department of Physics
-- John Doe, HKS, Speciality
-- Josiah Carberry, SEAS, Department of Pyschoceramics
-- Justin Bieber, HLS, L2
+- PLACEHOLDER TEXT

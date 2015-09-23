@@ -10,8 +10,11 @@ featured-actions-1:
   - harvard-open-access-project
   - our-staff
 ---
+PLACEHOLDER TEXT
 
-We maintain the website, and do what other things? Talk about that here instead, and leave the rest of the info to their own site.
+We maintain the website, and do what other things? Talk about that here instead, and leave the rest of the info to their own site. Let's replace the current text, pasted below
+
+END PLACEHOLDER TEXT
 
 COPE, The Compact for Open-access Publishing Equity, supports equity of the business models by committing each university to “the timely establishment of durable mechanisms for underwriting reasonable publication charges for articles written by its faculty and published in fee-based open-access journals and for which other institutions would not be expected to provide funds.”
 

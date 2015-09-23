@@ -18,6 +18,4 @@ title: For Assistants
 # - publisher-treaties
 ---
 
-Brig coffer hail-shot mutiny Shiver me timbers list Cat o’nine tails Blimey spanker hardtack. Sutler spirits no prey, no pay piracy American Main Jolly Roger pillage scuppers topgallant knave. Dance the hempen jig Shiver me timbers crimp main sheet barque Jolly Roger rum snow Barbary Coast coffer.
-
-Blow the man down interloper tackle Admiral of the Black pinnace hempen halter wherry heave to careen scuppers. Starboard reef pirate bilged on her anchor sutler Shiver me timbers square-rigged gun weigh anchor swing the lead. Spanker matey wherry poop deck bucko scuppers Cat o’nine tails parrel jury mast brig.
+PLACEHOLDER TEXT

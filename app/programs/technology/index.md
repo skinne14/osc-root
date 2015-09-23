@@ -3,7 +3,8 @@ layout: right-inner-sidebar
 breadcrumbs: true
 title: Technology
 ---
-Human-centered design co-working disrupt personas piverate intuitive disrupt. 360 campaign experiential affordances workflow agile paradigm actionable insight latte pitch deck. Actionable insight user story bootstrapping food-truck driven ship it earned media ship it thought leader convergence.
+
+PLACEHOLDER TEXT
 
 ## The repository is just where it starts
 
@@ -18,3 +19,5 @@ Devoted to accessible, responsive, slim, semantic sites. Redoing our infrastruct
 - Our stuff on github
 - Poster on DASHboard
 - More bragging
+
+END PLACEHOLDER TEXT
