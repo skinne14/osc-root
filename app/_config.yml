@@ -43,6 +43,7 @@ defaults:
     values:
         layout: "policy"
         sidebar: "policy"
+        title-tag: "policy"
  -
     scope:
        path: ""
@@ -55,18 +56,21 @@ defaults:
        type: "posts"
     values:
         sidebar: peter
+        title-tag: "journal-flipping"
  -
     scope:
        path: "_posts/orphan-works"
        type: "posts"
     values:
         sidebar: peter
+        title-tag: "orphan-works"
  -
     scope:
        path: "_posts/highlights"
        type: "posts"
     values:
         sidebar: subscribe
+        title-tag: "highlights"
  -
     scope:
        path: "authors"
@@ -74,6 +78,7 @@ defaults:
     values:
         title: For Authors
         layout: "right-sidebar-with-actions"
+        title-tag: "community"
         sidebar: "community"
         featured-actions-1:
           - submit-to-dash

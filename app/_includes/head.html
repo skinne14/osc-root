@@ -3,7 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.abbr %}{{ page.abbr | append: " | " | append: site.title }}{% elsif page.title %}{{ page.title | append: " | " | append: site.title  }}{% else %}{{ site.title }}{% endif %}</title>
+  {% capture title %}{% if page.title-tag %}{% include titles/{{page.title-tag}}.html %}{% else %}{% include titles/default.html %}{% endif %}{% endcapture %}
+  {{ title }} 
+
 <!--   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"> -->
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
