@@ -90,12 +90,21 @@
 ////////////////////////////////////// 
 // 2.0 Banner (navbar, header, quicklinks)
 //////////////////////////////////////
-.navbar-nav a {
+.navbar-nav a, .navbar-nav button {
   text-transform: uppercase;
+}
 
-  &:hover, &:focus {
-  text-decoration: underline;
-  }
+.navbar-nav button {
+  height: 100%
+}
+
+.navbar-nav > li > button:hover, .navbar-nav > li > button:focus {
+  outline: dotted 1px #000;
+  text-decoration: none;
+}
+
+.navbar-nav > li.dropdown {
+  height: 45px;
 }
 
 .navbar-nav .dropdown-menu a {
