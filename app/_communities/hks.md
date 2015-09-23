@@ -1,5 +1,5 @@
 ---
-org: Harvard Kennedy School of Government
+org: Harvard Kennedy School
 type: school
 abbr: HKS
 home: http://www.hks.harvard.edu/
