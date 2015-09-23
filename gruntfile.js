@@ -35,7 +35,7 @@ module.exports = function (grunt) {
         },
 
         //////////
-        // Static Assets
+        // Static Assets and Other Files to Move to Prod
         //////////
         copy: {
           bootstrapCustom: {
@@ -60,6 +60,12 @@ module.exports = function (grunt) {
                 dest: 'builds/prod/assets/files/'
             }]
           },
+          sitemap:{
+            files: [{
+                src: 'builds/dev/sitemap.xml', 
+                dest: 'builds/prod/sitemap.xml'
+            }]
+          } 
         },
 
         imagemin: {
@@ -213,7 +219,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('test', ['bootlint', 'linkChecker:dev']);
 
-    grunt.registerTask('stage', ['newer:htmlmin','newer:copy:fonts','newer:copy:files','newer:imagemin',
+    grunt.registerTask('stage', ['newer:htmlmin','newer:copy:fonts','newer:copy:files','newer:copy:sitemap','newer:imagemin',
                        'purifycss','cssmin','newer:uglify', 'rsync:stage'
     ]);
 

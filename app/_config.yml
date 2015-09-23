@@ -4,6 +4,9 @@ exclude: ['css', '_scss', '_sass']
 permalink: pretty
 markdown: kramdown
 
+gems:
+  - jekyll-sitemap
+
 # Site settings
 title: Office for Scholarly Communication
 email: osc@harvard.edu
@@ -45,7 +48,7 @@ defaults:
        path: ""
        type: "posts"
     values:
-        permalink: /:categories/:title/index.html
+        permalink: /:categories/:title/
  -
     scope:
        path: "_posts/journal-flipping"
