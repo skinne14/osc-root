@@ -35,7 +35,7 @@ module.exports = function (grunt) {
         },
 
         //////////
-        // Static Assets and Other Files to Move to Prod
+        // Other Files to Move Around
         //////////
         copy: {
           bootstrapCustom: {
@@ -64,6 +64,14 @@ module.exports = function (grunt) {
             files: [{
                 src: 'builds/dev/sitemap.xml', 
                 dest: 'builds/prod/sitemap.xml'
+            }]
+          },
+          hopeAwards:{
+            files: [{
+                expand: true,
+                cwd: 'builds/dev/programs/hope/awards',
+                src: '**', 
+                dest: 'builds/prod/programs/hope/awards'
             }]
           } 
         },
@@ -219,7 +227,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('test', ['bootlint', 'linkChecker:dev']);
 
-    grunt.registerTask('stage', ['newer:htmlmin','newer:copy:fonts','newer:copy:files','newer:copy:sitemap','newer:imagemin',
+    grunt.registerTask('stage', ['newer:htmlmin','newer:copy:fonts','newer:copy:files','newer:copy:sitemap','newer:copy:hopeAwards','newer:imagemin',
                        'purifycss','cssmin','newer:uglify', 'rsync:stage'
     ]);
 
