@@ -9,9 +9,15 @@ module.exports = function (grunt) {
         //////////
         
         // shell commands for use in Grunt tasks
-        shell: {
+        exec: {
             jekyllBuild: {
-                command: 'cd app; ../jekyll/bin/jekyll build; cd ../'
+                command: 'cd app; ../jekyll/bin/jekyll build; cd ../',
+                stderr: false,
+                callback: function (error, stdout, stderr) {
+                  if (stderr) {
+                      grunt.warn(stderr)
+                  }
+                }
             },
             jekyllClear: {
                 command: 'cd app; rm .jekyll-metadata; cd ../'
@@ -209,6 +215,7 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-newer');
     grunt.loadNpmTasks('grunt-shell');
+    grunt.loadNpmTasks('grunt-exec');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
@@ -222,8 +229,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-rsync")
 
     // Register the grunt tasks
-    grunt.registerTask('build', ['copy:bootstrapCustom','shell:jekyllBuild','concat','sass']);
-    grunt.registerTask('rebuild', ['shell:jekyllClear','build']);
+    grunt.registerTask('build', ['copy:bootstrapCustom','exec:jekyllBuild','concat','sass']);
+    grunt.registerTask('rebuild', ['exec:jekyllClear','build']);
 
     grunt.registerTask('test', ['bootlint', 'linkChecker:dev']);
 
