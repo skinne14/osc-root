@@ -4,6 +4,6 @@ app/.jekyll-metadata
 builds/
 jekyll/
 node_modules/
-secure/
+/secure/
 vendor/
 Gemfile.lock
