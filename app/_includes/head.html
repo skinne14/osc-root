@@ -9,7 +9,7 @@
   {% capture description %}{% if page.description %}{% include descriptions/{{page.description}}.html %}{% else %}{% include descriptions/default.html %}{% endif %}{% endcapture %}
   {{ description }} 
 
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+  <link rel="canonical" href="{{site.url}}{{site.baseurl}}{{ page.url | replace:'index.html',''}}">
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
 </head>
