@@ -214,7 +214,6 @@ module.exports = function (grunt) {
         
 
     grunt.loadNpmTasks('grunt-newer');
-    grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-exec');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
