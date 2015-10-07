@@ -5,7 +5,8 @@ breadcrumb: HL Public Domain Digital Reproductions Policy
 sidebar: hl-pd
 title: Harvard Library Policy on Access to Digital Reproductions of Works in the Public Domain
 ---
-Adopted September 30, 2014 {:.policy-adoption}
+Adopted September 30, 2014 
+{:.policy-adoption}
 
 ## General principle
 
