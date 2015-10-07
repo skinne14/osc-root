@@ -18,6 +18,7 @@ RedirectMatch 301 ^/authors/policy_guide/?$ /authors/faq/
 RedirectMatch 301 ^/authors/compliant/?$ /publishers/treaties/ 
 RedirectMatch 301 ^/HR801-letter/?$ /programs/advocacy/statements/HR801-letter/ 
 
+RedirectMatch 301 ^/shorensteinpolicy/? /policies/shorenstein/ 
 RedirectMatch 301 ^/pdpolicy/? /programs/open-initiatives/hl-pd/ 
 RedirectMatch 301 ^/hsphpolicy/? /policies/hsph/ 
 RedirectMatch 301 ^/hmspolicy/? /policies/hms/ 
