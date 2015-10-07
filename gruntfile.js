@@ -14,8 +14,8 @@ module.exports = function (grunt) {
                 command: 'cd app; ../jekyll/bin/jekyll build; cd ../',
                 stderr: false,
                 callback: function (error, stdout, stderr) {
-                  if (stderr) {
-                      grunt.warn(stderr)
+                    if (stderr) {
+                        grunt.warn(stderr)
                   }
                 }
             },
@@ -79,7 +79,13 @@ module.exports = function (grunt) {
                 src: '**', 
                 dest: 'builds/prod/programs/hope/awards'
             }]
-          } 
+          },
+          htaccess:{
+            files: [{
+                src: 'builds/dev/.htaccess', 
+                dest: 'builds/prod/.htaccess'
+            }]
+          }, 
         },
 
         imagemin: {
@@ -233,7 +239,8 @@ module.exports = function (grunt) {
 
     grunt.registerTask('test', ['bootlint', 'linkChecker:dev']);
 
-    grunt.registerTask('stage', ['newer:htmlmin','newer:copy:fonts','newer:copy:files','newer:copy:sitemap','newer:copy:hopeAwards','newer:imagemin',
+    grunt.registerTask('stage', ['newer:htmlmin','newer:copy:fonts','newer:copy:files','newer:copy:sitemap',
+                       'newer:copy:hopeAwards', 'newer:copy:htaccess', 'newer:imagemin',
                        'purifycss','cssmin','newer:uglify', 'rsync:stage'
     ]);
 

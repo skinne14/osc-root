@@ -7,3 +7,4 @@ node_modules/
 /secure/
 vendor/
 Gemfile.lock
+tests/test_redirects/report.txt
