@@ -1,7 +1,7 @@
 ---
 q: Does the policy apply to works in which Harvard owns the copyright (for example, Harvard administrative records, or a book published by Harvard University Press)?
 order: 17
-anchor: harvard-copyrighted-material
+anchor: more-info-about-pd
 type: basic
 
 hl-pd-faq: include

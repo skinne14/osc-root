@@ -10,10 +10,10 @@ layout: default
     <h1 id="top" tabindex="-1">{{ page.title }}</h1>
   {% endif %} 
   <div class="row">
-    <article class="col-md-8">
+    <div class="main-content col-md-8">
       {% if page.org %}<h2 class="author-sub">{{page.org}}</h2>{% endif %}
       {{ content }}
-    </article>
+    </div>
     <aside class="col-md-4 sidebar inner-sidebar">
       {% capture sidebar %}{% if page.sidebar %}{% include sidebars/{{page.sidebar}}.html %}{% else %}{% include sidebars/default.html %}{% endif %}{% endcapture %} 
       {{ sidebar | markdownify }}

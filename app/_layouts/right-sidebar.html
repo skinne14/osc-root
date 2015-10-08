@@ -4,7 +4,7 @@ layout: default
 <main class="col-lg-9 col-md-8">
   <p id="main" tabIndex="-1" class="sr-only">Main Content</p>
   {% include breadcrumbs.html %}
-  <article>{{ content }}</article>
+  <div class="main-content">{{ content }}</div>
 </main>
 <aside class="col-lg-3 col-md-4 sidebar full-sidebar">
   {% capture sidebar %}{% if page.sidebar %}{% include sidebars/{{page.sidebar}}.html %}{% else %}{% include sidebars/default.html %}{% endif %}{% endcapture %} 

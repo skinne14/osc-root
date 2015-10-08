@@ -12,12 +12,12 @@ title: Journal-Flipping Project
 {% for post in site.categories["journal-flipping"] limit:1 %}
 <h2> Latest News </h2>
 <section class="first-post">
-    <heading>
+    <header>
     <h3>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h3>
     <p class="policy-adoption"> {{ post.date | date: "%B %-d, %Y" }}</p>
-    </heading>
+    </header>
     {{ post.excerpt | markdownify }}
     <a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}" role="button">Read more »</a>
 {% endfor %}

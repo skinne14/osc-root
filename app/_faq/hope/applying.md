@@ -1,7 +1,7 @@
 ---
 q: How do I apply for funds?
 order: 9
-anchor: implementation
+anchor: applying
 type: how to apply
 
 hope-faq: include

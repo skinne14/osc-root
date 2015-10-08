@@ -7,5 +7,8 @@
 </ul>
 
 {% for quote in page.quotes %}
-  <section class="blurb"><q>{{ quote }}</q></section>
+  <section class="blurb">
+    <h2 class="sr-only">Take Away {{ forloop.index }}</h2>
+    <q>{{ quote }}</q>
+  </section>
 {% endfor %}

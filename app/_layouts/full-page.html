@@ -4,12 +4,12 @@ layout: default
 <main class="col-md-12">
   <p id="main" tabIndex="-1" class="sr-only">Main Content</p>
   {% include breadcrumbs.html %}    
-  <article>
+  <div class="main-content">
   {% if  page.breadcrumbs == true %}
     <h1 id="top" tabindex="-1" class="after-breadcrumb">{{ page.title }}</h1>   
   {% else %}
     <h1 id="top" tabindex="-1">{{ page.title }}</h1>
   {% endif %}  
   {{ content }}
-  </article>
+  </div>
 </main>
