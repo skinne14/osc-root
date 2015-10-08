@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 mkdir -p tmp
 
 echo "...Retrieving sitemap (osc.hul.harvard.edu)"

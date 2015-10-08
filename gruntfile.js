@@ -5,11 +5,11 @@ module.exports = function (grunt) {
     grunt.initConfig({
 
         //////////
-        // HTML
-        //////////
+        // BASH
+        /////////
         
-        // shell commands for use in Grunt tasks
         exec: {
+            // Jekyll
             jekyllBuild: {
                 command: 'cd app; ../jekyll/bin/jekyll build; cd ../',
                 stderr: false,
@@ -21,8 +21,31 @@ module.exports = function (grunt) {
             },
             jekyllClear: {
                 command: 'cd app; rm .jekyll-metadata; cd ../'
+            },
+            // Tests
+            findRelics: {
+              command: 'cd tests/find_relics; bash find_relics.sh; cd ../../',
+                stderr: false,
+                callback: function (error, stdout, stderr) {
+                    if (stderr) {
+                        grunt.warn("Relics found. (If intentional, add regex to tests/find_relics/exclude_TYPE.txt)\n\n" + stderr)
+                  }
+                }
+            },
+            findNotes: {
+              command: 'cd tests/find_notes; bash find_notes.sh; cd ../../',
+                stderr: false,
+                callback: function (error, stdout, stderr) {
+                    if (stderr) {
+                        grunt.warn("Notes found. (If intentional, add regex to tests/find_notes/exclude_TYPE.txt)\n\n" + stderr)
+                  }
+                }
             }
         },
+
+        //////////
+        // HTML
+        /////////
 
         htmlmin: {
             prod: {
@@ -189,7 +212,7 @@ module.exports = function (grunt) {
               }
           },
           dev: {
-            site: 'dev.osc.hul.harvard.edu',
+            site: 'osc-local.hul.harvard.edu',
           }
         },
 
@@ -237,7 +260,8 @@ module.exports = function (grunt) {
     grunt.registerTask('build', ['copy:bootstrapCustom','exec:jekyllBuild','concat','sass']);
     grunt.registerTask('rebuild', ['exec:jekyllClear','build']);
 
-    grunt.registerTask('test', ['bootlint', 'linkChecker:dev']);
+    grunt.registerTask('test', ['bootlint', 'linkChecker:dev', 'exec:findRelics']);
+    grunt.registerTask('polish', ['exec:findNotes']);
 
     grunt.registerTask('stage', ['newer:htmlmin','newer:copy:fonts','newer:copy:files','newer:copy:sitemap',
                        'newer:copy:hopeAwards', 'newer:copy:htaccess', 'newer:imagemin',
