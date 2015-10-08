@@ -284,7 +284,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', ['copy:bootstrapCustom','exec:jekyllBuild','concat','sass']);
     grunt.registerTask('rebuild', ['exec:jekyllClear','build']);
 
-    grunt.registerTask('test', ['bootlint', 'linkChecker:dev', 'exec:findRelics', 'exec:testRedirects',
+    grunt.registerTask('test', ['htmllint','bootlint', 'linkChecker:dev', 'exec:findRelics', 'exec:testRedirects',
                        'exec:checkBaseurl']);
     grunt.registerTask('polish', ['exec:findNotes']);
 
