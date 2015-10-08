@@ -40,6 +40,15 @@ module.exports = function (grunt) {
                         grunt.warn("Notes found. (If intentional, add regex to tests/find_notes/exclude_TYPE.txt)\n\n" + stderr)
                   }
                 }
+            },
+            testRedirects: {
+              command: 'cd tests/test_redirects; bash test_redirects.sh; cd ../../',
+                stderr: false,
+                callback: function (error, stdout, stderr) {
+                    if (stderr) {
+                        grunt.warn("Got 404s. (If intentional, add url to tests/test_redirects/intentional404.txt)\n\n" + stderr)
+                  }
+                }
             }
         },
 
@@ -260,7 +269,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', ['copy:bootstrapCustom','exec:jekyllBuild','concat','sass']);
     grunt.registerTask('rebuild', ['exec:jekyllClear','build']);
 
-    grunt.registerTask('test', ['bootlint', 'linkChecker:dev', 'exec:findRelics']);
+    grunt.registerTask('test', ['bootlint', 'linkChecker:dev', 'exec:findRelics', 'exec:testRedirects']);
     grunt.registerTask('polish', ['exec:findNotes']);
 
     grunt.registerTask('stage', ['newer:htmlmin','newer:copy:fonts','newer:copy:files','newer:copy:sitemap',
