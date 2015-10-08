@@ -49,6 +49,15 @@ module.exports = function (grunt) {
                         grunt.warn("Got 404s. (If intentional, add url to tests/test_redirects/intentional404.txt)\n\n" + stderr)
                   }
                 }
+            },
+            checkBaseurl: {
+              command: 'cd tests/check_baseurl; bash check_baseurl.sh; cd ../../',
+                stderr: false,
+                callback: function (error, stdout, stderr) {
+                    if (stderr) {
+                        grunt.warn("Found relative links without {{site.baseurl}}. (If intentional, add lines to tests/check_baseurl/exclude_lines.txt)\n\n" + stderr)
+                  }
+                }
             }
         },
 
