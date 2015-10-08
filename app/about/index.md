@@ -18,7 +18,7 @@ featured-actions-2:
 
 The Office for Scholarly Communication was formed in 2008 with a charge to the [University Library](http://hul.harvard.edu/) from the [Harvard Provost](http://www.provost.harvard.edu/) to spearhead campus-wide initiatives to open, share, and preserve scholarship.
 
-The OSC benefits from the oversight of a University-wide [faculty advisory committee](/about/committee) that provides advice on specific programs and policies.
+The OSC benefits from the oversight of a University-wide [faculty advisory committee]({{site.baseurl}}/about/committee) that provides advice on specific programs and policies.
  
 With support from OSC, [open-access policies]({{site.baseurl}}/policies) are now in place in all nine Harvard schools. These policies were voted on by the faculty and grant an automatic license to Harvard for scholarly articles authored by faculty members.
 
