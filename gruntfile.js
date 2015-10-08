@@ -205,6 +205,11 @@ module.exports = function (grunt) {
         // Validation, etc.
         //////////
 
+       // html validation
+       htmllint: {
+          all: ["builds/dev/**/*.html"]
+        },
+
        // bootlint
         bootlint: {
             options: {
@@ -272,7 +277,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-bootlint');
     grunt.loadNpmTasks('grunt-link-checker');
-    grunt.loadNpmTasks("grunt-rsync")
+    grunt.loadNpmTasks("grunt-rsync");
+    grunt.loadNpmTasks("grunt-html");
 
     // Register the grunt tasks
     grunt.registerTask('build', ['copy:bootstrapCustom','exec:jekyllBuild','concat','sass']);
