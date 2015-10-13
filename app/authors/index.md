@@ -20,7 +20,7 @@ title: For Authors
 # - publisher-treaties
 ---
 
-The OSC provides information and support for Harvard faculty and affiliates as they make decisions regarding their scholarly works. We offer a wide variety of services: you can [put your work]({{site.baseurl}}/dash/quicksubmit) in [DASH](http://dash.harvard.edu), or we can do it for you&mdash;we'll scrape your CV and our Open Access Fellows will submit your articles. You'll really love the [stats]({{site.baseurl}}/dash/mydash/) you get each month. Need reasons? Check out our [stories]({{site.baseurl}}/dash/stories) page. Further:
+The OSC provides information and support for Harvard faculty and affiliates as they make decisions regarding their scholarly works. We offer a wide variety of services: you can [put your work]({{site.baseurl}}/dash/quicksubmit) in [DASH](http://dash.harvard.edu), or we can do it for you&mdash;we'll scrape your CV and our Open Access Fellows will submit your articles. You'll really love the [stats]({{site.baseurl}}/dash/mydash/) you get each month. Need reasons? Check out our [user stories]({{site.baseurl}}/dash/stories). Further:
 
 - Our [Open Access Policy guidelines](#) are designed to help authors understand how the Open Access Policy affects them.
 
