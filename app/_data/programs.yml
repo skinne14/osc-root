@@ -1,18 +1,18 @@
-- name: Open Access Policies
+- name: Open Access Policies
   description: |
-    OSC has assisted Harvard schools and research centers in drafting and implementing [OA policies](/policies). Under these policies, Harvard-affiliated authors vote to grant the university a nonexclusive, irrevocable right to distribute their scholarly articles for any non-commercial purpose. 
+    OSC has assisted Harvard schools and research centers in drafting and implementing [OA policies](/policies). Under these policies, Harvard-affiliated authors vote to grant the university a nonexclusive, irrevocable right to distribute their scholarly articles for any non-commercial purpose. 
 
-    OSC is also available to assist other institutions in instituting open-access policies.
+    OSC is also available to assist other institutions in instituting open-access policies.
   url: /policies/
 
 - name: DASH
   description: |
-    [Digital Access to Scholarship at Harvard](http://dash.harvard.edu/) is the University’s open-access repository. It was established to support the Open Access Policies, but its content is not limited to articles under those policies. Faculty are encouraged to deposit all of their scholarly works, even those written prior to the implementation of the OA policies.
+    [Digital Access to Scholarship at Harvard](http://dash.harvard.edu/) is the University’s open-access repository. It was established to support the Open Access Policies, but its content is not limited to articles under those policies. Faculty are encouraged to deposit all of their scholarly works, even those written prior to the implementation of the OA policies.
   url: http://dash.harvard.edu
 
 - name: Copyright
   description: |
-    OSC is the home to Harvard’s Copyright Advisory Program, which includes the [Copyright First Responders](/programs/copyright/first-responders) program.
+    OSC is the home to Harvard’s Copyright Advisory Program, which includes the [Copyright First Responders](/programs/copyright/first-responders) program.
   url: /programs/copyright/
 
 - name: ETDs@Harvard
@@ -20,24 +20,24 @@
     OSC is developing and maintaining [Harvard’s electronic thesis and dissertation submission system](http://etds.lib.harvard.edu/about.html).
   url: http://etds.lib.harvard.edu/about.html
 
-- name: HOPE Fund
+- name: HOPE Fund
   description: |
-    [Harvard Open-Access Publishing Equity](/programs/hope) Fund was established in 2009 to reimburse authors for publication fees in open-access journals. This is in support of Harvard’s effort to distribute the scholarship it creates.
+    [Harvard Open-Access Publishing Equity](/programs/hope) Fund was established in 2009 to reimburse authors for publication fees in open-access journals. This is in support of Harvard’s effort to distribute the scholarship it creates.
   url: /programs/hope/
 
-- name: Journal-Flipping Project
+- name: Journal-Flipping Project
   description: |
-    This is a 2015-2016 [project](/programs/journal-flipping) to gather options and best practices on converting subscription-based scholarly journals to open access.
+    This is a 2015-2016 [project](/programs/journal-flipping) to gather options and best practices on converting subscription-based scholarly journals to open access.
   url: /programs/journal-flipping/
 
-- name: Orphan-Works Project
+- name: Orphan-Works Project
   description: |
-    This is a 2015-2016 [project](/programs/orphan-works) to identify no-risk or low-risk strategies for digitizing orphan works for open access, under US copyright law, giving special attention to strategies that do not depend on fair use.
+    This is a 2015-2016 [project](/programs/orphan-works) to identify no-risk or low-risk strategies for digitizing orphan works for open access, under US copyright law, giving special attention to strategies that do not depend on fair use.
   url: /programs/orphan-works/
 
 - name: Advocacy
   description: |
-     PLACEHOLDER TEXT
+    The OSC supports open access outside Harvard through dissemination of the [model open access policy](/modelpolicy/) and participation in programs like [COPE](http://www.oacompact.org/) and [Open Access Week](http://www.openaccessweek.org/).
   url: /programs/advocacy/
 
 - name: Technology
