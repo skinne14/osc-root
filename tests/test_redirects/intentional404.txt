@@ -21,5 +21,7 @@ https://osc.hul.harvard.edu/category/project-category/oa-week
 https://osc.hul.harvard.edu/category/project-category/library-lab
 https://osc.hul.harvard.edu/category/project-category/cope
 https://osc.hul.harvard.edu/authors/findmore
+https://osc.hul.harvard.edu/authors/waiver/generate
+https://osc.hul.harvard.edu/authors/hope/apply
 https://osc.hul.harvard.edu/archive
 https://osc.hul.harvard.edu/2011/13/lamont
