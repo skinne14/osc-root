@@ -530,3 +530,11 @@ div.main-content {
     height: 233px;
   }
 }
+
+// workaround for libsass bug, see:
+// https://github.com/twbs/bootstrap-sass/issues/919
+// https://github.com/sass/libsass/issues/1115
+.breadcrumb > li + li:before {
+    content: "»\00a0";
+    color: $breadcrumb-color;
+}
