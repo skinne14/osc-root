@@ -4,8 +4,6 @@ breadcrumbs: true
 title: OSC Staff
 ---
 
-<p> PLACEHOLDER TEXT We are part of HL Collections. We work with our <a href="{{site.baseurl}}/about/committee/">Advisory Committee</a>, <a href="{{site.baseurl}}/about/liaisons/">Liaisons</a>, <a href="{{site.baseurl}}/programs/copyright/first-responders/">Copyright First Responders</a>, <a href="{{site.baseurl}}/about/fellows/">Open Access Fellows</a>, and <a href="{{site.baseurl}}/about/staff/#special-advisors">Special Advisors</a>. Shout out to anyone else we should mention. END PLACEHOLDER TEXT</p>
-
 <ul class="long-list">
     {% for person in site.data.staff %}
     <li><a href="{{site.baseurl}}/about/staff/#{{person.name | slugify }}">{{person.name}}</a></li>
