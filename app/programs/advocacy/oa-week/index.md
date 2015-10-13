@@ -9,7 +9,7 @@ We do need this html file to actually exist, for the health of Jekyll (specifica
 
 Hmmm.
 
-{% assign pages = site.pages | sort: "title" %}
+{% assign pages = site.pages | sort: "title" | reverse %}
 {% for p in pages %}
 {% if p.url contains "/oa-week/" and p.url != "/programs/advocacy/oa-week/" %}
 - [{{p.title}}]({{p.url}})
