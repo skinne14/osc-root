@@ -20,6 +20,14 @@ title: For Authors
 # - publisher-treaties
 ---
 
-PLACEHOLDER TEXT We offer a wide variety of services. We'll scrape your cv. Our [fellows](#) will submit your articles for you. Come visit. Ask us questions. Meet the [open access liaisons](#).
+The OSC provides information and support for Harvard faculty and affiliates as they make decisions regarding their scholarly works. We offer a wide variety of services: you can [put your work]({{site.baseurl}}/dash/quicksubmit) in [DASH](http://dash.harvard.edu), or we can do it for you&mdash;we'll scrape your CV and our Open Access Fellows will submit your articles. You'll really love the [stats]({{site.baseurl}}/dash/mydash/) you get each month. Need reasons? Check out our [stories]({{site.baseurl}}/dash/stories) page. Further:
 
-Put your stuff in [DASH](http://dash.harvard.edu)! You'll really love the [stats](#) you get each month. Need reasons? Check out these [videos](#) and our [stories](#) page. Check out this [live DASH counter](#) and this [map](#). END PLACEHOLDER TEXT
+- Our [Open Access Policy guidelines](#) are designed to help authors understand how the Open Access Policy affects them.
+
+- Publishers’ agreements concerning publication of articles often contain provisions that are inconsistent with the prior license granted to Harvard under the Open Access Policy. An [author addendum]({{site.baseurl}}/dash/addendum-generator), however, is a simple legal tool that can resolve the conflict.
+
+- Several publishers have formally agreed to recognize Harvard’s rights under the Open Access Policy. We are grateful to [these publishers]({{site.baseurl}}/publishers/treaties/) for their full support of access to Harvard faculty’s writings.
+
+- Through the [HOPE program]({{site.baseurl}}/programs/hope/), Harvard researchers can apply for funds for the reimbursement of reasonable article processing fees in eligible open-access journals for which no alternative funding is available.
+
+- Harvard authors subject to the Open Access Policy may request a [waiver]({{site.baseurl}}/dash/authors/waiver/generate) of Harvard’s nonexclusive license on an article-by-article basis.
