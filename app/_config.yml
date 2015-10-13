@@ -13,9 +13,7 @@ email: osc@harvard.edu
 phone: +1 (617) 495 4089
 fax: +1 (617) 495 0370
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Harvard Library Office for Scholarly Communication spearheads campus-wide initiatives to open, share, and preserve scholarship.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://osc.hul.harvard.edu" # the base hostname & protocol for your site
 twitter_url: https://twitter.com/oscharvard
