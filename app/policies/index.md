@@ -12,7 +12,7 @@ Scholarly articles provided to the university are stored, preserved, and made fr
 
 ## Harvard Authors
 
-If you are a [Harvard author]({{site.baseurl}}/authors/) and have questions about when and how the policy applies to your work, please review the [Open Access Policy Guidelines](#), see our [Authors page]({{site.baseurl}}/authors/), or [contact us](mailto:osc@harvard.edu).
+If you are a [Harvard author]({{site.baseurl}}/authors/) and have questions about when and how the policy applies to your work, please review the [Open Access Policy FAQs]({{site.baseurl}}/policies/faq/), see our [Authors page]({{site.baseurl}}/authors/), or [contact us](mailto:osc@harvard.edu).
 
 ## Beyond Harvard
 
