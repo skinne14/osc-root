@@ -33,6 +33,8 @@ Similar to DASH Stats is the DASHboard, a set of displays for internal metrics a
 
 OSC runs a number of websites and pages, including this one, as well as the sites for [Copyright at Harvard Library](http://copyright.lib.harvard.edu/), [COPE](http://www.oacompact.org/), the [journal-flipping project]({{site.baseur}}/programs/journal-flipping/), the [orphan-works project]({{site.baseur}}/programs/orphan-works/), and [Library Lab](https://osc.hul.harvard.edu/liblab/). Past sites include those for Open Metadata (now [available at the library website](http://openmetadata.lib.harvard.edu/)), Yana, Highbrow, and the Library Transition.
 
-Historically, we have used [Drupal](https://www.drupal.org/) to build websites, but are moving toward static sites generated with [Jekyll](http://jekyllrb.com/) and dynamic content generated with [Flask](http://flask.pocoo.org/). Our ideal is accessible, responsive, slim, semantically meaningful, and secure sites.
+Historically, we have used [Drupal](https://www.drupal.org/) to build websites, but are moving toward static sites generated with [Jekyll](http://jekyllrb.com/) and dynamic content generated with [Flask](http://flask.pocoo.org/). 
+
+We are committed to delivering accessible, responsive, and secure sites.
 
 <a href="#top">Back to top</a>
