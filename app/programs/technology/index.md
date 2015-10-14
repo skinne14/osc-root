@@ -9,9 +9,9 @@ title: Technology
 
 ### DASH
 
-[DASH](http://dash.harvard.edu/), Harvard's institutional repository, is a customized instance of [DSpace](http://www.dspace.org/) 1.8.
+[DASH](http://dash.harvard.edu/), Harvard's institutional repository, is a customized instance of [DSpace](http://www.dspace.org/) 1.8. DSpace is the most widely-used application for institutional repositories.
 
-Workflow customizations include authority control for Harvard authors, auto-matching of authors, auto-fill of metadata using DOI, duplicate detection, integration of assistance authorization and waiver databases, and ORCID integration.
+Workflow customizations include authority control for Harvard authors, auto-matching of authors, auto-fill of metadata using [DOIs](http://www.doi.org/), duplicate detection, integration of assistance authorization and waiver databases, and [ORCID](http://orcid.org/) integration.
 
 Interaction with other systems includes auto-ingest from PubMed Central's [open-access subset](http://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/), deposit via [SWORD](http://swordapp.org/), and exposure of metadata via [OAI-PMH](http://www.openarchives.org/pmh/).
 
