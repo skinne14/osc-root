@@ -7,4 +7,4 @@ logo: berkman.png
 
 ---
 
-{% include author-community.html %}
+{% include author-community-no-liaison.html %}

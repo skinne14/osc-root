@@ -8,4 +8,4 @@ affirmation: true
 
 ---
 
-{% include author-community.html %}
+{% include author-community-no-liaison.html %}

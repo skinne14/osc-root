@@ -7,4 +7,4 @@ logo: huce.png
 
 ---
 
-{% include author-community.html %}
+{% include author-community-no-liaison.html %}
