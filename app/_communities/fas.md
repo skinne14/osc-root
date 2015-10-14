@@ -4,6 +4,7 @@ type: school
 abbr: FAS
 home: http://www.fas.harvard.edu/
 logo: fas.png
+handle: 1/1
 
 ---
 

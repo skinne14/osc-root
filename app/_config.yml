@@ -78,6 +78,7 @@ defaults:
         layout: "right-sidebar-with-actions"
         title-tag: "community"
         sidebar: "community"
+        breadcrumbs: true
         featured-actions-1:
           - submit-to-dash
           - author-faqs
@@ -101,3 +102,9 @@ defaults:
           - get-a-waiver
           - amend-a-publishing-agreement
           - publisher-treaties
+ -
+    scope:
+       path: "programs/advocacy/statements"
+       type: "pages"
+    values:
+        sidebar: "statements"

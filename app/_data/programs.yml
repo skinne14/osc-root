@@ -7,7 +7,7 @@
 
 - name: DASH
   description: |
-    [Digital Access to Scholarship at Harvard](http://dash.harvard.edu/) is the University’s open-access repository. It was established to support the Open Access Policies, but its content is not limited to articles under those policies. Faculty are encouraged to deposit all of their scholarly works, even those written prior to the implementation of the OA policies.
+    [Digital Access to Scholarship at Harvard](http://dash.harvard.edu/) is the University’s open-access repository. It was established to support the Open Access Policies, but its content is not limited to articles subject to those policies. Faculty are encouraged to deposit all of their scholarly works, even those written prior to the implementation of the OA policies.
   url: http://dash.harvard.edu
 
 - name: Copyright

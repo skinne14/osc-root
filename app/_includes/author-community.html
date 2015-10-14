@@ -1,1 +1,9 @@
-<p>If you have questions about the open access policy, depositing into DASH, or any other aspect of the scholarly publishing process, please review the <a href="{{site.baseurl}}/authors/faq/">frequently-asked questions</a>, contact your Open Access Liaison, or <a href="mailto:{{site.email}}">write to the OSC</a>.</p>
+<ul style="padding-bottom: 5px;">
+  <li>Read <a href="http://dash.harvard.edu/handle/{{page.handle}}">your community's research</a> in DASH</li>
+  <li>See <a href="https://osc.hul.harvard.edu/dash/mydash?t=1&gl=4&fl=5&fi={{page.handle}}">statistics</a> about your community's DASH readership</li>
+  <li>Explore DASH <a href="https://osc.hul.harvard.edu/dash/stories"> user stories</a> from around the world</li>
+</ul>
+<p>The OSC supports all Harvard affiliates as you publish and make decisions regarding your scholarly works. We offer a wide variety of <a href="{{site.baseurl}}/authors/">services for authors</a>.</p>
+
+{% assign liaisons = site.data.liaisons | where: "liaison-to", page.abbr %}
+<p>If you have questions about the open access policy, depositing into DASH, or any other aspect of the scholarly publishing process, please review the <a href="{{site.baseurl}}/authors/faq/">frequently-asked questions</a>{% if liaisons != empty %}, contact your Open Access Liaison,{% endif%} or <a href="mailto:{{site.email}}">write to the OSC</a>.</p>
