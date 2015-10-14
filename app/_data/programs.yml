@@ -42,7 +42,7 @@
 
 - name: Technology
   description: |
-    PLACEHOLDER TEXT
+    The core technology of [DASH](http://dash.harvard.edu/) is [DSpace](http://www.dspace.org/), the most widely-used application for institutional repositories.  OSC uses a wide range of technologies in support of open access and its other missions.
   url: /programs/technology/
 
 - name: Open Initiatives
