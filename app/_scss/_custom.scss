@@ -183,6 +183,17 @@ div.main-content {
   font-size: 1.2em;
   border-bottom: 1px solid #eee;
   padding-bottom: 10px;
+
+  .h4 {
+    margin-top: 20px;
+  }
+
+  a[href="#top"] {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: .8em;
+  }
   
   @media (min-width: 992px) {
     padding-right: 30px;
