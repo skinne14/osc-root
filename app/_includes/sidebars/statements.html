@@ -1,0 +1,10 @@
+<section class="text-center">
+  <h2>All OSC Statements</h2>
+  <ul>
+    {% assign pages = site.pages | sort: "title" %}{% for p in pages %}{% if p.url contains "/statements/" and p.url != "/programs/advocacy/statements/" %}
+      <li style="padding-bottom:10px;">
+        <a href="{{p.url}}">{{p.title}}</a>
+      </li>
+    {% endif %}{% endfor %}
+  </ul>
+</section>
