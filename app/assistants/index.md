@@ -24,8 +24,16 @@ featured-actions-1:
 
 ---
 
-As a faculty assistant, you have a key role in the implementation of Harvard's [open access policies]({{site.baseurl}}/policies/). Your main task is likely to be submitting scholarly work to [DASH](http://dash.harvard.edu/), Harvard's open-access repository, using our [quick submit form]({{site.baseurl}}/dash/quicksubmit). You may also help the OSC deposit work in DASH by providing your faculty member's CV; our Open Access Fellows would then "scrape" the CV for citations and submit them to DASH. In cases where we don't have the preferred version of an article, the accepted manuscript, we may ask you to help locate a copy.
+As a faculty assistant, you have a key role in the implementation of Harvard's [open access policies]({{site.baseurl}}/policies/). Help your professors [increase their citation count](http://www.openoasis.org/index.php?option=com_content&view=article&id=560&Itemid=391) and get the results of their research out to the [millions of people around the world](https://osc.hul.harvard.edu/dash/mydash?v=geomap&t=1&gi=alldash) who read DASH. Hear how it helps people on our [stories page](https://osc.hul.harvard.edu/dash/stories).
 
-(Before articles can appear in DASH, OSC must have on file an [Assistance Authorization]({{site.baseurl}}/dash/proxy/webform)&mdash;we may ask for your help in getting your faculty member to submit it.)
+## DASH
 
-You may also assist with the publication process; the [author addendum]({{site.baseurl}}/dash/addendum-generator) is a way to make a publishing contract consistent with the open-access policy, and some publishers require authors to get a [waiver]({{site.baseur}}/dash/authors/waiver/generate) of Harvard's license under the policy.
+You can submit your professors' scholarly work to [DASH](http://dash.harvard.edu/), Harvard's open-access repository, using our [quick submit form](https://osc.hul.harvard.edu/dash/quicksubmit). You may also [send the OSC your faculty member's CV](mailto:{{site.email}}?subject=Faculty CV); our Open Access Fellows will then “scrape” the CV for citations and, if possible, submit them to DASH. 
+
+We may ask you to help locate a copy preferred version of an article, the [author's final manuscript]({{site.baseurl}}/authors/faq/#final-manuscript): be sure to get a copy, whenever your professors submit a new article to a publisher for consideration. They'll thank you later!
+
+(Before articles can appear in DASH, OSC must have on file an [Assistance Authorization](https://osc.hul.harvard.edu/dash/proxy/webform)&mdash;we may ask for your help in getting your faculty member to submit it.)
+
+## Prior to Publication
+
+You may also assist your professors with the publication process; the [author addendum](https://osc.hul.harvard.edu/dash/addendum-generator) is a way to make a publishing contract consistent with the open-access policy, and some publishers require authors to get a [waiver](https://osc.hul.harvard.edu/dash/authors/waiver/generate) of Harvard's license under the policy.
