@@ -15,4 +15,4 @@ The OSC also runs supporting programs such as:
 
 Past OSC projects include:
 
-- [Library Lab]({{site.baseurl}}/liblab/), offering opportunities for individuals to make original contributions to the way libraries work.
+- [Library Lab](https://osc.hul.harvard.edu/liblab/), offering opportunities for individuals to make original contributions to the way libraries work.
