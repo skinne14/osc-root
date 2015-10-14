@@ -5,7 +5,7 @@ breadcrumbs: true
 title: Technology
 ---
 
-## The repository is just where it starts
+## Not just a repository
 
 ### DASH
 
