@@ -78,6 +78,7 @@ defaults:
         layout: "right-sidebar-with-actions"
         title-tag: "community"
         sidebar: "community"
+        breadcrumbs: true
         featured-actions-1:
           - submit-to-dash
           - author-faqs

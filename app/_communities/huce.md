@@ -4,7 +4,8 @@ type: center
 abbr: HUCE
 home: http://environment.harvard.edu/
 logo: huce.png
+handle: 1/22419513
 
 ---
 
-{% include author-community-no-liaison.html %}
+{% include author-community.html %}
