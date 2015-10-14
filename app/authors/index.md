@@ -24,7 +24,7 @@ The OSC supports all Harvard faculty and affiliates as you publish  and make dec
 
 ## DASH
 
-Open your scholarship to the world by [depositing your work](https://osc.hul.harvard.edu/dash/quicksubmit) in [DASH](http://dash.harvard.edu), or [ask the OSC](mailto:{{site.email}}?subject=Request for assistance with DASH) and we can do it for you. We provide a wide variety of services&mdash;we'll study your CV and do the legal legwork, and our Open Access Fellows will deposit your articles on your behalf. 
+Open your scholarship to the world by [depositing your work](https://osc.hul.harvard.edu/dash/quicksubmit) in [DASH](http://dash.harvard.edu), or [ask the OSC](mailto:{{site.email}}?subject=Request%20for%20assistance%20with%20DASH) and we can do it for you. We provide a wide variety of services&mdash;we'll study your CV and do the legal legwork, and our Open Access Fellows will deposit your articles on your behalf. 
 
 You'll love the [statistics](https://osc.hul.harvard.edu/dash/mydash/) you receive each month about who is reading your scholarship&mdash;and so will your tenure committee. You'll enjoy [increased citation rates](http://www.openoasis.org/index.php?option=com_content&view=article&id=560&Itemid=391), Google optimization, and a number of other benefits. 
 
