@@ -20,11 +20,17 @@ title: For Authors
 # - publisher-treaties
 ---
 
-The OSC supports all Harvard faculty and affiliates as you publish your research and make decisions regarding your scholarly works. 
+The OSC supports all Harvard faculty and affiliates as you publish your research and make decisions regarding your scholarly works. Our [Open Access Policy FAQ]({{site.baseurl}}/policies/faq/) and [Author FAQ]({{site.baseurl}}/authors/faq/) are designed to help you understand how the Open Access Policy affects you.
 
-We offer a wide variety of services: open your scholarship to the world by [depositing your work](https://osc.hul.harvard.edu/dash/quicksubmit) in [DASH](http://dash.harvard.edu), or [ask the OSC](mailto:{{site.email}}?subject=Request for assistance with DASH) and we can do it for you&mdash;we'll study your CV and do the legal legwork, and our Open Access Fellows will submit your articles. You'll love the [statistics](https://osc.hul.harvard.edu/dash/mydash/) you receive each month about who is reading your scholarship&mdash;and so will your tenure committee. You'll enjoy [increased citation rates](http://www.openoasis.org/index.php?option=com_content&view=article&id=560&Itemid=391), Google optimization, and a number of other benefits. Read how DASH scholarship helps people all over the world by browsing our [user stories](https://osc.hul.harvard.edu/dash/stories). Further:
+## DASH
 
-- Our [Open Access Policy FAQ]({{site.baseurl}}/policies/faq/) and [Author FAQ]({{site.baseurl}}/authors/faq/) are designed to help authors understand how the Open Access Policy affects them.
+Open your scholarship to the world by [depositing your work](https://osc.hul.harvard.edu/dash/quicksubmit) in [DASH](http://dash.harvard.edu), or [ask the OSC](mailto:{{site.email}}?subject=Request for assistance with DASH) and we can do it for you. We provide a wide variety of services&mdash;we'll study your CV and do the legal legwork, and our Open Access Fellows will deposit your articles on your behalf. 
+
+You'll love the [statistics](https://osc.hul.harvard.edu/dash/mydash/) you receive each month about who is reading your scholarship&mdash;and so will your tenure committee. You'll enjoy [increased citation rates](http://www.openoasis.org/index.php?option=com_content&view=article&id=560&Itemid=391), Google optimization, and a number of other benefits. 
+
+Read how DASH scholarship helps people all over the world by browsing our [user stories](https://osc.hul.harvard.edu/dash/stories).
+
+## Prior to Publication
 
 - Through the [HOPE program]({{site.baseurl}}/programs/hope/), Harvard researchers can apply for funds for the reimbursement of reasonable article processing fees in eligible open-access journals for which no alternative funding is available.
 
