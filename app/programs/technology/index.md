@@ -6,6 +6,7 @@ title: Technology
 ---
 
 ## DASH
+{:.leading-header}
 
 [DASH](http://dash.harvard.edu/), Harvard's institutional repository, is a customized instance of [DSpace](http://www.dspace.org/) 1.8. DSpace is the most widely-used application for institutional repositories.
 
