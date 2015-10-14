@@ -1,5 +1,6 @@
 ---
 layout: right-inner-sidebar
+sidebar: technology
 breadcrumbs: true
 title: Technology
 ---
