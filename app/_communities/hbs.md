@@ -7,4 +7,4 @@ logo: hbs.png
 
 ---
 
-PLACEHOLDER TEXT
+{% include author-community.html %}

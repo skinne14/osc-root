@@ -8,4 +8,4 @@ affirmation: true
 
 ---
 
-PLACEHOLDER TEXT.
+{% include author-community.html %}

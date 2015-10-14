@@ -7,4 +7,4 @@ logo: fas.png
 
 ---
 
-PLACEHOLDER TEXT
+{% include author-community.html %}

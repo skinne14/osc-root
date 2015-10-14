@@ -7,4 +7,4 @@ logo: huce.png
 
 ---
 
-PLACEHOLDER TEXT
+{% include author-community.html %}

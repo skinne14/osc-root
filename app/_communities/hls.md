@@ -7,4 +7,4 @@ logo: hls.png
 
 ---
 
-PLACEHOLDER TEXT
+{% include author-community.html %}

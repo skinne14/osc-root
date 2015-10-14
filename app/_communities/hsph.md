@@ -7,4 +7,4 @@ logo: hsph.png
 
 ---
 
-PLACEHOLDER TEXT
+{% include author-community.html %}

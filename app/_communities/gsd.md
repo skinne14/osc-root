@@ -7,4 +7,4 @@ logo: gsd.png
 
 ---
 
-PLACEHOLDER TEXT
+{% include author-community.html %}
