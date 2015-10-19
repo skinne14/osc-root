@@ -127,6 +127,12 @@ module.exports = function (grunt) {
                 dest: 'builds/prod/.htaccess'
             }]
           }, 
+          oaweek: {
+            files: [{
+                src: 'builds/dev/programs/advocacy/oa-week/2015/index.html', 
+                dest: 'oaweek/index.html'
+            }]
+          }
         },
 
         imagemin: {
@@ -281,7 +287,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-html");
 
     // Register the grunt tasks
-    grunt.registerTask('build', ['copy:bootstrapCustom','exec:jekyllBuild','concat','sass']);
+    grunt.registerTask('build', ['copy:bootstrapCustom','exec:jekyllBuild','concat','sass', 'copy:oaweek']);
     grunt.registerTask('rebuild', ['exec:jekyllClear','build']);
 
     grunt.registerTask('test', ['exec:findRelics','exec:checkBaseurl', 'htmllint','bootlint',
