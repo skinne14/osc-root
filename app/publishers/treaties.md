@@ -1,5 +1,5 @@
 ---
-layout: right-inner-sidebar
+layout: full-page
 breadcrumbs: true
 title: Publisher Treaties
 ---
