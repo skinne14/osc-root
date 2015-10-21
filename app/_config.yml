@@ -6,6 +6,7 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Site settings
 title: Office for Scholarly Communication
