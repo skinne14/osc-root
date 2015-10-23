@@ -1,9 +1,13 @@
 ---
-q: Does the policy apply to works in which Harvard owns the copyright (for example, Harvard administrative records, or a book published by Harvard University Press)?
-order: 17
+q: Where can I find more information about what is included in the public domain?
+order: 18
 anchor: more-info-about-pd
 type: basic
 
 hl-pd-faq: include
 ---
-No. This content is not in the public domain, so the Policy does not apply. Moreover, though Harvard Library is committing under the Policy not to assert copyright in certain digital reproductions, it is not relinquishing any copyright Harvard may hold in works that have been digitized.
+The following resources may be helpful:
+
+- Copyright Term and the Public Domain in the United States (Cornell Copyright Information Center) <a href="http://copyright.cornell.edu/resources/publicdomain.cfm">http://copyright.cornell.edu/resources/publicdomain.cfm</a>
+-Is it in the Public Domain? (Samuelson Law, Technology &amp; Public Policy Clinic at the University of California, Berkeley) <a href="http://www.law.berkeley.edu/17178.htm">http://www.law.berkeley.edu/17178.htm</a>
+-US Copyright Office <a href="http://www.copyright.gov/">http://www.copyright.gov/</a>

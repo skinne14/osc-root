@@ -1,5 +1,5 @@
 ---
-q: What content is excluded from the Policy?
+q: Is all online content available from Harvard Library websites subject to the Policy?
 order: 4
 anchor: is-everything-online-covered
 type: basic
