@@ -1,5 +1,5 @@
 ---
-layout: faq
+layout: faq-notcategorized
 sidebar: faq
 title: Addenda Frequently Asked Questions
 

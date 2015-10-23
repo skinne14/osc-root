@@ -3,21 +3,16 @@ layout: full-page
 breadcrumbs: true
 ---
 {% assign filter = page.which-faq | append: '-faq' %}
-{% assign filtered-questions = site.faq | where: filter, 'include' | sort: 'order' | group_by: 'type' %}
+{% assign filtered-questions = site.faq | where: filter, 'include' | sort: 'order' %}
 
 <div class="row">
   <div class="col-md-8">
   <h2 class="sr-only">Table of Contents</h2>
-  {% for category in page.categories %}{% assign wrapped-group = filtered-questions | where: 'name', category %}
-  {% for group in wrapped-group %}
-  <h3 class="h4">{{group.name}}</h3>
   <ul class="long-list">
-  {% for question in group.items %}
+  {% for question in filtered-questions %}
     <li><a href="#{{question.anchor}}">{{question.q}}</a></li>
   {% endfor %}
   </ul>
-  {% endfor %}
-  {% endfor %}
   </div>
   <aside class="col-md-4 sidebar faq-sidebar">
   {% capture sidebar %}{% if page.sidebar %}{% include sidebars/{{page.sidebar}}.html %}{% else %}{% include sidebars/default.html %}{% endif %}{% endcapture %} 
@@ -25,15 +20,11 @@ breadcrumbs: true
   </aside>
 </div> <!-- row -->
 
-{% for category in page.categories %}{% assign wrapped-group = filtered-questions | where: 'name', category %}
-{% for group in wrapped-group %}
-{% for question in group.items %}
+{% for question in filtered-questions %}
   <h2 id="{{question.anchor}}" class="long-list-heading"><span>Q:</span> {{question.q}}</h2>
   <div class="long-list-content">{{question.content}}
     <a href="#top">Back to top</a>
   </div>
-{% endfor %}
-{% endfor %}
 {% endfor %}
 
 {{content}}
