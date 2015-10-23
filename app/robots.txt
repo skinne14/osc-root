@@ -1,0 +1,12 @@
+---
+---
+Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {{ site.url }}/dash/sitemap.xml
+Sitemap: {{ site.url }}/liblab/sitemap.xml
+
+User-agent: *
+Crawl-delay: 10
+
+# allow WAX crawler - not necessary?
+User-agent: hul-wax
+Disallow:
