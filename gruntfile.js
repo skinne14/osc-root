@@ -36,7 +36,7 @@ module.exports = function (grunt) {
       jekyllClear: {
         command: 'cd app; rm .jekyll-metadata; cd ../'
       },
-      // Tests
+      // custom tests
       findRelics: {
         command: 'cd tests/find_relics; bash find_relics.sh; cd ../../',
         stderr: false,
@@ -55,6 +55,15 @@ module.exports = function (grunt) {
           }
         }
       },
+      checkBaseurl: {
+        command: 'cd tests/check_baseurl; bash check_baseurl.sh; cd ../../',
+        stderr: false,
+        callback: function (error, stdout, stderr) {
+          if (stderr) {
+            grunt.warn("Found relative links without {{site.baseurl}}. (If intentional, add lines to tests/check_baseurl/exclude_lines.txt)\n\n" + stderr)
+          }
+        }
+      },
       testRedirects: {
         command: 'cd tests/test_redirects; bash test_redirects.sh; cd ../../',
         stderr: false,
@@ -64,15 +73,6 @@ module.exports = function (grunt) {
           }
         }
       },
-      checkBaseurl: {
-        command: 'cd tests/check_baseurl; bash check_baseurl.sh; cd ../../',
-        stderr: false,
-        callback: function (error, stdout, stderr) {
-          if (stderr) {
-            grunt.warn("Found relative links without {{site.baseurl}}. (If intentional, add lines to tests/check_baseurl/exclude_lines.txt)\n\n" + stderr)
-          }
-        }
-      }
     },
 
     //////////
@@ -106,22 +106,20 @@ module.exports = function (grunt) {
       fonts: {
         expand: true,
         cwd: '<%= globalConfig.devBuild %>/assets/fonts',
-        src: '**', 
+        src: '**',
         dest: '<%= globalConfig.prodBuild %>/assets/fonts/'
       },
       files: {
         expand: true,
         cwd: '<%= globalConfig.devBuild %>/assets/files',
-        src: '**', 
+        src: '**',
         dest: '<%= globalConfig.prodBuild %>/assets/files/'
       },
-      sitemap:{
-        src: '<%= globalConfig.devBuild %>/sitemap.xml', 
-        dest: '<%= globalConfig.prodBuild %>/sitemap.xml'
-      },
-      htaccess:{
-        src: '<%= globalConfig.devBuild %>/.htaccess', 
-        dest: '<%= globalConfig.prodBuild %>/.htaccess'
+      serverconfig: {
+        expand: true,
+        cwd: '<%= globalConfig.devBuild %>',
+        src: ['.htaccess', 'robots.txt', 'sitemap.xml'],
+        dest: '<%= globalConfig.prodBuild %>/'
       }, 
       hopeAwards:{
         expand: true,
@@ -154,7 +152,11 @@ module.exports = function (grunt) {
         separator: ';',
       },
       dev: {
-        src: ['vendor/jquery/dist/jquery.js', 'vendor/bootstrap-sass/assets/javascripts/bootstrap/collapse.js', 'vendor/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js'],
+        src: [
+          'vendor/jquery/dist/jquery.js',
+          'vendor/bootstrap-sass/assets/javascripts/bootstrap/collapse.js',
+          'vendor/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js'
+        ],
         dest: '<%= globalConfig.devBuild %>/assets/js/main.js'
       }
     },
@@ -209,12 +211,12 @@ module.exports = function (grunt) {
     // Validation, etc.
     //////////
 
-   // html validation
-   htmllint: {
+    // html validation
+    htmllint: {
       all: ["<%= globalConfig.devBuild %>/**/*.html"]
     },
 
-   // bootlint
+    // bootlint
     bootlint: {
       options: {
         stoponerror: false,
@@ -285,36 +287,63 @@ module.exports = function (grunt) {
 
         
 
-    grunt.loadNpmTasks('grunt-newer');
-    grunt.loadNpmTasks('grunt-exec');
-    grunt.loadNpmTasks('grunt-contrib-htmlmin');
-    grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
-    grunt.loadNpmTasks('grunt-sass');
-    grunt.loadNpmTasks('grunt-purifycss');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-bootlint');
-    grunt.loadNpmTasks('grunt-link-checker');
-    grunt.loadNpmTasks("grunt-rsync");
-    grunt.loadNpmTasks("grunt-html");
-    grunt.loadNpmTasks("grunt-if");
+  grunt.loadNpmTasks('grunt-newer');
+  grunt.loadNpmTasks('grunt-exec');
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-purifycss');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-html');
+  grunt.loadNpmTasks('grunt-bootlint');
+  grunt.loadNpmTasks('grunt-link-checker');
+  grunt.loadNpmTasks('grunt-rsync');
+  grunt.loadNpmTasks('grunt-if');
 
-    // Register the grunt tasks
-    grunt.registerTask('build', ['copy:bootstrapCustom','exec:jekyllBuild','concat','sass', 'copy:oaweek', 'if:syncOnBuild']);
-    grunt.registerTask('rebuild', ['exec:jekyllClear','build']);
+  // Register the grunt tasks
+  grunt.registerTask('build', [
+    'copy:bootstrapCustom',
+    'exec:jekyllBuild',
+    'concat',
+    'sass', 
+    'copy:oaweek', 
+    'if:syncOnBuild'
+  ]);
+  grunt.registerTask('rebuild', [
+    'exec:jekyllClear',
+    'build'
+  ]);
 
-    grunt.registerTask('test', ['exec:findRelics','exec:checkBaseurl', 'htmllint','bootlint',
-                       'linkChecker:dev', 'exec:testRedirects']);
-    grunt.registerTask('polish', ['exec:findNotes']);
 
-    grunt.registerTask('stage', ['newer:htmlmin','newer:copy:fonts','newer:copy:files','newer:copy:sitemap',
-                       'newer:copy:hopeAwards', 'newer:copy:htaccess', 'newer:imagemin',
-                       'purifycss','cssmin','newer:uglify'
-    ]);
+  grunt.registerTask('test', [
+    'exec:findRelics',
+    'exec:checkBaseurl',
+    'htmllint',
+    'bootlint',
+    'linkChecker:dev', 
+    'exec:testRedirects'
+  ]);
+  grunt.registerTask('polish', [
+    'exec:findNotes'
+  ]);
 
-    // Register build as the default task fallback
-    grunt.registerTask('default', 'build');
+
+  grunt.registerTask('stage', [
+    'newer:htmlmin',
+    'newer:copy:fonts',
+    'newer:copy:files',
+    'newer:copy:serverconfig',
+    'newer:imagemin',
+    'purifycss',
+    'cssmin',
+    'newer:uglify',
+    'newer:copy:hopeAwards'
+  ]);
+
+  // Register build as the default task fallback
+  grunt.registerTask('default', 'build');
 
 };
