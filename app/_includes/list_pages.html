@@ -1,0 +1,19 @@
+{% capture html %}
+<ul {% if include.context == "/" %}class="page-list"{% endif %}>
+
+    {% assign entries = site.pages | sort: "path" %}
+    {% for entry in entries %}
+
+        {% capture slug    %}{{ entry.url | split: "/"   | last                       }}{% endcapture %}
+        {% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
+
+        {% if current == include.context and entry.title != nil and entry.list !=false %}
+            <li>
+                <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+                {% include list_pages.html context=entry.url %}
+            </li>
+        {% endif %}
+
+    {% endfor %}
+</ul>
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

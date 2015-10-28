@@ -1,5 +1,6 @@
 ---
+title: Open Access Week
 redirect_to:
-  - https://dash.harvard.edu/oaweek
+  - 2015
 ---
 
