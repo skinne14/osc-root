@@ -55,6 +55,15 @@ module.exports = function (grunt) {
           }
         }
       },
+      findCurlyQuotes: {
+        command: 'cd tests/find_curly_quotes; bash find_curly_quotes.sh; cd ../../',
+        stderr: false,
+        callback: function (error, stdout, stderr) {
+          if (stderr) {
+            grunt.warn("Curly quotes found.\n\n" + stderr)
+          }
+        }
+      },
       checkBaseurl: {
         command: 'cd tests/check_baseurl; bash check_baseurl.sh; cd ../../',
         stderr: false,
@@ -327,7 +336,8 @@ module.exports = function (grunt) {
     'exec:testRedirects'
   ]);
   grunt.registerTask('polish', [
-    'exec:findNotes'
+    'exec:findNotes',
+    'exec:findCurlyQuotes',
   ]);
 
 

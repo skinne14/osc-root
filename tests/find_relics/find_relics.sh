@@ -1,6 +1,8 @@
 #!/bin/bash
 mkdir tmp
 
+echo "Looking for Liquid errors, rendered in the pages..."
+grep -Einor --include=*.html "Liquid error:" ../../builds/dev >> tmp/errors.txt
 echo "Looking for unrendered markdown links..."
 grep -Enor --include=*.html "\[.*\]\(.*\)" ../../builds/dev | grep -Evf exclude_md_links.txt >> tmp/errors.txt
 echo "Looking for braces (relics of liquid tags, kramdown)..."
