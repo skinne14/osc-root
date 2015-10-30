@@ -28,7 +28,7 @@ Open your scholarship to the world by [depositing your work](https://osc.hul.har
 
 You'll love the [statistics](https://osc.hul.harvard.edu/dash/mydash/) you receive each month about who is reading your scholarship&mdash;and so will your tenure committee. You'll enjoy [increased citation rates](http://www.openoasis.org/index.php?option=com_content&view=article&id=560&Itemid=391), Google optimization, and a number of other benefits. 
 
-Read how DASH scholarship helps people all over the world by browsing our [user stories](https://osc.hul.harvard.edu/dash/stories).
+Read how DASH scholarship helps people all over the world by browsing our [user stories](https://dash.harvard.edu/stories).
 
 ## Prior to Publication
 

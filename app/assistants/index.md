@@ -24,7 +24,7 @@ featured-actions-1:
 
 ---
 
-As a faculty assistant, you have a key role in the implementation of Harvard's [open access policies]({{site.baseurl}}/policies/). Help your professors [increase their citation count](http://www.openoasis.org/index.php?option=com_content&view=article&id=560&Itemid=391) and get the results of their research out to the [millions of people around the world](https://osc.hul.harvard.edu/dash/mydash?v=geomap&t=1&gi=alldash) who read DASH. Hear how it helps people on our [stories page](https://osc.hul.harvard.edu/dash/stories).
+As a faculty assistant, you have a key role in the implementation of Harvard's [open access policies]({{site.baseurl}}/policies/). Help your professors [increase their citation count](http://www.openoasis.org/index.php?option=com_content&view=article&id=560&Itemid=391) and get the results of their research out to the [millions of people around the world](https://osc.hul.harvard.edu/dash/mydash?v=geomap&t=1&gi=alldash) who read DASH. Hear how it helps people on our [stories page](https://dash.harvard.edu/stories).
 
 ## DASH
 
