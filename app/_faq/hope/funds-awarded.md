@@ -1,5 +1,5 @@
 ---
-q: Is information about the fund’s use available?
+q: Is information about the fund's use available?
 order: 8
 anchor: funds-awarded
 type: other

@@ -12,4 +12,4 @@ featured-actions-1:
 ---
 On September 14, 2009, Harvard joined Cornell, Dartmouth, the Massachusetts Institute of Technology, and the University of California, Berkeley in becoming a signatory to the [Compact for Open-access Publishing Equity](http://www.oacompact.org/) (COPE). OSC maintains the COPE website.
 
-The [Harvard Open-Access Publishing Equity]({{site.baseurl}}/programs/hope/) (HOPE) fund is Harvard’s implementation of the Compact. HOPE provides funds to Harvard authors to reimburse processing fees for articles published in open-access journals.
+The [Harvard Open-Access Publishing Equity]({{site.baseurl}}/programs/hope/) (HOPE) fund is Harvard's implementation of the Compact. HOPE provides funds to Harvard authors to reimburse processing fees for articles published in open-access journals.

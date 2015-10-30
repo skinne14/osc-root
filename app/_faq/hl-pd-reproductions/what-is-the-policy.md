@@ -1,5 +1,5 @@
 ---
-q: What is the Harvard Library Policy on Access to Digital Reproductions of Works in the Public Domain (the “Policy”)?
+q: What is the Harvard Library Policy on Access to Digital Reproductions of Works in the Public Domain (the "Policy")?
 order: 1
 anchor: what-is-the-policy
 type: basic

@@ -6,7 +6,7 @@ type: basic
 
 addenda-faq: include
 ---
-An author addendum is a simple legal tool. The typical addendum is a short document, used to amend the agreement issued by a publisher. You have the option to use an appropriate addendum with a publisher’s agreement, so that the agreement will take proper account of Harvard’s license, unless you are sure that the publisher’s agreement is wholly consistent with Harvard’s license.
+An author addendum is a simple legal tool. The typical addendum is a short document, used to amend the agreement issued by a publisher. You have the option to use an appropriate addendum with a publisher's agreement, so that the agreement will take proper account of Harvard's license, unless you are sure that the publisher's agreement is wholly consistent with Harvard's license.
 
 Though other forms of addendum are available, Harvard has developed an [addendum]({{site.baseurl}}/sample_addendum/) specifically designed to deal with the prior license granted to the University. It also enables you to reserve or obtain some additional rights if you wish. Instructions for using the Harvard addendum are provided with the [addendum generator](https://osc.hul.harvard.edu/dash/authors/addendum/generate) on this web site.
 

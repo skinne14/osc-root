@@ -16,4 +16,4 @@ The Harvard Open-Access Publishing Equity (HOPE) fund provides funds for the rei
 
 Members of the Harvard Community can apply for HOPE funds by completing a [webform](https://osc.hul.harvard.edu/dash/authors/hope/apply).
 
-The HOPE fund is Harvard’s implementation of the [Compact for Open-Access Publishing Equity](http://www.oacompact.org/). 
+The HOPE fund is Harvard's implementation of the [Compact for Open-Access Publishing Equity](http://www.oacompact.org/). 

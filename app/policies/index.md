@@ -8,7 +8,7 @@ In 2008, Harvard's Faculty of Arts & Sciences [voted unanimously]({{site.baseurl
 
 In the words of OSC Director Peter Suber, author of [Open Access](http://cyber.law.harvard.edu/hoap/Open_Access_%28the_book%29), "The basic idea of OA is simple: Make research literature available online without price barriers and without most permission barriers."
 
-Scholarly articles provided to the university are stored, preserved, and made freely accessible in digital form in [DASH](http://dash.harvard.edu/), Harvard University Library’s open access repository.  The repository has the institution of Harvard standing behind it to ensure its availability, longevity, and functionality.
+Scholarly articles provided to the university are stored, preserved, and made freely accessible in digital form in [DASH](http://dash.harvard.edu/), Harvard University Library's open access repository.  The repository has the institution of Harvard standing behind it to ensure its availability, longevity, and functionality.
 
 ## Harvard Authors
 

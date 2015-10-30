@@ -1,5 +1,5 @@
 ---
-q: What versions of a faculty member’s article are covered by the license to Harvard?
+q: What versions of a faculty member's article are covered by the license to Harvard?
 order: 1
 anchor: versions-covered-by-OAP
 type: versions

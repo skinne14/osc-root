@@ -6,7 +6,7 @@ type: basic
 
 oap-faq: include
 ---
-First, experience has shown that mere exhortations have little effect on authors’ behavior. For instance, before Congress made it a requirement, participation in the NIH Public Access Policy was optional. During that period, there was only a 4% level of compliance.
+First, experience has shown that mere exhortations have little effect on authors' behavior. For instance, before Congress made it a requirement, participation in the NIH Public Access Policy was optional. During that period, there was only a 4% level of compliance.
 
 Second, experience in many areas has shown that opt-out systems achieve much higher degrees of participation than opt-in systems, even while remaining noncoercive.
 

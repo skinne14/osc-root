@@ -3,7 +3,8 @@ destination: ../builds/dev
 exclude: ['css', '_scss', '_sass']
 permalink: pretty
 markdown: kramdown
-
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from

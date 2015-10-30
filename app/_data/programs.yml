@@ -7,22 +7,22 @@
 
 - name: DASH
   description: |
-    [Digital Access to Scholarship at Harvard](http://dash.harvard.edu/) is the University’s open-access repository. It was established to support the Open Access Policies, but its content is not limited to articles subject to those policies. Faculty are encouraged to deposit all of their scholarly works, even those written prior to the implementation of the OA policies.
+    [Digital Access to Scholarship at Harvard](http://dash.harvard.edu/) is the University's open-access repository. It was established to support the Open Access Policies, but its content is not limited to articles subject to those policies. Faculty are encouraged to deposit all of their scholarly works, even those written prior to the implementation of the OA policies.
   url: http://dash.harvard.edu
 
 - name: Copyright
   description: |
-    OSC is the home to Harvard’s Copyright Advisory Program, which includes the [Copyright First Responders](/programs/copyright/first-responders) program.
+    OSC is the home to Harvard's Copyright Advisory Program, which includes the [Copyright First Responders](/programs/copyright/first-responders) program.
   url: /programs/copyright/
 
 - name: ETDs@Harvard
   description: |
-    OSC is developing and maintaining [Harvard’s electronic thesis and dissertation submission system](http://etds.lib.harvard.edu/about.html).
+    OSC is developing and maintaining [Harvard's electronic thesis and dissertation submission system](http://etds.lib.harvard.edu/about.html).
   url: http://etds.lib.harvard.edu/about.html
 
 - name: HOPE Fund
   description: |
-    [Harvard Open-Access Publishing Equity](/programs/hope) Fund was established in 2009 to reimburse authors for publication fees in open-access journals. This is in support of Harvard’s effort to distribute the scholarship it creates.
+    [Harvard Open-Access Publishing Equity](/programs/hope) Fund was established in 2009 to reimburse authors for publication fees in open-access journals. This is in support of Harvard's effort to distribute the scholarship it creates.
   url: /programs/hope/
 
 - name: Journal-Flipping Project
@@ -47,5 +47,5 @@
 
 - name: Open Initiatives
   description: |
-    OSC strongly supports open scholarship at Harvard, even when it isn’t directly related to a Harvard Open Access Policy.
+    OSC strongly supports open scholarship at Harvard, even when it isn't directly related to a Harvard Open Access Policy.
   url: /programs/open-initiatives/

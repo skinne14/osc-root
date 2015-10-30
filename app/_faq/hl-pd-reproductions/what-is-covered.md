@@ -1,5 +1,5 @@
 ---
-q: What works or content are governed by Harvard Library’s permission waiver?
+q: What works or content are governed by Harvard Library's permission waiver?
 order: 2
 anchor: what-is-covered
 type: basic
