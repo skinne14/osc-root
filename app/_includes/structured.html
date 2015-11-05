@@ -1,0 +1,35 @@
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "Harvard Library Office for Scholarly Communication",
+  "alternateName" : "Harvard OSC",
+  "url" : "https://osc.hul.harvard.edu",
+  "sameAs" : [
+    "{{site.facebook_url}}",
+    "{{site.twitter_url}}",
+    "{{site.google_url}}"
+  ],
+  "contactPoint" : [{
+    "@type" : "ContactPoint",
+    "telephone" : "{{site.phone | remove: " " | remove: "(" | remove: ")" }}",
+    "contactType" : "customer service"
+  }],
+  "owns": [
+    {
+      "@type" : "Product",
+      "name": "DASH",
+      "alternateName" : "Digital Access to Scholarship at Harvard",
+      "description" : "A central, open-access repository of research by members of the Harvard community.",
+      "url": "https://dash.harvard.edu"
+    },
+    {
+      "@type" : "Product",
+      "name": "Copyright at Harvard Library",
+      "alternateName" : "Harvard Library Copyright Advisor program",
+      "description" : "A clearinghouse of educational resources created by the Copyright Advisor, Copyright First Responders, and Copyright Fellows about fair use, author rights, publishing and licensing, state copyright laws, and more.",
+      "url": "http://copyright.lib.harvard.edu"
+    }
+  ]
+}
+</script>
