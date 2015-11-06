@@ -25,7 +25,7 @@ module.exports = function (grunt) {
     exec: {
       // jekyll
       jekyllBuild: {
-        command: 'cd app; ../jekyll/bin/jekyll build; cd ../',
+        command: 'cd app; bundle exec jekyll build; cd ../',
         stderr: false,
         callback: function (error, stdout, stderr) {
           if (stderr) {
