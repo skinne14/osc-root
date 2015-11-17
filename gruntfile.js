@@ -272,10 +272,18 @@ module.exports = function (grunt) {
           delete: false
         }
       },
-      eaton: {
+      eatondev: {
         options: {
           src: '<%= globalConfig.prodBuild %>/',
           dest: '/home/osc/osc-dev/htdocs',
+          host: 'oscusr@eaton.hul.harvard.edu',
+          delete: false // Careful this option could cause data loss, read the docs!
+        }
+      },
+      eaton: {
+        options: {
+          src: '<%= globalConfig.prodBuild %>/',
+          dest: '/home/osc/prod/htdocs',
           host: 'oscusr@eaton.hul.harvard.edu',
           delete: false // Careful this option could cause data loss, read the docs!
         }
