@@ -1,5 +1,65 @@
 ErrorDocument 404 /404/index.html
 
+# compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+# Don't show directory listings for URLs which map to a directory.
+Options -Indexes
+
+# Stories
+RedirectMatch 301 ^/dash/(dash/)*stories/?$ https://dash.harvard.edu/stories/
+
+# OSC Specific stuff to keep pre-drupal urls working.
+Redirect ^dash-procedure-faq.php https://dash.harvard.edu/docs/deposit
+Redirect ^dash-copyright-faq.php https://dash.harvard.edu/docs/faq
+Redirect ^privacy.php https://dash.harvard.edu/docs/privacy-policy-dash-repository
+Redirect ^terms.php https://dash.harvard.edu/docs/termsofuse
+Redirect ^S1373-letter.php /programs/advocacy/statements/letter-regarding-s1373/
+Redirect ^FRPAA-open-letter-2010.php /programs/advocacy/statements/open-letter-regarding-frpaa/
+Redirect ^HR801-letter.php /programs/advocacy/statements/HR801-letter/
+
+# redirects from DASH Drupal site to dash-docs
+RedirectMatch 301 ^/dash/?$ https://dash.harvard.edu
+RedirectMatch 301 ^/dash/about/?$ https://dash.harvard.edu/docs/about?
+RedirectMatch 301 ^/dash/features/?$ https://dash.harvard.edu/docs/features?
+RedirectMatch 301 ^/dash/termsofuse/?$ https://dash.harvard.edu/docs/termsofuse?
+RedirectMatch 301 ^/dash/content/privacy-policy-dash-repository/?$ https://dash.harvard.edu/docs/privacy-policy-dash-repository?
+RedirectMatch 301 ^/dash/deposit/?$ https://dash.harvard.edu/docs/deposit?
+RedirectMatch 301 ^/dash/fellows/?$ https://dash.harvard.edu/docs/fellows?  
+RedirectMatch 301 ^/dash/manual-deposit/?$ https://dash.harvard.edu/docs/manual-deposit?
+RedirectMatch 301 ^/dash/using/?$ https://dash.harvard.edu/docs/faq?
+
+# Featured Works
+RedirectMatch 301 ^/dash/([0-9]{4}/.*)?$ https://dash.harvard.edu/docs/$1?
+RedirectMatch 301 ^/dash/content/africa-slavery-and-economic-development https://dash.harvard.edu/content/africa-slavery-and-economic-development?
+RedirectMatch 301 ^/dash/content/against-goldstone-report https://dash.harvard.edu/content/against-goldstone-report?
+RedirectMatch 301 ^/dash/content/art-dying https://dash.harvard.edu/content/art-dying?
+RedirectMatch 301 ^/dash/content/breaking-through-internet-censorship https://dash.harvard.edu/content/breaking-through-internet-censorship?
+RedirectMatch 301 ^/dash/content/cycles-civilization https://dash.harvard.edu/content/cycles-civilization?
+RedirectMatch 301 ^/dash/content/darwin-caricature https://dash.harvard.edu/content/darwin-caricature?
+RedirectMatch 301 ^/dash/content/future-air-quality-warming-planet https://dash.harvard.edu/content/future-air-quality-warming-planet?
+RedirectMatch 301 ^/dash/content/game-face https://dash.harvard.edu/content/game-face?
+RedirectMatch 301 ^/dash/content/happiness-clusters https://dash.harvard.edu/content/happiness-clusters?
+RedirectMatch 301 ^/dash/content/if-youre-so-smart-how-come-youre-dead https://dash.harvard.edu/content/if-youre-so-smart-how-come-youre-dead?
+RedirectMatch 301 ^/dash/content/index.html https://dash.harvard.edu/content/index.html?
+RedirectMatch 301 ^/dash/content/kant-contradiction https://dash.harvard.edu/content/kant-contradiction?
+RedirectMatch 301 ^/dash/content/mathematics-discovered-or-invented https://dash.harvard.edu/content/mathematics-discovered-or-invented?
+RedirectMatch 301 ^/dash/content/partners-or-rivals https://dash.harvard.edu/content/partners-or-rivals?
+RedirectMatch 301 ^/dash/content/religion-and-economic-growth https://dash.harvard.edu/content/religion-and-economic-growth?
+RedirectMatch 301 ^/dash/content/religion-and-tolerance-islams-global-gathering https://dash.harvard.edu/content/religion-and-tolerance-islams-global-gathering?
+RedirectMatch 301 ^/dash/content/struggle-over-ecoterrorism https://dash.harvard.edu/content/struggle-over-ecoterrorism?
+RedirectMatch 301 ^/dash/content/supreme-court-during-crisis https://dash.harvard.edu/content/supreme-court-during-crisis?
+RedirectMatch 301 ^/dash/content/transsexuality-iran https://dash.harvard.edu/content/transsexuality-iran?
+RedirectMatch 301 ^/dash/content/why-do-people-hurt-themselves https://dash.harvard.edu/content/why-do-people-hurt-themselves?
+
 RedirectMatch ^/stp-rfi-response-january-2012/?$ /programs/advocacy/statements/stp-rfi-response-january-2012/
 RedirectMatch 301 ^/pdfaq/?$ /programs/open-initiatives/hl-pd/faq/ 
 RedirectMatch 301 ^/osc-staff/?$ /about/staff/ 
@@ -14,13 +74,13 @@ RedirectMatch 301 ^/dispatch/?$ /about/dispatch/
 RedirectMatch 301 ^/copyright/first-responders/?$ /programs/copyright/first-responders
 RedirectMatch 302 ^/copyright/fair-use/?$ https://dash.harvard.edu/copyright/fair_use/
 RedirectMatch 302 ^/copyright/publishing/?$ https://dash.harvard.edu/copyright/publishing/
-RedirectMatch 301 ^/content/open-letter-regarding-frpaa/?$ /programs/advocacy/statements/open-letter-regarding-frpaa/ 
-RedirectMatch 301 ^/content/letter-regarding-s1373/?$ /programs/advocacy/statements/letter-regarding-s1373/ 
+RedirectMatch 301 ^/content/open-letter-regarding-frpaa/?$ /programs/advocacy/statements/open-letter-regarding-frpaa/
+RedirectMatch 301 ^/content/letter-regarding-s1373/?$ /programs/advocacy/statements/letter-regarding-s1373/
 RedirectMatch 301 ^/compact/?$ /programs/advocacy/cope/ 
 RedirectMatch 301 ^/committee/?$ /about/committee/ 
 RedirectMatch 301 ^/authors/policy_guide/?$ /authors/faq/ 
 RedirectMatch 301 ^/authors/compliant/?$ /publishers/treaties/ 
-RedirectMatch 301 ^/HR801-letter/?$ /programs/advocacy/statements/HR801-letter/ 
+RedirectMatch 301 ^/HR801-letter/?$ /programs/advocacy/statements/HR801-letter/
 
 RedirectMatch 301 ^/shorensteinpolicy/? /policies/shorenstein/ 
 RedirectMatch 301 ^/pdpolicy/? /programs/open-initiatives/hl-pd/ 
@@ -38,3 +98,53 @@ RedirectMatch 301 ^/berkmanpolicy/? /policies/berkman/
 
 RedirectMatch 301 ^/oaweek(.*)?$ /programs/advocacy/oa-week/$1 
 RedirectMatch 301 ^/(20../../.*)/?$ /about/highlights/$1/ 
+
+# Redirects of forms from OSC to DASH site
+Redirect /authors/hope/apply /dash/authors/hope/apply
+Redirect /authors/addendum/generate /dash/authors/addendum/generate
+Redirect /authors/waiver/generate /dash/authors/waiver/generate
+
+# Redirects of Library Lab pages to new site
+Redirect 301 /liblab/prop1 /liblab/projects
+Redirect 301 /liblab/inquiry	/liblab/contact
+Redirect 301 /liblab/current	/liblab/projects
+Redirect 301 /liblab/proj/catch /liblab/projects/catch-common-annotation-tagging-and-citation-harvard
+Redirect 301 /liblab/proj/class-request	/liblab/projects/archives-and-special-collections-class-request-tool
+Redirect 301 /liblab/proj/collection-shift	/liblab/projects/collection-shift-estimation-visualization-tool
+Redirect 301 /liblab/proj/drs2			/liblab/projects/drs2-public-search-and-object-delivery-apis
+Redirect 301 /liblab/proj/inscriptio		/liblab/projects/inscriptio-interactive-carrel-seating-application
+Redirect 301 /liblab/proj/link-o-matic		/liblab/projects/link-o-matic-automating-linking-digital-objects-harvards-catalogs
+Redirect 301 /liblab/proj/zeega-slideshow	/liblab/projects/spectacle-library-collections-slideshow-generator
+Redirect 301 /liblab/proj/zone1-and-zeega	/liblab/projects/zone-1-and-zeega-coming-together-create-better-tools-scholarship
+Redirect 301 /liblab/proj/reusable-tablet-based-application-library-collections	/liblab/projects/drs-access-mobile-devices
+Redirect 301 /liblab/proj/online-digital-atlas-viewer				/liblab/projects/atlas-viewer
+Redirect 301 /liblab/proj/enhanced-social-tagging-classification-and-current-awareness	/liblab/projects/tag-team
+Redirect 301 /liblab/proj/zeega-was-extramuros						/liblab/projects/zeega
+RedirectMatch 301 /liblab/proj/(.*)	/liblab/projects/$1
+
+# Redirect yana site to library lab project page
+RedirectMatch /yana/?.*	/liblab/projects/yana-open-source-template-scholarly-journals-develop-mobile-applications
+
+# Redirect liaisons site to liaisons Confluence wiki
+RedirectMatch /liaisons/?.* https://wiki.harvard.edu/confluence/display/OAL
+
+# Various rewrite rules.
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  # OSC Specific stuff to keep pre-drupal urls working.
+  RewriteRule dash-procedure-faq.php http://%{HTTP_HOST}/dash/deposit [R,L]
+  RewriteRule dash-copyright-faq.php http://%{HTTP_HOST}/dash/using [R,L]
+  RewriteRule privacy.php http://%{HTTP_HOST}/dash/content/privacy-policy-dash-repository [R,L]
+  RewriteRule terms.php http://%{HTTP_HOST}/dash/termsofuse [R,L]
+  RewriteRule S1373-letter.php http://%{HTTP_HOST}/content/letter-regarding-s1373 [R,L]
+  RewriteRule FRPAA-open-letter-2010.php http://%{HTTP_HOST}/content/open-letter-regarding-frpaa [R,L] 
+  RewriteRule HR801-letter.php http://%{HTTP_HOST}/HR801-letter [R,L]
+
+  # HTTP -> HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteCond %{REQUEST_URI} !^/services/dash/widget.php
+  RewriteCond %{REQUEST_URI} !^/RePEc
+  RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [NE]
+
+</IfModule>
