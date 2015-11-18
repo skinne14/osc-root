@@ -1,6 +1,6 @@
 ---
 layout: right-sidebar-with-actions
-sidebar: default
+sidebar: waiver
 breadcrumbs: true
 title: Request A Waiver
 

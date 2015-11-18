@@ -1,6 +1,6 @@
 ---
 layout: right-sidebar-with-actions
-sidebar: default
+sidebar: addendum
 breadcrumbs: true
 title: Amend A Publishing Agreement
 
