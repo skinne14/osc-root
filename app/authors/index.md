@@ -34,7 +34,7 @@ Read how DASH scholarship helps people all over the world by browsing our [user 
 
 - Through the [HOPE program]({{site.baseurl}}/programs/hope/), Harvard researchers can apply for funds for the reimbursement of reasonable article processing fees in eligible open-access journals for which no alternative funding is available.
 
-- Publishers' agreements concerning publication of articles often contain provisions that are inconsistent with the prior license granted to Harvard under the Open Access Policy. An [author addendum](https://osc.hul.harvard.edu/dash/addendum-generator), however, is a simple legal tool that can resolve the conflict.
+- Publishers' agreements concerning publication of articles often contain provisions that are inconsistent with the prior license granted to Harvard under the Open Access Policy. An [author addendum](https://osc.hul.harvard.edu/dash/authors/addendum/generate), however, is a simple legal tool that can resolve the conflict.
 
 - Harvard authors subject to the Open Access Policy may request a [waiver](https://osc.hul.harvard.edu/dash/authors/waiver/generate) of Harvard's nonexclusive license on an article-by-article basis.
 

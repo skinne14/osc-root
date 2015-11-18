@@ -36,4 +36,4 @@ We may ask you to help locate a copy of the preferred version of an article, the
 
 ## Prior to Publication
 
-You may also assist your professors with the publication process; the [author addendum](https://osc.hul.harvard.edu/dash/addendum-generator) is a way to make a publishing contract consistent with the open-access policy, and some publishers require authors to get a [waiver](https://osc.hul.harvard.edu/dash/authors/waiver/generate) of Harvard's license under the policy.
+You may also assist your professors with the publication process; the [author addendum](https://osc.hul.harvard.edu/dash/authors/addendum/generate) is a way to make a publishing contract consistent with the open-access policy, and some publishers require authors to get a [waiver](https://osc.hul.harvard.edu/dash/authors/waiver/generate) of Harvard's license under the policy.
