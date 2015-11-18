@@ -115,13 +115,13 @@ module.exports = function (grunt) {
       fonts: {
         expand: true,
         cwd: '<%= globalConfig.devBuild %>/assets/fonts',
-        src: '**',
+        src: '*',
         dest: '<%= globalConfig.prodBuild %>/assets/fonts/'
       },
       files: {
         expand: true,
         cwd: '<%= globalConfig.devBuild %>/assets/files',
-        src: '**',
+        src: '*',
         dest: '<%= globalConfig.prodBuild %>/assets/files/'
       },
       serverconfig: {
