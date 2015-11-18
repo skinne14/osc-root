@@ -135,10 +135,6 @@ module.exports = function (grunt) {
         cwd: '<%= globalConfig.devBuild %>/programs/hope/awards',
         src: '**', 
         dest: '<%= globalConfig.prodBuild %>/programs/hope/awards'
-      },
-      oaweek: {
-        src: '<%= globalConfig.devBuild %>/programs/advocacy/oa-week/2015/index.html', 
-        dest: 'oaweek/index.html'
       }
     },
 
@@ -326,7 +322,6 @@ module.exports = function (grunt) {
     'exec:jekyllBuild',
     'concat',
     'sass', 
-    'copy:oaweek', 
     'if:syncOnBuild'
   ]);
   grunt.registerTask('rebuild', [
