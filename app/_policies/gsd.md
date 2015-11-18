@@ -4,7 +4,7 @@ type: school
 abbr: GSD
 home: http://www.gsd.harvard.edu/
 logo: gsd.png
-date: March 30, 2011
+adoption-date: March 30, 2011
 quotes:
   - Each Faculty member grants to the President and Fellows of Harvard College permission to make available his or her scholarly articles and to exercise the copyright in those articles.
   - Each Faculty member will provide an electronic copy of the author's final version of each article no later than the date of its publication.

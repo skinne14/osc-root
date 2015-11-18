@@ -4,7 +4,7 @@ type: school
 abbr: HMS
 home: http://hms.harvard.edu/
 logo: hms.png
-date: June 18, 2014
+adoption-date: June 18, 2014
 quotes:
   - Each Faculty member grants to the President and Fellows of Harvard College permission to make available his or her scholarly articles and to exercise the copyright in those articles.
   - Each Faculty member will provide an electronic copy of the author's final version of each article no later than the date of its publication.

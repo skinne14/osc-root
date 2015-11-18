@@ -4,7 +4,7 @@ type: school
 abbr: FAS
 home: http://www.fas.harvard.edu/
 logo: fas.png
-date: February 12, 2008
+adoption-date: February 12, 2008
 quotes:
   - Each Faculty member grants to the President and Fellows of Harvard College permission to make available his or her scholarly articles and to exercise the copyright in those articles.
   - Each Faculty member will provide an electronic copy of the final version of the article.

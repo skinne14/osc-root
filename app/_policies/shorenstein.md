@@ -4,7 +4,7 @@ type: center
 abbr: Shorenstein
 home: http://shorensteincenter.org/
 logo: hks.png
-date: October 9, 2014
+adoption-date: October 9, 2014
 affirmation: true
 quotes:
   - We therefore support and reaffirm Harvard's Open Access Policy, enacted and implemented by all of the nine individual Harvard faculties.

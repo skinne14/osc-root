@@ -4,7 +4,7 @@ type: school
 abbr: GSE
 home: http://www.gse.harvard.edu/
 logo: gse.png
-date: June 1, 2009
+adoption-date: June 1, 2009
 quotes:
   - Each Faculty member grants to Harvard University permission to make available his or her scholarly articles and to exercise the copyright in those articles.
   - Each Faculty member will provide an electronic copy of the author's final version of each article no later than the date of its publication.

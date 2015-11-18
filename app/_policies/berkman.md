@@ -4,7 +4,7 @@ type: center
 abbr: Berkman
 home: https://cyber.law.harvard.edu/
 logo: berkman.png
-date: October 9, 2014
+adoption-date: October 9, 2014
 quotes:
   - Each covered member grants to Harvard University permission to make available his or her scholarly articles whose subject relates to the purview of research at the Berkman Center, and to exercise the copyright in those articles.
   - Each covered member will provide an electronic copy of the author's final version of each article no later than the date of its publication.

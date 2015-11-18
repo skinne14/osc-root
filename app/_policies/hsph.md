@@ -4,7 +4,7 @@ type: school
 abbr: HSPH
 home: http://www.hsph.harvard.edu/
 logo: hsph.png
-date: November 26, 2012
+adoption-date: November 26, 2012
 quotes:
   - Each Faculty member grants to the President and Fellows of Harvard College permission to make available his or her scholarly articles and to exercise the copyright in those articles.
   - Each Faculty member will provide an electronic copy of the author's  final version of each article no later than the date of its publication.

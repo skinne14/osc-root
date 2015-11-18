@@ -4,7 +4,7 @@ type: school
 abbr: HBS
 home: http://www.hbs.edu
 logo: hbs.png
-date: February 12, 2010
+adoption-date: February 12, 2010
 quotes:
   - Each Faculty member grants to the President and Fellows of Harvard College permission to make available articles that he or she has prepared for journal peer review and to exercise the copyright in those articles.
   - Each Faculty member will provide an electronic copy of the author's final version of each article to the Division of Research and Faculty Development (DRFD) no later than the date of its publication.

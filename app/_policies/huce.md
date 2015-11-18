@@ -4,7 +4,7 @@ type: center
 abbr: HUCE
 home: http://environment.harvard.edu/
 logo: huce.png
-date: July 1, 2015
+adoption-date: July 1, 2015
 quotes:
   - "[The HUCE] research community, including its postdoctoral Environmental Fellows, will provide an electronic copy of the author's final version of each scholarly article to the appropriate representative of the Provost's Office, to be deposited into the open Digital Access to Scholarship at Harvard (DASH) repository."
 ---
