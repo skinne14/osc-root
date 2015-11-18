@@ -126,7 +126,7 @@ Redirect 301 /liblab/proj/zeega-was-extramuros						/liblab/projects/zeega
 RedirectMatch 301 /liblab/proj/(.*)	/liblab/projects/$1
 
 # Redirect yana site to library lab project page
-RedirectMatch /yana/?.*	/liblab/projects/yana-open-source-template-scholarly-journals-develop-mobile-applications
+RedirectMatch ^/yana/?.*	/liblab/projects/yana-open-source-template-scholarly-journals-develop-mobile-applications
 
 # Redirect liaisons site to liaisons Confluence wiki
 RedirectMatch /liaisons/?.* https://wiki.harvard.edu/confluence/display/OAL
