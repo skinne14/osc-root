@@ -283,6 +283,14 @@ module.exports = function (grunt) {
           host: 'oscusr@eaton.hul.harvard.edu',
           delete: false // Careful this option could cause data loss, read the docs!
         }
+      },
+      augusta: {
+        options: {
+          src: '<%= globalConfig.prodBuild %>/',
+          dest: '/home/osc/prod/htdocs',
+          host: 'oscusr@augusta.lib.harvard.edu',
+          delete: false // Careful this option could cause data loss, read the docs!
+        }
       }
     },
 
