@@ -78,8 +78,8 @@ RedirectMatch 301 ^/fairuseweek2015/?$ /programs/copyright/fair-use-week/2015/
 RedirectMatch 301 ^/etd-position-statement/?$ /programs/advocacy/statements/etd-position-statement/ 
 RedirectMatch 301 ^/dispatch/?$ /about/dispatch/ 
 RedirectMatch 301 ^/copyright/first-responders/?$ /programs/copyright/first-responders
-RedirectMatch 302 ^/copyright/fair-use/?$ https://dash.harvard.edu/copyright/fair_use/
-RedirectMatch 302 ^/copyright/publishing/?$ https://dash.harvard.edu/copyright/publishing/
+RedirectMatch 301 ^/copyright/fair-use/?$ http://copyright.lib.harvard.edu/fair_use/
+RedirectMatch 301 ^/copyright/publishing/?$ http://copyright.lib.harvard.edu/publishing/
 RedirectMatch 301 ^/content/open-letter-regarding-frpaa/?$ /programs/advocacy/statements/open-letter-regarding-frpaa/
 RedirectMatch 301 ^/content/letter-regarding-s1373/?$ /programs/advocacy/statements/letter-regarding-s1373/
 RedirectMatch 301 ^/compact/?$ /programs/advocacy/cope/ 
