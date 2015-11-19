@@ -433,8 +433,11 @@ div.main-content {
 // Featured Actions
 .featured-actions {
   border-top: 1px solid #eee;
-  padding: 8px 0px;
   margin-bottom: 20px;
+  padding: 8px 0px;
+  @media (max-width: 768px){
+    padding: 0px 15px;
+  }
   
   h3 {
     text-transform: uppercase;
