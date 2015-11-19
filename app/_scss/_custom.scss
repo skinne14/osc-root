@@ -1,3 +1,8 @@
+// Prevent linked urls from breaking layouts
+a {
+  word-wrap: break-word !important;
+}
+
 ////////////////////////////////////// 
 // 1.0 Fonts
 //////////////////////////////////////
