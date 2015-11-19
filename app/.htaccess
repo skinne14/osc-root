@@ -14,6 +14,9 @@ AddOutputFilterByType DEFLATE application/x-javascript
 # Don't show directory listings for URLs which map to a directory.
 Options -Indexes
 
+# redirect for favicon....
+Redirect /favicon.ico /assets/img/favicon.ico
+
 # redirect for pinserver module
 RedirectMatch ^/pinserver/(.*)$ /dash/pinserver/$1
 
@@ -101,6 +104,7 @@ RedirectMatch 301 ^/berkmanpolicy/? /policies/berkman/
 
 RedirectMatch 301 ^/oaweek(.*)?$ /programs/advocacy/oa-week/$1 
 RedirectMatch 301 ^/(20../../.*)/?$ /about/highlights/$1/ 
+RedirectMatch 301 ^/highlights/? /about/highlights/
 
 # Redirects of forms from OSC to DASH site
 Redirect /authors/hope/apply /dash/authors/hope/apply
