@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Request for proposal"
-categories: programs journal-flipping
+categories: journal-flipping
+sidebar: "peter"
+title-tag: "journal-flipping"
 ---
 
 ## Request for Proposal (RFP): 

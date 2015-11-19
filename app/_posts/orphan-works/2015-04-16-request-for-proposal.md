@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Request for proposal"
-categories: programs orphan-works
+categories: orphan-works
+sidebar: peter
+title-tag: "orphan-works"
 ---
 
 ## Request for Proposal (RFP): 

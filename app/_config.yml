@@ -49,28 +49,11 @@ defaults:
        path: ""
        type: "posts"
     values:
-        permalink: /:categories/:title/
- -
-    scope:
-       path: "_posts/journal-flipping"
-       type: "posts"
-    values:
-        sidebar: peter
-        title-tag: "journal-flipping"
- -
-    scope:
-       path: "_posts/orphan-works"
-       type: "posts"
-    values:
-        sidebar: peter
-        title-tag: "orphan-works"
- -
-    scope:
-       path: "_posts/highlights"
-       type: "posts"
-    values:
-        sidebar: subscribe
+        layout: post
+        permalink: /programs/:categories/:title/ 
+        sidebar: "subscribe"
         title-tag: "highlights"
+        breadcrumbs: true
  -
     scope:
        path: "authors"
