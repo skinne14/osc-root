@@ -152,6 +152,6 @@ RedirectMatch ^/liaisons/?.* https://wiki.harvard.edu/confluence/display/OAL
   RewriteCond %{HTTPS} off
   RewriteCond %{REQUEST_URI} !^/services/dash/widget.php
   RewriteCond %{REQUEST_URI} !^/RePEc
-  RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [NE]
+  RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [NE,R=301]
 
 </IfModule>
