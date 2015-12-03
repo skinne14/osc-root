@@ -66,6 +66,7 @@ RedirectMatch 301 ^/dash/content/supreme-court-during-crisis https://dash.harvar
 RedirectMatch 301 ^/dash/content/transsexuality-iran https://dash.harvard.edu/content/transsexuality-iran?
 RedirectMatch 301 ^/dash/content/why-do-people-hurt-themselves https://dash.harvard.edu/content/why-do-people-hurt-themselves?
 
+# OSC site from Drupal to Jekyll
 RedirectMatch ^/stp-rfi-response-january-2012/?$ /programs/advocacy/statements/stp-rfi-response-january-2012/
 RedirectMatch 301 ^/pdfaq/?$ /programs/open-initiatives/hl-pd/faq/ 
 RedirectMatch 301 ^/osc-staff/?$ /about/staff/ 
@@ -86,6 +87,7 @@ RedirectMatch 301 ^/compact/?$ /programs/advocacy/cope/
 RedirectMatch 301 ^/committee/?$ /about/committee/ 
 RedirectMatch 301 ^/authors/policy_guide/?$ /authors/faq/ 
 RedirectMatch 301 ^/authors/compliant/?$ /publishers/treaties/ 
+RedirectMatch 301 ^/archive/?$ /list
 RedirectMatch 301 ^/HR801-letter/?$ /programs/advocacy/statements/HR801-letter/
 
 RedirectMatch 301 ^/shorensteinpolicy/? /policies/shorenstein/ 
