@@ -24,13 +24,14 @@ RedirectMatch ^/pinserver/(.*)$ /dash/pinserver/$1
 RedirectMatch 301 ^/dash/(dash/)*stories/?$ https://dash.harvard.edu/stories/
 
 # OSC Specific stuff to keep pre-drupal urls working.
-Redirect ^dash-procedure-faq.php https://dash.harvard.edu/docs/deposit
-Redirect ^dash-copyright-faq.php https://dash.harvard.edu/docs/faq
-Redirect ^privacy.php https://dash.harvard.edu/docs/privacy-policy-dash-repository
-Redirect ^terms.php https://dash.harvard.edu/docs/termsofuse
-Redirect ^S1373-letter.php /programs/advocacy/statements/letter-regarding-s1373/
-Redirect ^FRPAA-open-letter-2010.php /programs/advocacy/statements/open-letter-regarding-frpaa/
-Redirect ^HR801-letter.php /programs/advocacy/statements/HR801-letter/
+Redirect 301 /dash-procedure-faq.php https://dash.harvard.edu/docs/deposit
+Redirect 301 /dash-copyright-faq.php https://dash.harvard.edu/docs/faq
+Redirect 301 /privacy.php https://dash.harvard.edu/docs/privacy-policy-dash-repository
+Redirect 301 /terms.php https://dash.harvard.edu/docs/termsofuse
+Redirect 301 /S1373-letter.php /programs/advocacy/statements/letter-regarding-s1373/
+Redirect 301 /FRPAA-open-letter-2010.php /programs/advocacy/statements/open-letter-regarding-frpaa/
+Redirect 301 /HR801-letter.php /programs/advocacy/statements/HR801-letter/
+Redirect 301 /OpenAccess/overview.php /policies/
 
 # redirects from DASH Drupal site to dash-docs
 RedirectMatch 301 ^/dash/?$ https://dash.harvard.edu
@@ -140,15 +141,6 @@ RedirectMatch ^/liaisons/?.* https://wiki.harvard.edu/confluence/display/OAL
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
-
-  # OSC Specific stuff to keep pre-drupal urls working.
-  RewriteRule dash-procedure-faq.php http://%{HTTP_HOST}/dash/deposit [R,L]
-  RewriteRule dash-copyright-faq.php http://%{HTTP_HOST}/dash/using [R,L]
-  RewriteRule privacy.php http://%{HTTP_HOST}/dash/content/privacy-policy-dash-repository [R,L]
-  RewriteRule terms.php http://%{HTTP_HOST}/dash/termsofuse [R,L]
-  RewriteRule S1373-letter.php http://%{HTTP_HOST}/content/letter-regarding-s1373 [R,L]
-  RewriteRule FRPAA-open-letter-2010.php http://%{HTTP_HOST}/content/open-letter-regarding-frpaa [R,L] 
-  RewriteRule HR801-letter.php http://%{HTTP_HOST}/HR801-letter [R,L]
 
   # HTTP -> HTTPS
   RewriteCond %{HTTPS} off
