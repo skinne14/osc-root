@@ -6,4 +6,4 @@ type: other
 
 hope-faq: include
 ---
-Yes, information about fund reimbursements will be made publicly available by the OSC through this web site.
+Yes, information about fund reimbursements will be made publicly available by the OSC through this web site. A list of HOPE-funded articles is maintained at <a href="https://osc.hul.harvard.edu/programs/hope/awards/">https://osc.hul.harvard.edu/programs/hope/awards/</a>.
