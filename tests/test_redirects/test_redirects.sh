@@ -8,11 +8,11 @@ echo "Parsing the file..."
 cat tmp/sitemap.xml | grep \<loc\> tmp/sitemap.xml | sed 's/.*<loc>//' | sed 's|</loc>||' > tmp/sitemap.txt
 grep -v "osc.hul.harvard.edu/liblab" tmp/sitemap.txt > tmp/osc-root.txt
 grep -v -x -f intentional404.txt tmp/osc-root.txt > tmp/keep.txt
-sed 's|https://osc|http://osc-local|g' tmp/keep.txt > tmp/test.txt
+sed 's|https://osc|https://osc-local|g' tmp/keep.txt > tmp/test.txt
 
 echo "Checking links..."
 while IFS= read -r LINE; do
-    response=$(curl -L --write-out %{http_code} --silent --show-error --output /dev/null $LINE)
+    response=$(curl -L --insecure --write-out %{http_code} --silent --show-error --output /dev/null $LINE)
     echo -e "$LINE\t$response" >> tmp/results.txt
     printf "."
 done < tmp/test.txt
