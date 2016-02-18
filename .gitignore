@@ -1,5 +1,5 @@
 .DS_Store
-
+*~
 app/.jekyll-metadata
 builds/
 node_modules/
