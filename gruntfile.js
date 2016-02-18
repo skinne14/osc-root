@@ -141,7 +141,7 @@ module.exports = function (grunt) {
     imagemin: {
       dynamic: {                      
         expand: true,                  
-        cwd: '<%= globalConfig.devBuild %>/assets/img',                   
+        cwd: '<%= globalConfig.devBuild %>/assets/img/*.{png,jpg,gif,jpeg}',
         src: ['**/*'],   
         dest: '<%= globalConfig.prodBuild %>/assets/img/',
       }
