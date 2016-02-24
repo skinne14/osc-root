@@ -1,10 +1,11 @@
 ---
 layout: right-sidebar
 ---
+<p id="top" tabIndex="-1" class="sr-only">Top</p>
 {% if  page.breadcrumbs == true %}
-  <h1 id="top" tabindex="-1" class="after-breadcrumb">{{ page.org }} <br> Open Access Policy {% if page.affirmation %}Affirmation{% endif %}</h1>   
+  <h1 class="after-breadcrumb">{{ page.org }} <br> Open Access Policy {% if page.affirmation %}Affirmation{% endif %}</h1>
 {% else %}
-  <h1 id="top" tabindex="-1">{{ page.org }} <br> Open Access Policy {% if page.affirmation %}Affirmation{% endif %}</h1>
+  <h1>{{ page.org }} <br> Open Access Policy {% if page.affirmation %}Affirmation{% endif %}</h1>
 {% endif %}
 
 <p class="policy-adoption">Adopted {{ page.adoption-date }}</p>
