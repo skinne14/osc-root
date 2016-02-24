@@ -160,7 +160,8 @@ module.exports = function (grunt) {
         src: [
           'vendor/jquery/dist/jquery.js',
           'vendor/bootstrap-sass/assets/javascripts/bootstrap/collapse.js',
-          'vendor/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js'
+          'vendor/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
+          'app/assets/js/osc-a11y.js'
         ],
         dest: '<%= globalConfig.devBuild %>/assets/js/main.js'
       }

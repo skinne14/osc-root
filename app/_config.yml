@@ -1,6 +1,6 @@
 # Build settings
 destination: ../builds/dev
-exclude: ['css', '_scss', '_sass']
+exclude: ['css', '_scss', '_sass', 'assets/js']
 permalink: pretty
 markdown: kramdown
 kramdown:
@@ -50,7 +50,7 @@ defaults:
        type: "posts"
     values:
         layout: post
-        permalink: /programs/:categories/:title/ 
+        permalink: /programs/:categories/:title/
         sidebar: "subscribe"
         title-tag: "highlights"
         breadcrumbs: true
