@@ -13,15 +13,15 @@ module.exports = function (grunt) {
     localSync: false,
     localSyncTo: ""
   };
-  
+
   grunt.initConfig({
     // load global config
     globalConfig: globalConfig,
-        
+
     //////////
     // BASH
     /////////
-    
+
     exec: {
       // jekyll
       jekyllBuild: {
@@ -109,7 +109,7 @@ module.exports = function (grunt) {
     //////////
     copy: {
       bootstrapCustom: {
-        src: 'app/_scss/_bootstrap-custom.scss', 
+        src: 'app/_scss/_bootstrap-custom.scss',
         dest: 'vendor/bootstrap-sass/assets/stylesheets/_bootstrap-custom.scss'
       },
       fonts: {
@@ -129,20 +129,20 @@ module.exports = function (grunt) {
         cwd: '<%= globalConfig.devBuild %>',
         src: ['.htaccess', 'robots.txt', 'sitemap.xml'],
         dest: '<%= globalConfig.prodBuild %>/'
-      }, 
+      },
       hopeAwards:{
         expand: true,
         cwd: '<%= globalConfig.devBuild %>/programs/hope/awards',
-        src: '**', 
+        src: '**',
         dest: '<%= globalConfig.prodBuild %>/programs/hope/awards'
       }
     },
 
     imagemin: {
-      dynamic: {                      
-        expand: true,                  
+      dynamic: {
+        expand: true,
         cwd: '<%= globalConfig.devBuild %>/assets/img/*.{png,jpg,gif,jpeg}',
-        src: ['**/*'],   
+        src: ['**/*'],
         dest: '<%= globalConfig.prodBuild %>/assets/img/',
       }
     },
@@ -306,7 +306,7 @@ module.exports = function (grunt) {
 
   });
 
-        
+
 
   grunt.loadNpmTasks('grunt-newer');
   grunt.loadNpmTasks('grunt-exec');
@@ -329,7 +329,7 @@ module.exports = function (grunt) {
     'copy:bootstrapCustom',
     'exec:jekyllBuild',
     'concat',
-    'sass', 
+    'sass',
     'if:syncOnBuild'
   ]);
   grunt.registerTask('rebuild', [
@@ -343,7 +343,7 @@ module.exports = function (grunt) {
     'exec:checkBaseurl',
     'htmllint',
     'bootlint',
-    'linkChecker:dev', 
+    'linkChecker:dev',
     'exec:testRedirects'
   ]);
   grunt.registerTask('polish', [
