@@ -13,6 +13,7 @@ module.exports = function (grunt) {
     localSync: false,
     localSyncTo: ""
   };
+  process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
   grunt.initConfig({
     // load global config
@@ -234,6 +235,8 @@ module.exports = function (grunt) {
     // broken links
     linkChecker: {
       options: {
+        initialProtocol: "https",
+        ignoreInvalidSSL: true,
         maxConcurrency: 20,
         callback: function (crawler) {
           crawler.addFetchCondition(function(parsedURL) {
