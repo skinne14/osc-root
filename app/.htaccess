@@ -40,7 +40,7 @@ RedirectMatch 301 ^/dash/features/?$ https://dash.harvard.edu/docs/features?
 RedirectMatch 301 ^/dash/termsofuse/?$ https://dash.harvard.edu/docs/termsofuse?
 RedirectMatch 301 ^/dash/content/privacy-policy-dash-repository/?$ https://dash.harvard.edu/docs/privacy-policy-dash-repository?
 RedirectMatch 301 ^/dash/deposit/?$ https://dash.harvard.edu/docs/deposit?
-RedirectMatch 301 ^/dash/fellows/?$ https://dash.harvard.edu/docs/fellows?  
+RedirectMatch 301 ^/dash/fellows/?$ https://dash.harvard.edu/docs/fellows?
 RedirectMatch 301 ^/dash/manual-deposit/?$ https://dash.harvard.edu/docs/manual-deposit?
 RedirectMatch 301 ^/dash/using/?$ https://dash.harvard.edu/docs/faq?
 
@@ -69,44 +69,44 @@ RedirectMatch 301 ^/dash/content/why-do-people-hurt-themselves https://dash.harv
 
 # OSC site from Drupal to Jekyll
 RedirectMatch ^/stp-rfi-response-january-2012/?$ /programs/advocacy/statements/stp-rfi-response-january-2012/
-RedirectMatch 301 ^/pdfaq/?$ /programs/open-initiatives/hl-pd/faq/ 
-RedirectMatch 301 ^/osc-staff/?$ /about/staff/ 
-RedirectMatch 301 ^/orphan-works/?$ /programs/orphan-works/ 
-RedirectMatch 301 ^/oaliaisons/?$ /about/liaisons/ 
-RedirectMatch 301 ^/journal-flipping/?$ /programs/journal-flipping/ 
-RedirectMatch 301 ^/hope/awards/?$ /programs/hope/awards 
-RedirectMatch 301 ^/hope/?$ /programs/hope 
-RedirectMatch 301 ^/fairuseweek2015/?$ /programs/copyright/fair-use-week/2015/ 
-RedirectMatch 301 ^/etd-position-statement/?$ /programs/advocacy/statements/etd-position-statement/ 
-RedirectMatch 301 ^/dispatch/?$ /about/dispatch/ 
+RedirectMatch 301 ^/pdfaq/?$ /programs/open-initiatives/hl-pd/faq/
+RedirectMatch 301 ^/osc-staff/?$ /about/staff/
+RedirectMatch 301 ^/orphan-works/?$ /programs/orphan-works/
+RedirectMatch 301 ^/oaliaisons/?$ /about/liaisons/
+RedirectMatch 301 ^/journal-flipping/?$ /programs/journal-flipping/
+RedirectMatch 301 ^/hope/awards/?$ /programs/hope/awards
+RedirectMatch 301 ^/hope/?$ /programs/hope
+RedirectMatch 301 ^/fairuseweek2015/?$ /programs/copyright/fair-use-week/2015/
+RedirectMatch 301 ^/etd-position-statement/?$ /programs/advocacy/statements/etd-position-statement/
+RedirectMatch 301 ^/dispatch/?$ /about/dispatch/
 RedirectMatch 301 ^/copyright/first-responders/?$ /programs/copyright/first-responders
 RedirectMatch 301 ^/copyright/fair-use/?$ http://copyright.lib.harvard.edu/fair_use/
 RedirectMatch 301 ^/copyright/publishing/?$ http://copyright.lib.harvard.edu/publishing/
 RedirectMatch 301 ^/content/open-letter-regarding-frpaa/?$ /programs/advocacy/statements/open-letter-regarding-frpaa/
 RedirectMatch 301 ^/content/letter-regarding-s1373/?$ /programs/advocacy/statements/letter-regarding-s1373/
-RedirectMatch 301 ^/compact/?$ /programs/advocacy/cope/ 
-RedirectMatch 301 ^/committee/?$ /about/committee/ 
-RedirectMatch 301 ^/authors/policy_guide/?$ /authors/faq/ 
-RedirectMatch 301 ^/authors/compliant/?$ /publishers/treaties/ 
+RedirectMatch 301 ^/compact/?$ /programs/advocacy/cope/
+RedirectMatch 301 ^/committee/?$ /about/committee/
+RedirectMatch 301 ^/authors/policy_guide/?$ /authors/faq/
+RedirectMatch 301 ^/authors/compliant/?$ /publishers/treaties/
 RedirectMatch 301 ^/archive/?$ /list
 RedirectMatch 301 ^/HR801-letter/?$ /programs/advocacy/statements/HR801-letter/
 
-RedirectMatch 301 ^/shorensteinpolicy/? /policies/shorenstein/ 
-RedirectMatch 301 ^/pdpolicy/? /programs/open-initiatives/hl-pd/ 
-RedirectMatch 301 ^/hsphpolicy/? /policies/hsph/ 
-RedirectMatch 301 ^/hmspolicy/? /policies/hms/ 
-RedirectMatch 301 ^/hlspolicy/? /policies/hls/ 
-RedirectMatch 301 ^/hksgpolicy/? /policies/hks/ 
-RedirectMatch 301 ^/hgsepolicy/? /policies/gse/ 
-RedirectMatch 301 ^/hgsdpolicy/? /policies/gsd/ 
-RedirectMatch 301 ^/hfaspolicy/? /policies/fas/ 
-RedirectMatch 301 ^/hucepolicy/? /policies/huce/ 
-RedirectMatch 301 ^/hdspolicy/? /policies/hds/ 
-RedirectMatch 301 ^/hbspolicy/? /policies/hbs/ 
-RedirectMatch 301 ^/berkmanpolicy/? /policies/berkman/ 
+RedirectMatch 301 ^/shorensteinpolicy/? /policies/shorenstein/
+RedirectMatch 301 ^/pdpolicy/? /programs/open-initiatives/hl-pd/
+RedirectMatch 301 ^/hsphpolicy/? /policies/hsph/
+RedirectMatch 301 ^/hmspolicy/? /policies/hms/
+RedirectMatch 301 ^/hlspolicy/? /policies/hls/
+RedirectMatch 301 ^/hksgpolicy/? /policies/hks/
+RedirectMatch 301 ^/hgsepolicy/? /policies/gse/
+RedirectMatch 301 ^/hgsdpolicy/? /policies/gsd/
+RedirectMatch 301 ^/hfaspolicy/? /policies/fas/
+RedirectMatch 301 ^/hucepolicy/? /policies/huce/
+RedirectMatch 301 ^/hdspolicy/? /policies/hds/
+RedirectMatch 301 ^/hbspolicy/? /policies/hbs/
+RedirectMatch 301 ^/berkmanpolicy/? /policies/berkman/
 
-RedirectMatch 301 ^/oaweek(.*)?$ /programs/advocacy/oa-week/$1 
-RedirectMatch 301 ^/(20../../.*)/?$ /about/highlights/$1/ 
+RedirectMatch 301 ^/oaweek(.*)?$ /programs/advocacy/oa-week/$1
+RedirectMatch 301 ^/(20../../.*)/?$ /about/highlights/$1/
 RedirectMatch 301 ^/highlights/? /about/highlights/
 
 # Redirects of forms from OSC to DASH site
