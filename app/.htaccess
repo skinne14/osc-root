@@ -110,10 +110,15 @@ RedirectMatch 301 ^/oaweek(.*)?$ /programs/advocacy/oa-week/$1
 RedirectMatch 301 ^/(20../../.*)/?$ /about/highlights/$1/
 RedirectMatch 301 ^/highlights/? /about/highlights/
 
-# Redirects of forms from OSC to DASH site
-Redirect /authors/hope/apply /dash/authors/hope/apply
-Redirect /authors/addendum/generate /dash/authors/addendum/generate
-Redirect /authors/waiver/generate /dash/authors/waiver/generate
+# OLD but updated redirects of forms from OSC to DASH site
+Redirect /authors/hope/apply /dash/hope/
+Redirect /authors/addendum/generate /dash/addendum/
+Redirect /authors/waiver/generate /dash/waiver/
+
+# NEW redirects of Drupal forms to Flask forms
+Redirect /dash/authors/hope/apply /dash/hope/
+Redirect /dash/authors/addendum/generate /dash/addendum/
+Redirect /dash/authors/waiver/generate /dash/waiver/
 
 # Redirects of Library Lab pages to new site
 Redirect 301 /liblab/prop1 /liblab/projects
