@@ -3,7 +3,7 @@
 
 submit-to-dash:
   heading: Submit to DASH
-  link-to: https://osc.hul.harvard.edu/dash/quicksubmit
+  link-to: https://osc.hul.harvard.edu/dash/quicksubmit/
   call-to-action: "Submit your scholarly work to DASH, Harvard's open-access repository."
 
 author-faqs:
@@ -13,7 +13,7 @@ author-faqs:
 
 apply-for-hope-funds:
   heading: Apply for HOPE funds
-  link-to: https://osc.hul.harvard.edu/dash/authors/hope/apply
+  link-to: https://osc.hul.harvard.edu/dash/hope/
   call-to-action: This program reimburses Harvard researchers for OA journal page charges.
 
 hope-faqs:
@@ -113,7 +113,7 @@ oa-week:
 
 generate-your-addendum:
   heading: Generate Your Addendum
-  link-to: https://osc.hul.harvard.edu/dash/authors/addendum/generate
+  link-to: https://osc.hul.harvard.edu/dash/addendum/
   call-to-action: "Amend a publisher's agreement."
 
 addenda-faqs:
@@ -123,5 +123,5 @@ addenda-faqs:
 
 generate-your-waiver:
   heading: Generate Your Waiver
-  link-to: https://osc.hul.harvard.edu/dash/authors/waiver/generate
+  link-to: https://osc.hul.harvard.edu/dash/waiver/
   call-to-action: "Waive Harvard's license for an article."
