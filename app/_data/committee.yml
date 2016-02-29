@@ -41,12 +41,6 @@
   current: true
   
 -
-  name: Robert Darnton
-  surname: Darnton
-  info: Carl H. Pforzheimer University Professor and Director of the University Library
-  current: true
-  
--
   name: Christopher Dede
   surname: Dede
   info: Timothy E. Wirth Professor in Learning Technologies (GSE)
@@ -133,6 +127,12 @@
   name: Gregory Nagy
   surname: Nagy
   info: Francis Jones Professor of Classical Greek Literature and Professor of Comparative Literature (FAS)
+  current: true
+
+-
+  name: Giovanni Parmigiani
+  surname: Parmigiani
+  info: Professor of Biostatistics (HSPH)
   current: true
   
 -
