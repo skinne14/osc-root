@@ -338,8 +338,21 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-rsync');
   grunt.loadNpmTasks('grunt-if');
 
+
+  // Hack to stop contrib concat (and maybe other things) from failing silently
+  // https://github.com/gruntjs/grunt-contrib-concat/issues/17
+  grunt.registerTask('warn-fail', 'Fail on warning log', function() {
+    var log = grunt.log;
+    var _warn = log.warn;
+    log.warn = function() {
+      _warn.apply(log, arguments);
+      grunt.fail.warn("Warning log has triggered failure");
+    };
+  });
+
   // Register the grunt tasks
   grunt.registerTask('build', [
+    'warn-fail',
     'copy:bootstrapCustom',
     'exec:jekyllBuild',
     'concat',
@@ -367,6 +380,7 @@ module.exports = function (grunt) {
 
 
   grunt.registerTask('stage', [
+    'warn-fail',
     'newer:htmlmin',
     'newer:copy:fonts',
     'newer:copy:files',
