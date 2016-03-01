@@ -7,45 +7,9 @@ Sitemap: {{ site.url }}/liblab/sitemap.xml
 User-agent: *
 Crawl-delay: 10
 
-# Directories
-Disallow: /dash/includes/
-Disallow: /dash/misc/
-Disallow: /dash/modules/
-Disallow: /dash/profiles/
-Disallow: /dash/scripts/
-Disallow: /dash/themes/
-# Files
-Disallow: /dash/CHANGELOG.txt
-Disallow: /dash/cron.php
-Disallow: /dash/INSTALL.mysql.txt
-Disallow: /dash/INSTALL.pgsql.txt
-Disallow: /dash/install.php
-Disallow: /dash/INSTALL.txt
-Disallow: /dash/LICENSE.txt
-Disallow: /dash/MAINTAINERS.txt
-Disallow: /dash/update.php
-Disallow: /dash/UPGRADE.txt
-Disallow: /dash/xmlrpc.php
-# Paths (clean URLs)
-Disallow: /dash/admin/
-Disallow: /dash/comment/reply/
-Disallow: /dash/filter/tips/
+# CAS routes
+Disallow: /dash/login/
 Disallow: /dash/logout/
-Disallow: /dash/node/add/
-Disallow: /dash/search/
-Disallow: /dash/user/register/
-Disallow: /dash/user/password/
-Disallow: /dash/user/login/
-# Paths (no clean URLs)
-Disallow: /dash/?q=admin/
-Disallow: /dash/?q=comment/reply/
-Disallow: /dash/?q=filter/tips/
-Disallow: /dash/?q=logout/
-Disallow: /dash/?q=node/add/
-Disallow: /dash/?q=search/
-Disallow: /dash/?q=user/password/
-Disallow: /dash/?q=user/register/
-Disallow: /dash/?q=user/login/
 
 # allow WAX crawler - not necessary?
 User-agent: hul-wax
