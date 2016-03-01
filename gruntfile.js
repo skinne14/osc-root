@@ -74,15 +74,6 @@ module.exports = function (grunt) {
           }
         }
       },
-      testRedirects: {
-        command: 'cd tests/test_redirects; bash test_redirects.sh; cd ../../',
-        stderr: false,
-        callback: function (error, stdout, stderr) {
-          if (stderr) {
-            grunt.warn("Got 404s. (If intentional, add url to tests/test_redirects/intentional404.txt)\n\n" + stderr)
-          }
-        }
-      },
       countImageminOutput: {
         command: '[[ `ls <%= globalConfig.devBuild %>/assets/img/ | wc -l` = `ls <%= globalConfig.prodBuild %>/assets/img/ | wc -l` ]] && echo "Imagemin file count OK" || >&2 echo "file count not OK!"',
         stderr: false,
@@ -370,8 +361,7 @@ module.exports = function (grunt) {
     'exec:checkBaseurl',
     'htmllint',
     'bootlint',
-    'linkChecker:dev',
-    'exec:testRedirects'
+    'linkChecker:dev'
   ]);
   grunt.registerTask('polish', [
     'exec:findNotes',
