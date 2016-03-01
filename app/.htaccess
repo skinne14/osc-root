@@ -145,7 +145,7 @@ RedirectMatch ^/yana/?.*	/liblab/projects/yana-open-source-template-scholarly-jo
 RedirectMatch ^/liaisons/?.* https://wiki.harvard.edu/confluence/display/OAL
 
 # Redirect for old Drupal uploads
-RedirectMatch 301 ^/sites/default/files/webform/(.*)/(.*) /dash/sites/default/webform/$1/$2
+RedirectMatch 301 ^/sites/default/files/webform/(.*)/(.*) /dash/sites/default/files/webform/$1/$2
 
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
