@@ -35,38 +35,38 @@ Redirect 301 /HR801-letter.php /programs/advocacy/statements/HR801-letter/
 Redirect 301 /OpenAccess/overview.php /policies/
 
 # redirects from DASH Drupal site to dash-docs
-RedirectMatch 301 ^/dash/?$ https://dash.harvard.edu
-RedirectMatch 301 ^/dash/about/?$ https://dash.harvard.edu/docs/about?
-RedirectMatch 301 ^/dash/features/?$ https://dash.harvard.edu/docs/features?
-RedirectMatch 301 ^/dash/termsofuse/?$ https://dash.harvard.edu/docs/termsofuse?
-RedirectMatch 301 ^/dash/content/privacy-policy-dash-repository/?$ https://dash.harvard.edu/docs/privacy-policy-dash-repository?
-RedirectMatch 301 ^/dash/deposit/?$ https://dash.harvard.edu/docs/deposit?
-RedirectMatch 301 ^/dash/fellows/?$ https://dash.harvard.edu/docs/fellows?
-RedirectMatch 301 ^/dash/manual-deposit/?$ https://dash.harvard.edu/docs/manual-deposit?
-RedirectMatch 301 ^/dash/using/?$ https://dash.harvard.edu/docs/faq?
+# RedirectMatch 301 ^/dash/?$ https://dash.harvard.edu
+# RedirectMatch 301 ^/dash/about/?$ https://dash.harvard.edu/docs/about?
+# RedirectMatch 301 ^/dash/features/?$ https://dash.harvard.edu/docs/features?
+# RedirectMatch 301 ^/dash/termsofuse/?$ https://dash.harvard.edu/docs/termsofuse?
+# RedirectMatch 301 ^/dash/content/privacy-policy-dash-repository/?$ https://dash.harvard.edu/docs/privacy-policy-dash-repository?
+# RedirectMatch 301 ^/dash/deposit/?$ https://dash.harvard.edu/docs/deposit?
+# RedirectMatch 301 ^/dash/fellows/?$ https://dash.harvard.edu/docs/fellows?
+# RedirectMatch 301 ^/dash/manual-deposit/?$ https://dash.harvard.edu/docs/manual-deposit?
+# RedirectMatch 301 ^/dash/using/?$ https://dash.harvard.edu/docs/faq?
 
 # Featured Works
-RedirectMatch 301 ^/dash/([0-9]{4}/.*)?$ https://dash.harvard.edu/docs/$1?
-RedirectMatch 301 ^/dash/content/africa-slavery-and-economic-development https://dash.harvard.edu/content/africa-slavery-and-economic-development?
-RedirectMatch 301 ^/dash/content/against-goldstone-report https://dash.harvard.edu/content/against-goldstone-report?
-RedirectMatch 301 ^/dash/content/art-dying https://dash.harvard.edu/content/art-dying?
-RedirectMatch 301 ^/dash/content/breaking-through-internet-censorship https://dash.harvard.edu/content/breaking-through-internet-censorship?
-RedirectMatch 301 ^/dash/content/cycles-civilization https://dash.harvard.edu/content/cycles-civilization?
-RedirectMatch 301 ^/dash/content/darwin-caricature https://dash.harvard.edu/content/darwin-caricature?
-RedirectMatch 301 ^/dash/content/future-air-quality-warming-planet https://dash.harvard.edu/content/future-air-quality-warming-planet?
-RedirectMatch 301 ^/dash/content/game-face https://dash.harvard.edu/content/game-face?
-RedirectMatch 301 ^/dash/content/happiness-clusters https://dash.harvard.edu/content/happiness-clusters?
-RedirectMatch 301 ^/dash/content/if-youre-so-smart-how-come-youre-dead https://dash.harvard.edu/content/if-youre-so-smart-how-come-youre-dead?
-RedirectMatch 301 ^/dash/content/index.html https://dash.harvard.edu/content/index.html?
-RedirectMatch 301 ^/dash/content/kant-contradiction https://dash.harvard.edu/content/kant-contradiction?
-RedirectMatch 301 ^/dash/content/mathematics-discovered-or-invented https://dash.harvard.edu/content/mathematics-discovered-or-invented?
-RedirectMatch 301 ^/dash/content/partners-or-rivals https://dash.harvard.edu/content/partners-or-rivals?
-RedirectMatch 301 ^/dash/content/religion-and-economic-growth https://dash.harvard.edu/content/religion-and-economic-growth?
-RedirectMatch 301 ^/dash/content/religion-and-tolerance-islams-global-gathering https://dash.harvard.edu/content/religion-and-tolerance-islams-global-gathering?
-RedirectMatch 301 ^/dash/content/struggle-over-ecoterrorism https://dash.harvard.edu/content/struggle-over-ecoterrorism?
-RedirectMatch 301 ^/dash/content/supreme-court-during-crisis https://dash.harvard.edu/content/supreme-court-during-crisis?
-RedirectMatch 301 ^/dash/content/transsexuality-iran https://dash.harvard.edu/content/transsexuality-iran?
-RedirectMatch 301 ^/dash/content/why-do-people-hurt-themselves https://dash.harvard.edu/content/why-do-people-hurt-themselves?
+# RedirectMatch 301 ^/dash/([0-9]{4}/.*)?$ https://dash.harvard.edu/docs/$1?
+# RedirectMatch 301 ^/dash/content/africa-slavery-and-economic-development https://dash.harvard.edu/content/africa-slavery-and-economic-development?
+# RedirectMatch 301 ^/dash/content/against-goldstone-report https://dash.harvard.edu/content/against-goldstone-report?
+# RedirectMatch 301 ^/dash/content/art-dying https://dash.harvard.edu/content/art-dying?
+# RedirectMatch 301 ^/dash/content/breaking-through-internet-censorship https://dash.harvard.edu/content/breaking-through-internet-censorship?
+# RedirectMatch 301 ^/dash/content/cycles-civilization https://dash.harvard.edu/content/cycles-civilization?
+# RedirectMatch 301 ^/dash/content/darwin-caricature https://dash.harvard.edu/content/darwin-caricature?
+# RedirectMatch 301 ^/dash/content/future-air-quality-warming-planet https://dash.harvard.edu/content/future-air-quality-warming-planet?
+# RedirectMatch 301 ^/dash/content/game-face https://dash.harvard.edu/content/game-face?
+# RedirectMatch 301 ^/dash/content/happiness-clusters https://dash.harvard.edu/content/happiness-clusters?
+# RedirectMatch 301 ^/dash/content/if-youre-so-smart-how-come-youre-dead https://dash.harvard.edu/content/if-youre-so-smart-how-come-youre-dead?
+# RedirectMatch 301 ^/dash/content/index.html https://dash.harvard.edu/content/index.html?
+# RedirectMatch 301 ^/dash/content/kant-contradiction https://dash.harvard.edu/content/kant-contradiction?
+# RedirectMatch 301 ^/dash/content/mathematics-discovered-or-invented https://dash.harvard.edu/content/mathematics-discovered-or-invented?
+# RedirectMatch 301 ^/dash/content/partners-or-rivals https://dash.harvard.edu/content/partners-or-rivals?
+# RedirectMatch 301 ^/dash/content/religion-and-economic-growth https://dash.harvard.edu/content/religion-and-economic-growth?
+# RedirectMatch 301 ^/dash/content/religion-and-tolerance-islams-global-gathering https://dash.harvard.edu/content/religion-and-tolerance-islams-global-gathering?
+# RedirectMatch 301 ^/dash/content/struggle-over-ecoterrorism https://dash.harvard.edu/content/struggle-over-ecoterrorism?
+# RedirectMatch 301 ^/dash/content/supreme-court-during-crisis https://dash.harvard.edu/content/supreme-court-during-crisis?
+# RedirectMatch 301 ^/dash/content/transsexuality-iran https://dash.harvard.edu/content/transsexuality-iran?
+# RedirectMatch 301 ^/dash/content/why-do-people-hurt-themselves https://dash.harvard.edu/content/why-do-people-hurt-themselves?
 
 # OSC site from Drupal to Jekyll
 RedirectMatch ^/stp-rfi-response-january-2012/?$ /programs/advocacy/statements/stp-rfi-response-january-2012/
@@ -116,9 +116,9 @@ Redirect /authors/addendum/generate /dash/addendum/
 Redirect /authors/waiver/generate /dash/waiver/
 
 # NEW redirects of Drupal forms to Flask forms
-Redirect /dash/authors/hope/apply /dash/hope/
-Redirect /dash/authors/addendum/generate /dash/addendum/
-Redirect /dash/authors/waiver/generate /dash/waiver/
+# Redirect /dash/authors/hope/apply /dash/hope/
+# Redirect /dash/authors/addendum/generate /dash/addendum/
+# Redirect /dash/authors/waiver/generate /dash/waiver/
 
 # Redirects of Library Lab pages to new site
 Redirect 301 /liblab/prop1 /liblab/projects
@@ -146,6 +146,9 @@ RedirectMatch ^/liaisons/?.* https://wiki.harvard.edu/confluence/display/OAL
 
 # Redirect for old Drupal uploads
 RedirectMatch 301 ^/sites/default/files/webform/(.*)/(.*) /dash/sites/default/files/webform/$1/$2
+
+# Redirect for DASH stories form
+# Redirect /dash/open-access-feedback /dash/feedback/
 
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
