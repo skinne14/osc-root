@@ -75,12 +75,13 @@ RedirectMatch 301 ^/osc-staff/?$ /about/staff/
 RedirectMatch 301 ^/orphan-works/?$ /programs/orphan-works/
 RedirectMatch 301 ^/oaliaisons/?$ /about/liaisons/
 RedirectMatch 301 ^/journal-flipping/?$ /programs/journal-flipping/
-RedirectMatch 301 ^/hope/awards/?$ /programs/hope/awards
-RedirectMatch 301 ^/hope/?$ /programs/hope
+RedirectMatch 301 ^/hope/awards/?$ /programs/hope/awards/
+RedirectMatch 301 ^/hope/?$ /programs/hope/
+RedirectMatch 301 ^/HOPE/?$ /programs/hope/
 RedirectMatch 301 ^/fairuseweek2015/?$ /programs/copyright/fair-use-week/2015/
 RedirectMatch 301 ^/etd-position-statement/?$ /programs/advocacy/statements/etd-position-statement/
 RedirectMatch 301 ^/dispatch/?$ /about/dispatch/
-RedirectMatch 301 ^/copyright/first-responders/?$ /programs/copyright/first-responders
+RedirectMatch 301 ^/copyright/first-responders/?$ /programs/copyright/first-responders/
 RedirectMatch 301 ^/copyright/fair-use/?$ http://copyright.lib.harvard.edu/fair_use/
 RedirectMatch 301 ^/copyright/publishing/?$ http://copyright.lib.harvard.edu/publishing/
 RedirectMatch 301 ^/content/open-letter-regarding-frpaa/?$ /programs/advocacy/statements/open-letter-regarding-frpaa/
@@ -89,7 +90,7 @@ RedirectMatch 301 ^/compact/?$ /programs/advocacy/cope/
 RedirectMatch 301 ^/committee/?$ /about/committee/
 RedirectMatch 301 ^/authors/policy_guide/?$ /authors/faq/
 RedirectMatch 301 ^/authors/compliant/?$ /publishers/treaties/
-RedirectMatch 301 ^/archive/?$ /list
+RedirectMatch 301 ^/archive/?$ /list/
 RedirectMatch 301 ^/HR801-letter/?$ /programs/advocacy/statements/HR801-letter/
 
 RedirectMatch 301 ^/shorensteinpolicy/? /policies/shorenstein/
