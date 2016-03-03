@@ -1,2 +1,5 @@
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+{% if page.title == "HOPE Award Recipients" %}
+<script src="{{ "/assets/js/hope.js" | prepend: site.baseurl }}"></script>
+{% endif %}
 {% include structured.html %}

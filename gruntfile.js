@@ -137,6 +137,11 @@ module.exports = function (grunt) {
         cwd: '<%= globalConfig.devBuild %>/programs/hope/awards',
         src: '**',
         dest: '<%= globalConfig.prodBuild %>/programs/hope/awards'
+      },
+      hopeJs:{
+        expand: false,
+        src: 'app/assets/js/hope.js',
+        dest: '<%= globalConfig.devBuild %>/assets/js/hope.js'
       }
     },
 
@@ -173,7 +178,8 @@ module.exports = function (grunt) {
     uglify: {
       prod: {
         files: {
-          '<%= globalConfig.prodBuild %>/assets/js/main.js': ['<%= globalConfig.devBuild %>/assets/js/main.js']
+          '<%= globalConfig.prodBuild %>/assets/js/main.js': ['<%= globalConfig.devBuild %>/assets/js/main.js'],
+          '<%= globalConfig.prodBuild %>/assets/js/hope.js': ['<%= globalConfig.devBuild %>/assets/js/hope.js']
         }
       }
     },
@@ -347,6 +353,7 @@ module.exports = function (grunt) {
     'copy:bootstrapCustom',
     'exec:jekyllBuild',
     'concat',
+    'copy:hopeJs',
     'sass',
     'if:syncOnBuild'
   ]);
