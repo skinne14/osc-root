@@ -151,6 +151,9 @@ RedirectMatch 301 ^/sites/default/files/webform/(.*)/(.*) /dash/sites/default/fi
 # Redirect for DASH stories form
 # Redirect /dash/open-access-feedback /dash/feedback/
 
+# Redirect for little-used route to FAR feed
+RedirectMatch 301 ^/services/dash/far/(.*) /dash/api/far/$1
+
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
