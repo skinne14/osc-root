@@ -21,7 +21,7 @@ $.ajax({
     for (var key in byYear) {
       years.push(key);
     }
-    for (var year in years.reverse()) {
+      for (var year in years.sort().reverse()) {
       var h3 = $("<h3/>", {
         text: years[year]
       });
