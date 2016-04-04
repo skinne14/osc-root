@@ -3,11 +3,11 @@ a {
   word-wrap: break-word !important;
 }
 
-////////////////////////////////////// 
+//////////////////////////////////////
 // 1.0 Fonts
 //////////////////////////////////////
 
-////////////////////////////////////// 
+//////////////////////////////////////
 // 1.1 Text
 //////////////////////////////////////
 
@@ -53,7 +53,7 @@ a {
   font-style: normal;
 }
 
-////////////////////////////////////// 
+//////////////////////////////////////
 // 1.2 Icons
 //////////////////////////////////////
 
@@ -92,7 +92,7 @@ a {
   content: "\e602";
 }
 
-////////////////////////////////////// 
+//////////////////////////////////////
 // 2.0 Banner (navbar, header, quicklinks)
 //////////////////////////////////////
 .navbar-nav a, .navbar-nav button {
@@ -120,13 +120,13 @@ a {
 .nav-pills {
   background-color: #e1e1e1;
   font-size: 1.3em;
-  
+
   a {
   color: black;
   text-align: center;
   text-transform: capitalize;
   }
-  
+
   @media (max-width: 768px){
     font-size: 1em;
     li {
@@ -139,11 +139,11 @@ a {
   }
 }
 
-////////////////////////////////////// 
+//////////////////////////////////////
 // 3.0 Content
 //////////////////////////////////////
 
-////////////////////////////////////// 
+//////////////////////////////////////
 // 3.1 General
 //////////////////////////////////////
 
@@ -151,7 +151,7 @@ a {
 .content-container {
   a {
     text-decoration: underline;
-  }  
+  }
   .btn {
     text-decoration: none;
   }
@@ -164,8 +164,8 @@ a {
 
 // Main
 main {
-  background-color: white;      
-      
+  background-color: white;
+
   h1 {
     @extend .page-header;
   }
@@ -178,13 +178,13 @@ main {
     padding-left: 0px;
     font-size: 0.9em;
     text-transform: capitalize;
-  } 
+  }
   .breadcrumbs li:last-of-type {
     @extend .active;
   }
 }
 
-div.main-content {        
+div.main-content {
   font-size: 1.2em;
   border-bottom: 1px solid #eee;
   padding-bottom: 10px;
@@ -202,15 +202,15 @@ div.main-content {
     margin-bottom: 40px;
     font-size: .8em;
   }
-  
+
   @media (min-width: 992px) {
     padding-right: 30px;
     padding-bottom: 25px;
-    border-bottom: none;    
+    border-bottom: none;
   }
 }
 
-////////////////////////////////////// 
+//////////////////////////////////////
 // 3.2 Specific Page Elements
 //////////////////////////////////////
 
@@ -260,7 +260,7 @@ div.main-content {
 // Long Lists (FAQs, Staff List, etc.)
 .long-list {
   line-height: 2;
-  
+
   &:last-of-type {
     margin-bottom: 50px
   }
@@ -272,7 +272,7 @@ div.main-content {
 .long-list-heading {
   border-bottom: 1px dashed black;
   padding-bottom: 5px;
-  
+
   a {
     text-decoration: none;
     color: black;
@@ -325,14 +325,14 @@ div.main-content {
   margin: 15px 0px;
 }
 
-////////////////////////////////////// 
+//////////////////////////////////////
 // 3.3 Sidebars
 //////////////////////////////////////
 
 // Sidebars, common styles
-.sidebar {     
+.sidebar {
   font-size: 1.1em;
-  
+
   h2 {
     font-size: 1.5em;
   }
@@ -377,11 +377,11 @@ div.main-content {
   margin-top: 40px;
   margin-bottom: 25px;
   padding: 0px 35px;
-  
+
   @media (min-width: 992px) {
      border-left: 1px solid #eee;
   }
-  
+
   section {
     padding: 25px;
     margin-top: 25px;
@@ -395,7 +395,7 @@ div.main-content {
 .faq-sidebar {
   font-size: .9em;
   margin-top: 10px;
-  
+
 }
 .inner-sidebar, .faq-sidebar {
   @media (min-width: 992px){
@@ -406,7 +406,7 @@ div.main-content {
     // background color is for mobile appearance.
     background-color: #d9edf7;
     margin: 25px;
-    
+
     img {
       padding: 10px 0px;
     }
@@ -426,7 +426,7 @@ div.main-content {
   }
 }
 
-////////////////////////////////////// 
+//////////////////////////////////////
 // 3.4 Featured Actions
 //////////////////////////////////////
 
@@ -438,7 +438,7 @@ div.main-content {
   @media (max-width: 768px){
     padding: 0px 15px;
   }
-  
+
   h3 {
     text-transform: uppercase;
     font-size: 1.3em;
@@ -473,11 +473,11 @@ div.main-content {
         -webkit-box-shadow: 0 0 14px rgba(82,168,236,.6);
         box-shadow: 0 0 14px rgba(82,168,236,.6);
       }
-    }  
+    }
   }
 }
 
-////////////////////////////////////// 
+//////////////////////////////////////
 // 4.0 Footer
 //////////////////////////////////////
 .footer-wrapper {
@@ -508,7 +508,7 @@ div.main-content {
   }
   small {
     line-height: 4.5;
-  }  
+  }
   ul {
     line-height: 2;
   }
@@ -535,7 +535,7 @@ div.main-content {
   }
 }
 
-// Sticky footer 
+// Sticky footer
 @media (min-width: 992px) {
   html {
     position: relative;
