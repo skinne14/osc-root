@@ -3,14 +3,15 @@ layout: full-page
 breadcrumbs: true
 title: OSC Staff
 ---
+{% assign people = site.data.staff | where: "current", true %}
 
 <ul class="long-list">
-    {% for person in site.data.staff %}
+    {% for person in people %}
     <li><a href="{{site.baseurl}}/about/staff/#{{person.name | slugify }}">{{person.name}}</a></li>
     {% endfor %}
 </ul>
 
-{% for person in site.data.staff %}
+{% for person in people %}
 <h2 id="{{person.name | slugify }}" class="long-list-heading">{{person.name}}, {{person.title}}</h2>
 <div class="long-list-content">{{person.bio | markdownify}}
 <a href="#top">Back to top</a>
@@ -21,6 +22,6 @@ title: OSC Staff
 <h2 id="special-advisors">Special Advisors</h2>
 
 {% for person in site.data.special-advisors %}
-<p id="{{person.name | slugify }}">{{person.name}}, {{person.title}}</p>    
+<p id="{{person.name | slugify }}">{{person.name}}, {{person.title}}</p>
 {% endfor %}
 <a href="#top">Back to top</a>

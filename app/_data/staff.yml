@@ -1,55 +1,64 @@
 -
   name: Peter Suber
   title: Director
-  bio: | 
+  current: true
+  bio: |
     Peter Suber is an independent policy strategist for open access to scientific and scholarly research literature. He holds a Ph.D. in philosophy and a J.D., both from Northwestern University. His primary affiliations (beyond the Berkman Center) are Director of the Harvard Open Access Project, Senior Researcher at SPARC, Visiting Fellow at the Information Society Project of Yale Law School, Research Professor of Philosophy at Earlham College, Open Access Project Director at Public Knowledge, and author of the Open Access News blog and SPARC Open Access Newsletter.
 
     He was the principal drafter of the Budapest Open Access Initiative and sits on the Publishing Working Group of Science Commons, the Advisory Board of the Wikimedia Foundation, the Steering Committee of the Scientific Information Working Group of the U.N. World Summit on the Information Society, and the boards of several other groups devoted to open access, scholarly communication, and the information commons.
 
-- 
+-
   name: Stuart M. Shieber
   title: Faculty Director
+  current: true
   bio: |
      Stuart Shieber is James O. Welch, Jr. and Virginia B. Welch Professor of Computer Science in the School of Engineering and Applied Sciences at Harvard, and the OSC's faculty director. His primary research field is computational linguistics, the study of human languages from the perspective of computer science. He was the founding director of the Center for Research on Computation and Society and is a co-director of the Berkman Center for Internet and Society. Professor Shieber led Harvard's efforts to institute open-access policies leading to the policies now in place at Harvard and emulated elsewhere.
 
-- 
+-
   name: Kyle K. Courtney
   title: Program Manager and Copyright Advisor
-  bio: |   
+  current: true
+  bio: |
     Kyle K. Courtney is an attorney who works closely with Harvard Library to establish a culture of shared understanding of copyright issues among Harvard staff, faculty, and students. Kyle also works with the Office of General Counsel on intellectual property issues associated with the newly created HarvardX classes. Before joining the OSC, Kyle worked at Harvard Law School as the manager of Faculty Research and Scholarship. He currently maintains a dual appointment at Northeastern University as a Faculty Scholar for the Program on Human Rights and the Global Economy (PHRGE) at the School of Law, and teaching "Cyberlaw: Privacy, Ethics, and Digital Rights" for the interdisciplinary Information Assurance program at the College of Computer and Information Science. He holds a J.D. with distinction in Intellectual Property Law and an MLIS. He is a published author and frequent speaker on the topic of libraries and copyright.
 
 -
   name: Bill McKinney
   title: Digital Library Software Engineer
+  current: false
   bio: |
     Bill McKinney holds a Masters in Library Science from Simmons College and a JD from Marquette University. Since 1995, Bill has been working as a software and content engineer for several publishers, including Cengage Learning and the New England Journal of Medicine. Most recently, he has served as a consultant for the American Psychological Association and Sony's Digital Reading Division.
 
 -
   name: Ben Steinberg
   title: Digital Library Software Engineer
+  current: true
   bio: |
     Ben Steinberg holds a Masters in Library Science from Simmons College. Before joining the OSC, he worked as a reference and systems librarian at the Public Library of Brookline.
 
 -
   name: Colin B. Lukens
   title: Repository Manager
+  current: true
   bio: |
     Colin B. Lukens holds a Masters of Library Science from Simmons College. Prior to joining OSC, he spent a decade at the Harvard University Archives in collection management, circulation, and preservation. He is currently President of the New England Archivists.
 
-- 
+-
   name: Emily Kilcer
   title: Project Coordinator
+  current: true
   bio: |
     Emily Kilcer holds an MLS from Simmons College. Before joining the OSC Emily gained a decade of experience in scholarly publishing. She also serves as a research assistant to Peter Suber's Harvard Open Access Project.
 
-- 
+-
   name: Rebecca Cremona
   title: Project Coordinator
+  current: true
   bio: |
     Becky Cremona holds a Master of Arts in Theology from Boston College and a Bachelor of Arts in Physics and Religious Studies from Brown University. Prior to joining the OSC, Becky worked as a faculty assistant at the Harvard School of Engineering and Applied Sciences.
 
 -
   name: Arlene Navarro
   title: Staff Assistant
+  current: true
   bio: |
     Arlene Navarro holds a Bachelor of Science in Business Management from Pepperdine University and a JD from the University of La Verne College of Law. Prior to joining the OSC, Arlene spent 15 years at the University of California, Los Angeles, where she was most recently program director of nitric oxide research for the 1998 Nobel Laureate in Physiology or Medicine and during which time she briefly managed the Nitric Oxide Society membership and manuscript submissions for publication to its journal, NO: Biology and Chemistry.

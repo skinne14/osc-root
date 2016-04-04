@@ -8,7 +8,8 @@ title: Advisory Committee
 
 <div class="committee">
 <ul class="list-unstyled">
-{% for person in site.data.committee %}
+{% assign people = site.data.committee | where: "current", true %}
+{% for person in people %}
 <li><span class="h4">{{person.name}}</span> <br> {{person.info}}</li>
 {% endfor %}
 </ul>

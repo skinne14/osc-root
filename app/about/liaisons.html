@@ -8,15 +8,15 @@ breadcrumbs: true
 
 <ul class="long-list">
   {% for org in site.policies %}
-      {% assign liaisons = site.data.liaisons | where: "liaison-to", org.abbr %}
+      {% assign liaisons = site.data.liaisons | where: "liaison-to", org.abbr | where: "current", true %}
       {% if liaisons != empty %}
         <li><a href="{{site.baseurl}}/about/liaisons#{{org.abbr}}">{{org.org}}</a></li>
-        {% endif %}    
+        {% endif %}
   {% endfor %}
 </ul>
 
-{% for org in site.policies %}   
-  {% assign liaisons = site.data.liaisons | where: "liaison-to", org.abbr %}
+{% for org in site.policies %}
+  {% assign liaisons = site.data.liaisons | where: "liaison-to", org.abbr | where: "current", true %}
   {% if liaisons != empty %}
     <h2 id="{{org.abbr}}" class="long-list-heading">{{org.org}}</h2>
     {% for person in liaisons %}
