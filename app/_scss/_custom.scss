@@ -370,6 +370,18 @@ div.main-content {
       text-decoration: underline;
     }
   }
+  .page-list {
+    font-size: 1em;
+    margin-top: 25px;
+
+    h2 {
+        font-size: 1em;
+        margin-bottom: -10px
+    }
+    ul {
+        text-align: left;
+    }
+  }
 }
 
 // Sidebar, particulars
