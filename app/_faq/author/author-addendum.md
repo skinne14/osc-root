@@ -1,6 +1,6 @@
 ---
 q: What is an author addendum?
-order: 6
+order: 4
 anchor: author-addendum
 type: basic
 

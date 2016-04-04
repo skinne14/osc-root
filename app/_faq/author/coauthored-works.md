@@ -1,8 +1,8 @@
 ---
 q: Does the policy apply to co-authored papers?
-order: 3
+order: 1
 anchor: coauthored-works
-type: basic
+type: details
 
 author-faq: include
 ---

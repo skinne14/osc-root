@@ -1,6 +1,6 @@
 ---
 q: How do I request a waiver of the Open Access Policy?
-order: 7
+order: 5
 anchor: how-to-waive
 type: basic
 
