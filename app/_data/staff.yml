@@ -40,7 +40,7 @@
   title: Repository Manager
   current: true
   bio: |
-    Colin B. Lukens holds a Masters of Library Science from Simmons College. Prior to joining OSC, he spent a decade at the Harvard University Archives in collection management, circulation, and preservation. He is currently President of the New England Archivists.
+    Colin B. Lukens holds a Masters of Library Science from Simmons College. Prior to joining OSC, he spent a decade at the Harvard University Archives in collection management, circulation, and preservation. He is the immediate-past President of the New England Archivists.
 
 -
   name: Emily Kilcer
@@ -50,15 +50,15 @@
     Emily Kilcer holds an MLS from Simmons College. Before joining the OSC Emily gained a decade of experience in scholarly publishing. She also serves as a research assistant to Peter Suber's Harvard Open Access Project.
 
 -
-  name: Rebecca Cremona
-  title: Project Coordinator
-  current: true
-  bio: |
-    Becky Cremona holds a Master of Arts in Theology from Boston College and a Bachelor of Arts in Physics and Religious Studies from Brown University. Prior to joining the OSC, Becky worked as a faculty assistant at the Harvard School of Engineering and Applied Sciences.
-
--
   name: Arlene Navarro
   title: Staff Assistant
   current: true
   bio: |
     Arlene Navarro holds a Bachelor of Science in Business Management from Pepperdine University and a JD from the University of La Verne College of Law. Prior to joining the OSC, Arlene spent 15 years at the University of California, Los Angeles, where she was most recently program director of nitric oxide research for the 1998 Nobel Laureate in Physiology or Medicine and during which time she briefly managed the Nitric Oxide Society membership and manuscript submissions for publication to its journal, NO: Biology and Chemistry.
+
+    -
+  name: Rebecca Cremona
+  title: Digital Library Software Engineer
+  current: true
+  bio: |
+    Becky Cremona holds a Master of Arts in Theology from Boston College and a Bachelor of Arts in Physics and Religious Studies from Brown University. Prior to joining the OSC, Becky worked as a faculty assistant at the Harvard School of Engineering and Applied Sciences.
