@@ -23,6 +23,9 @@ RedirectMatch ^/pinserver/(.*)$ /dash/pinserver/$1
 # Stories
 RedirectMatch 301 ^/dash/(dash/)*stories/?$ https://dash.harvard.edu/stories/
 
+# Redirect temporary journal flipping comments site to annoucement of report
+RedirectMatch 301 ^/programs/journal-flipping/public-consultation /programs/journal-flipping/report-released/
+
 # OSC Specific stuff to keep pre-drupal urls working.
 Redirect 301 /dash-procedure-faq.php https://dash.harvard.edu/docs/deposit
 Redirect 301 /dash-copyright-faq.php https://dash.harvard.edu/docs/faq
