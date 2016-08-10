@@ -2,7 +2,7 @@
 layout: post
 title:  "Contract awarded"
 categories: orphan-works
-sidebar: "peter"
+sidebar: copyright
 title-tag: "orphan-works"
 ---
 

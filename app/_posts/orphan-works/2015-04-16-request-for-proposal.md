@@ -2,7 +2,7 @@
 layout: post
 title:  "Request for proposal"
 categories: orphan-works
-sidebar: peter
+sidebar: copyright
 title-tag: "orphan-works"
 ---
 
