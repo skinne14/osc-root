@@ -13,7 +13,7 @@ In the spring of 2015, the OSC commissioned the research from David Solomon, Mik
 
 The authors identified 15 journal-flipping scenarios: 10 that depend on article processing charges (APCs) and 5 that dispense with APCs. For each one they give examples, evidence, and their assessment of its strengths and weaknesses. The examples come from all scholarly niches by academic field, regions of the world, and economic strata.
 
-This comprehensive review of diverse approaches is the report’s strength. Not every flip was a success, and not all the flips that were successful using one scenario would have been successful with a different scenario. But there were successes under every scenario and in every scholarly niche. Journals that picked a scenario that fit their circumstances were able preserve or enhance their readership, submissions, quality, and financial sustainability.
+This comprehensive review of diverse approaches is the report's strength. Not every flip was a success, and not all the flips that were successful using one scenario would have been successful with a different scenario. But there were successes under every scenario and in every scholarly niche. Journals that picked a scenario that fit their circumstances were able preserve or enhance their readership, submissions, quality, and financial sustainability.
 
 The invited panelists represent a wide range of relevant experience and expertise, including OA and non-OA academic publishing, fee-based and no-fee OA publishing, for-profit and non-profit OA publishing, society and non-society OA publishing, the global north and global south, the sciences and humanities.
 
