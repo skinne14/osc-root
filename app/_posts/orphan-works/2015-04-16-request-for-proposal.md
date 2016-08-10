@@ -6,18 +6,18 @@ sidebar: copyright
 title-tag: "orphan-works"
 ---
 
-## Request for Proposal (RFP): 
+## Request for Proposal (RFP):
 
 Writing a literature review on strategies for digitizing orphan works for open access.
 
-Release date for this RFP:  April 16, 2015  
-Due date for responses:  May 30, 2015  
-Start date for the work:  July 1, 2015  
-End date for the work:  January 31, 2016   
+Release date for this RFP:  April 16, 2015
+Due date for responses:  May 30, 2015
+Start date for the work:  July 1, 2015
+End date for the work:  January 31, 2016
 
 Issued by: Harvard Library [Office for Scholarly Communication (OSC)]({{site.bsaeurl}})
 
-The project will be supervised by [Peter Suber](http://bit.ly/petersuber), Director of the Office for Scholarly Communication. 
+The project will be supervised by [Peter Suber](http://bit.ly/petersuber), Director of the Office for Scholarly Communication.
 
 ## Proposal requested
 
@@ -31,11 +31,11 @@ The literature review will identify legal arguments and strategies for reducing 
 
 The question for the literature review is not what amendments to the copyright statute would best solve the orphan-works problem. Nor is it how far or how well fair use could solve this problem. The literature review should understand the fair-use case law and analyses, but look in particular for other types of tried or proposed solutions. In addition to looking for strategies to reduce the risk of litigation or damages, it should look for arguments for judge-made exceptions to the statute, based on the equities and special circumstances of orphan works, or based on analogies to other branches of law raising like questions.
 
-We also encourage the author to identify promising arguments or strategies that have not already been tried or proposed. 
+We also encourage the author to identify promising arguments or strategies that have not already been tried or proposed.
 
 When the literature review reaches this stage, the project will ask a panel of experts to evaluate it and recommend any revisions. When the author has satisfactorily responded to the comments from the panel, the project will make the final revised version public, with full attribution to the author and the names of the members of the panel.
 
-The literature review must be submitted to the panel for evaluation by January 31, 2016.  
+The literature review must be submitted to the panel for evaluation by January 31, 2016.
 
 ## Submitting a proposal
 
@@ -43,6 +43,6 @@ We envisage that the literature review will take about seven person-months. Cand
 
 Candidates should describe their qualifications to do the work and the amount they request to do it in the time allowed (July 1, 2015 - January 31, 2016). We encourage candidates who have published related work to cite and link to it in their submissions.
 
-Please submit the bid or tender, or any inquiries, by email to Arlene Navarro at [arlene_navarro@harvard.edu](mailto:arlene_navarro@harvard.edu). 
+Please submit the bid or tender, or any inquiries, by email to Arlene Navarro at [arlene_navarro@harvard.edu](mailto:arlene_navarro@harvard.edu).
 
 The submission deadline is May 30, 2015.
