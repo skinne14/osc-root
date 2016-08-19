@@ -36,6 +36,13 @@
     Ben Steinberg holds a Masters in Library Science from Simmons College. Before joining the OSC, he worked as a reference and systems librarian at the Public Library of Brookline.
 
 -
+  name: Rebecca Cremona
+  title: Digital Library Software Engineer
+  current: false
+  bio: |
+    Becky Cremona holds a Master of Arts in Theology from Boston College and a Bachelor of Arts in Physics and Religious Studies from Brown University. Prior to joining the OSC, Becky worked as a faculty assistant at the Harvard School of Engineering and Applied Sciences.
+
+-
   name: Colin B. Lukens
   title: Repository Manager
   current: true
@@ -52,13 +59,13 @@
 -
   name: Arlene Navarro
   title: Staff Assistant
-  current: true
+  current: false
   bio: |
     Arlene Navarro holds a Bachelor of Science in Business Management from Pepperdine University and a JD from the University of La Verne College of Law. Prior to joining the OSC, Arlene spent 15 years at the University of California, Los Angeles, where she was most recently program director of nitric oxide research for the 1998 Nobel Laureate in Physiology or Medicine and during which time she briefly managed the Nitric Oxide Society membership and manuscript submissions for publication to its journal, NO: Biology and Chemistry.
 
-    -
-  name: Rebecca Cremona
-  title: Digital Library Software Engineer
+-
+  name: Amanda Cullin
+  title: Staff Assistant
   current: true
   bio: |
-    Becky Cremona holds a Master of Arts in Theology from Boston College and a Bachelor of Arts in Physics and Religious Studies from Brown University. Prior to joining the OSC, Becky worked as a faculty assistant at the Harvard School of Engineering and Applied Sciences.
+
