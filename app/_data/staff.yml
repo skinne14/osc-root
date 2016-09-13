@@ -22,6 +22,13 @@
     Kyle K. Courtney is an attorney who works closely with Harvard Library to establish a culture of shared understanding of copyright issues among Harvard staff, faculty, and students. Kyle also works with the Office of General Counsel on intellectual property issues associated with the newly created HarvardX classes. Before joining the OSC, Kyle worked at Harvard Law School as the manager of Faculty Research and Scholarship. He currently maintains a dual appointment at Northeastern University as a Faculty Scholar for the Program on Human Rights and the Global Economy (PHRGE) at the School of Law, and teaching "Cyberlaw: Privacy, Ethics, and Digital Rights" for the interdisciplinary Information Assurance program at the College of Computer and Information Science. He holds a J.D. with distinction in Intellectual Property Law and an MLIS. He is a published author and frequent speaker on the topic of libraries and copyright.
 
 -
+  name: Dave Mayo
+  title: Digital Library Software Engineer
+  current: true
+  bio: |
+    Dave Mayo holds a Masters in Library and Information Science from Simmons College.  Before joining the OSC, Dave spent three years on various grants producing and maintaining open source software for the Harvard Library.  Prior to working at Harvard, he worked for a local visual effects company.
+
+-
   name: Bill McKinney
   title: Digital Library Software Engineer
   current: false
@@ -68,4 +75,3 @@
   title: Staff Assistant
   current: true
   bio: |
-
