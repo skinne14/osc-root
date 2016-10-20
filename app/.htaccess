@@ -110,7 +110,9 @@ RedirectMatch 301 ^/hdspolicy/? /policies/hds/
 RedirectMatch 301 ^/hbspolicy/? /policies/hbs/
 RedirectMatch 301 ^/berkmanpolicy/? /policies/berkman/
 
-RedirectMatch 301 ^/oaweek(.*)?$ /programs/advocacy/oa-week/$1
+#RedirectMatch 301 ^/oaweek(.*)?$ /programs/advocacy/oa-week/$1
+# This year, oaweek should go to G+
+RedirectMatch 302 ^/oaweek(.*)?$ https://plus.google.com/111058536544461893402
 RedirectMatch 301 ^/(20../../.*)/?$ /about/highlights/$1/
 RedirectMatch 301 ^/highlights/? /about/highlights/
 
