@@ -23,10 +23,17 @@
 
 -
   name: Dave Mayo
-  title: Digital Library Software Engineer
+  title: Senior Digital Library Software Engineer
   current: true
   bio: |
     Dave Mayo holds a Masters in Library and Information Science from Simmons College.  Before joining the OSC, Dave spent three years on various grants producing and maintaining open source software for the Harvard Library.  Prior to working at Harvard, he worked for a local visual effects company.
+
+-
+  name: Maura Carbone
+  title: Digital Library Software Engineer
+  current: true
+  bio: |
+    Maura Carbone holds a Masters in Library and Information Science from Simmons College. Before she joined OSC, Maura worked at Brandeis University, managing their DSpace repository and working as part of the systems team.
 
 -
   name: Bill McKinney
