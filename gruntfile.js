@@ -295,6 +295,14 @@ module.exports = function (grunt) {
           delete: false // Careful this option could cause data loss, read the docs!
         }
       },
+      qa: {
+        options: {
+          src: '<%= globalConfig.prodBuild %>/',
+          dest: '/home/osc/prod/htdocs',
+          host: 'oscusr@10.137.166.215',
+          delete: false // Careful this option could cause data loss, read the docs!
+        }
+      },
       augusta: {
         options: {
           src: '<%= globalConfig.prodBuild %>/',
