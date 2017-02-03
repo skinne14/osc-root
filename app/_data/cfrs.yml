@@ -3,7 +3,7 @@
   title: Information Research Specialist
   location: Baker Library
   email: lburmeister@hbs.edu
-  phone: 617-496-0903 
+  phone: 617-496-0903
 
 -
   name: P. Scott Lapinski
@@ -14,7 +14,7 @@
 
 -
   name: Liza F. Vick
-  title:  Music Reference and Research Librarian 
+  title:  Music Reference and Research Librarian
   location: Eda Kuhn Loeb Music Library
   email: lizavick@fas.harvard.edu
   phone:  617-495-2794
@@ -52,8 +52,8 @@
   title: Research Librarian
   location: Lamont Library
   email: emilybell@fas.harvard.edu
-  phone: 617-496-9988 
-  
+  phone: 617-496-9988
+
 -
   name: Micah Jared Hoggatt
   title: Reference Librarian
@@ -76,7 +76,7 @@
   phone: 617-496-8150
 
 -
-  name: Maggie E. Hale 
+  name: Maggie E. Hale
   title: Librarian for Collections Digitization
   location: Preservation Services
   email: mhale@fas.harvard.edu
@@ -94,14 +94,14 @@
   title: Research and Collections Librarian
   location: Fine Arts Library
   email: jevansbrady@fas.harvard.edu
-  phone: 
+  phone:
 
 -
   name: Alison Harris
   title: Project Manager/Collection Cataloger
   location: Harvard College Library
   email: adharris@fas.harvard.edu
-  phone: 617-496-2451 
+  phone: 617-496-2451
 
 -
   name: Kristin Stoklosa
@@ -144,3 +144,87 @@
   location: Preservation Services
   email: lingner@fas.harvard.edu
   phone: 617-495-3995
+
+-
+  name: Alex Caracuzzo
+  title: Collections and Data Management Librarian
+  location: Baker Library
+  email: acaracuzzo@hbs.edu
+  phone: 617-495-2492
+
+-
+  name: Shalimar Fojas White
+  title: Acting Librarian and Collection Development Librarian
+  location: Fine Arts Library
+  email: shalimar_white@harvard.edu
+  phone: 617-495-0678
+
+-
+  name: Rebecca Y. Martin
+  title: Collections Strategist and Scholarly Communications Librarian
+  location: Gutman Library
+  email: rebecca_martin@gse.harvard.edu
+  phone:
+
+-
+  name: Isabella Donadio
+  title: Permission and Image Research Coordinator
+  location: Harvard Art Museums
+  email: isabella_donadio@harvard.edu
+  phone: 617-495-8211
+
+-
+  name: Michelle Anna Interrante
+  title: Archives Assistant
+  location: Harvard Art Museums
+  email: michelle_interrante@harvard.edu
+  phone: 617-384-7983
+
+-
+  name: Nicholas Redler
+  title: Archives Assistant
+  location: Staff Assistant - Rights and Permissions
+  email: nredler@hbs.edu
+  phone: 617-495-6410
+
+-
+  name: Susan Gilman
+  title: Research Librarian
+  location: Harvard College Library
+  email: sgilman@fas.harvard.edu
+  phone: 617-496-9534
+
+-
+  name: Susan Gilroy
+  title: Librarian for Undergraduate Programs for Writing
+  location: Harvard College Library
+  email: sgilroy@fas.harvard.edu
+  phone: 617-496-5403
+
+-
+  name: Bassey Irele
+  title: Librarian for Sub-Saharan Africa
+  location: Harvard College Library
+  email: birele@fas.harvard.edu
+  phone: 617-495-3559
+
+-
+  name: Lynn M. Shirey
+  title: Librarian for Latin America Spain and Portugal in the Widener Library of the Harvard College Library
+  location: Harvard College Library
+  email: shirey@fas.harvard.edu
+  phone: 617-495-2427
+
+-
+  name: Lisa Lilliott
+  title: Faculty Research and Scholarly Support
+  location: Law Library
+  email: llilliott@law.harvard.edu
+  phone:
+
+-
+  name: Vitaly Zakuta
+  title: Digital Projects Librarian
+  location: Library Technology Services
+  email: vitaly_zakuta@harvard.edu
+  phone: 617-998-5459
