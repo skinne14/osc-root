@@ -12,3 +12,6 @@ The OSC also runs supporting programs such as:
 - [COPE](http://www.oacompact.org/), a multi-university compact to underwrite publication charges for fee-based open-access journals;
 - [ETDs @ Harvard](http://etds.lib.harvard.edu/about.html), the University's electronic thesis and dissertation submission system, managed by each participating school and maintained by the OSC;
 - Harvard's [Copyright Advisory Program](http://copyright.lib.harvard.edu/), including the [Copyright First Responders]({{site.baseurl}}/programs/copyright/first-responders/).
+
+
+<h3 class="announcement">The Office of Scholarly Communications is pleased to announce that DASH has passed the milestone of 10 million downloads!</h3>
