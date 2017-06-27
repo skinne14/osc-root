@@ -86,7 +86,7 @@
   name: Drew Fudenberg
   surname: Fudenberg
   info: Frederic E. Abbe Professor of Economics (FAS)
-  current: true
+  current: false
 
 -
   name: Alyssa Goodman
@@ -109,6 +109,11 @@
   name: Gary King
   surname: King
   info: David Florence Professor of Government (FAS)
+  current: true
+
+- name: Elizabeth Kirk
+  surname: Kirk
+  info: Associate University Librarian for Scholarly Resources (HL)
   current: true
 
 -
@@ -175,7 +180,7 @@
   name: Sarah Thomas
   surname: Thomas
   info: Vice President for the Harvard Library and Roy E. Larsen Librarian for the Faculty of Arts and Sciences
-  current: true
+  current: false
 
 -
   name: Jonathan Zittrain
