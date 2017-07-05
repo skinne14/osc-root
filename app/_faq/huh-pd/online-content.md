@@ -10,7 +10,7 @@ You should first see whether the digital reproduction is openly available (withi
 
 Next, determine whether the underlying work is in the public domain in the United States. In some cases, there may be an indication in the record for the item indicating its public domain status. In other cases, you will have to make that determination on your own. Some resources to help you are provided at the end of this document.
 
-Lastly, check if the digital reproduction – and any intermediate representation (such as a photograph) – is merely a slavish copy of the original work, rather than being an original creative work in its own right.
+Lastly, check if the digital reproduction – and any intermediate representation (such as a photograph) – is merely a [slavish copy]({{site.baseurl}}/programs/open-initiatives/huh-pd/faq/#excluded) of the original work, rather than being an original creative work in its own right.
 
 If all conditions are met (i.e., the reproduction is openly available from a Harvard University Herbaria website; the underlying work is in the public domain in the U.S.; and the digital reproduction and any intermediate representation are merely "slavish copies"), then the Policy applies.
 
