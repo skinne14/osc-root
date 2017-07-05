@@ -1,7 +1,7 @@
 ---
 layout: faq-notcategorized
 sidebar: faq
-title: "Frequently Asked Questions: Harvard Library Policy on Access to Digital Reproductions of Works in the Public Domain" 
+title: "Frequently Asked Questions: Harvard University Herbaria Policy on Access to Digital Reproductions of Works in the Public Domain" 
 
 which-faq: huh-pd
 breadcrumb: FAQ
