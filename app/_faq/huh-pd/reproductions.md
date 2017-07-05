@@ -1,5 +1,5 @@
 ---
-q: Does Harvard Library place any restrictions on digital reproductions subject to the Policy?
+q: Does Harvard Herbaria place any restrictions on digital reproductions subject to the Policy?
 order: 1
 anchor: reproductions
 type: basic
