@@ -1,5 +1,5 @@
 ---
-org: Harvard-China Project on Energy, Economy and Environment Open Access Policy 
+org: Harvard-China Project on Energy, Economy and Environment 
 type: center
 abbr: Harvard-China
 home: https://chinaproject.harvard.edu/home
