@@ -74,7 +74,7 @@
   name: Kurt Fischer
   surname: Fischer
   info: Charles Bigelow Professor of Education (GSE)
-  current: true
+  current: false
 
 -
   name: Terry Fisher
@@ -132,6 +132,12 @@
   name: David Lamberth
   surname: Lamberth
   info: Professor of Philosophy and Theology (HDS)
+  current: true
+
+-
+  name: Meira Levinson
+  surname: Levinson
+  info: Professor of Education (GSE)
   current: true
 
 -
