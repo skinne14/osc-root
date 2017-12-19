@@ -1,6 +1,6 @@
 ---
 q: Is the university taking the rights to my writing?
-order: 1
+order: 14
 anchor: you-retain-rights
 type: concerns
 

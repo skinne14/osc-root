@@ -1,6 +1,6 @@
 ---
 q: Should I include my article in the Harvard repository even if I have gotten a waiver for it?
-order: 8
+order: 6
 anchor: deposit-waived-works
 type: basic
 

@@ -1,6 +1,6 @@
 ---
 q: What is an "author's final version"?
-order: 2
+order: 1
 anchor: final-manuscript
 type: basic
 

@@ -1,6 +1,6 @@
 ---
 q: Can my articles be used as the basis of derivative works?
-order: 11
+order: 12
 anchor: derivative-works
 type: details
 

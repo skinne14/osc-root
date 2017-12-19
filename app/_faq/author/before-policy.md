@@ -1,6 +1,6 @@
 ---
 q: Does the policy apply to articles I wrote before the policy was adopted?
-order: 2
+order: 9
 anchor: before-policy
 type: details
 
