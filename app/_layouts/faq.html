@@ -20,17 +20,19 @@ breadcrumbs: true
   {% endfor %}
   </div>
   <aside class="col-md-4 sidebar faq-sidebar">
-  {% capture sidebar %}{% if page.sidebar %}{% include sidebars/{{page.sidebar}}.html %}{% else %}{% include sidebars/default.html %}{% endif %}{% endcapture %} 
+  {% capture sidebar %}{% if page.sidebar %}{% include sidebars/{{page.sidebar}}.html %}{% else %}{% include sidebars/default.html %}{% endif %}{% endcapture %}
   {{ sidebar | markdownify }}
   </aside>
 </div> <!-- row -->
 
 {% for category in page.categories %}{% assign wrapped-group = filtered-questions | where: 'name', category %}
 {% for group in wrapped-group %}
+<h2 id="group-{{group.name | underscore | downcase}}">{{group.name | upcase}}</h2>
 {% for question in group.items %}
-  <h2 id="{{question.anchor}}" class="long-list-heading"><span>Q:</span> {{question.q}}</h2>
+  <h3 id="{{question.anchor}}" class="long-list-heading"><span>Q:</span> {{question.q}}</h3>
   <div class="long-list-content">{{question.content}}
     <a href="#top">Back to top</a>
+    <a href="#group-{{group.name | underscore | downcase}}">Back to section</a>
   </div>
 {% endfor %}
 {% endfor %}
