@@ -1,8 +1,8 @@
 ---
 q: What are the limits on reimbursement?
-order: 5
+order: 8
 anchor: reimbursement-limits
-type: award amounts
+type: award amounts and reimbursement process
 
 hope-faq: include
 ---

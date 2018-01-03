@@ -1,6 +1,6 @@
 ---
 q: What if the research in the article was grant-funded?
-order: 4
+order: 7
 anchor: grant-funded-research
 type: eligibility
 

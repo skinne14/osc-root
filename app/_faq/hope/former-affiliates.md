@@ -1,6 +1,6 @@
 ---
 q: Will the HOPE fund cover works by former Harvard affiliates who have since left the institution?
-order: 7
+order: 12
 anchor: former-affiliates
 type: other
 

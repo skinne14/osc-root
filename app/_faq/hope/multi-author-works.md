@@ -1,8 +1,8 @@
 ---
 q: What if there are multiple authors on an article?
-order: 6
+order: 9
 anchor: multi-author-works
-type: award amounts
+type: award amounts and reimbursement process
 
 hope-faq: include
 ---

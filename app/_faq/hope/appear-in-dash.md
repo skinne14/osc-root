@@ -1,8 +1,8 @@
 ---
 q: Will my article appear in DASH, Harvard's open-access repository?
-order: 6
+order: 11
 anchor: appear-in-dash
-type: award amounts
+type: award amounts and reimbursement process
 
 hope-faq: include
 ---

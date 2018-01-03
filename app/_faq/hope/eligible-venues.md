@@ -1,6 +1,6 @@
 ---
 q: What publication venues are eligible?
-order: 3
+order: 6
 anchor: eligible-venues
 type: eligibility
 

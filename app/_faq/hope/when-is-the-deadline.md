@@ -1,6 +1,6 @@
 ---
 q: When is the deadline for applying for funds?
-order: 9
+order: 2
 anchor: deadline
 type: how to apply
 

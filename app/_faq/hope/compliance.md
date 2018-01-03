@@ -1,6 +1,6 @@
 ---
 q: What constitutes compliance with Harvard open-access policies for the purpose of eligibility for HOPE funds?
-order: 1
+order: 4
 anchor: oa-compliance
 type: eligibility
 

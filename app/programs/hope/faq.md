@@ -7,6 +7,6 @@ which-faq: hope
 categories:
   - how to apply
   - eligibility
-  - award amounts
+  - award amounts and reimbursement process
   - other
 ---

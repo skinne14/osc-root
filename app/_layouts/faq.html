@@ -31,8 +31,10 @@ breadcrumbs: true
 {% for question in group.items %}
   <h3 id="{{question.anchor}}" class="long-list-heading"><span>Q:</span> {{question.q}}</h3>
   <div class="long-list-content">{{question.content}}
-    <a href="#top">Back to top</a>
-    <a href="#group-{{group.name | underscore | downcase}}">Back to section</a>
+    <ul class="section-links">
+      <li><a href="#group-{{group.name | underscore | downcase}}">Return to <strong>{{group.name | capitalize}}</strong></a></li>
+      <li><a href="#top">Return to top</a></li>
+    </ul>
   </div>
 {% endfor %}
 {% endfor %}

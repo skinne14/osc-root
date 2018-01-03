@@ -1,6 +1,6 @@
 ---
 q: What fees can the fund reimburse?
-order: 2
+order: 5
 anchor: eligible-fees
 type: eligibility
 

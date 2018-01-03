@@ -1,8 +1,8 @@
 ---
 q: When will the reimbursement process begin?
-order: 6
+order: 10
 anchor: when-reimbursement-begins
-type: award amounts
+type: award amounts and reimbursement process
 
 hope-faq: include
 ---

@@ -196,11 +196,17 @@ div.main-content {
     margin-top: 20px;
   }
 
-  a[href="#top"] {
+  a[href="#top"], ul.section-links a {
     display: block;
     margin-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     font-size: .8em;
+  }
+
+  ul.section-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0;
   }
 
   @media (min-width: 992px) {

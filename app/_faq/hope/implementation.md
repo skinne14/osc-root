@@ -1,6 +1,6 @@
 ---
 q: Who decides other aspects of the fund's implementation?
-order: 8
+order: 14
 anchor: implementation
 type: other
 

@@ -1,18 +1,19 @@
 ---
 q: How does Harvard limit the use of HOPE funds?
-order: 7
+order: 16
 anchor: limits-on-use
 type: other
 
 hope-faq: include
 ---
 The HOPE fund is intended to pay publication fees on scholarly articles by current Harvard authors. HOPE funds are subject to several restrictions based on the works, the fees, the journals, the authors, and the timing. These are described in other entries above, but here's a summary to make them easier to review.
+
 ### Restrictions on works
 - HOPE only covers publication fees for scholarly articles, not books or other genres of scholarship.
 - If the research underlying the article was [funded by a grant or other institution](#grant-funded-research) willing to pay the fee, then HOPE will typically not pay the fee. HOPE will consider exceptions case by case.
 
 ### Restrictions on journals and publishers
-- The journal publishing the article must meet certain conditions:
+- The journal publishing the article must meet [certain conditions](#eligible-venues):
   - It must be a _full_ (not _hybrid_) open-access journal.
   - It must make articles open access under a Creative Commons license.
   - It must have publicly available standard article fee schedule, and the fee requested by the Harvard author must conform to that standard fee schedule.
@@ -37,5 +38,3 @@ The HOPE fund is intended to pay publication fees on scholarly articles by curre
   - If an article has co-authors, then each author is responsible for a prorated share of the fee. If a paper has n co-authors, only one of whom is a Harvard affiliate, that author may only request 1/_n_ of the fee. If there are two Harvard co-authors, they may request 2/_n_ of the fee, and so on.
 
 Please contact the [Office for Scholarly Communication](mailto:osc@harvard.edu) if you have any questions about these restrictions or about your own circumstances.
-
-ut here’s
