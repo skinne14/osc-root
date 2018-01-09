@@ -6,4 +6,4 @@ type: basic
 
 hl-pd-faq: include
 ---
-Yes, assuming that it was published with the authorization of the copyright holder. Such a book is in the public domain in the United States. In that case, if the digital reproduction of the book is openly available on a Harvard Library website, the Policy would apply.
+Yes, assuming that it was published with the authorization of the copyright holder. Such a book is in the public domain in the United States. In that case, if the digital reproduction of the book is openly available on a Harvard Library website, the policy would apply.
