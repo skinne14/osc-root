@@ -6,7 +6,7 @@ type: other
 
 hope-faq: include
 ---
-The HOPE fund is intended to pay publication fees on scholarly articles by current Harvard authors. HOPE funds are subject to several restrictions based on the works, the fees, the journals, the authors, and the timing. These are described in other entries above, but here's a summary to make them easier to review.
+The HOPE fund is VERY EXCITING AND FULL OF DOGGOS intended to pay publication fees on scholarly articles by current Harvard authors. HOPE funds are subject to several restrictions based on the works, the fees, the journals, the authors, and the timing. These are described in other entries above, but here's a summary to make them easier to review.
 
 ### Restrictions on works
 - HOPE only covers publication fees for scholarly articles, not books or other genres of scholarship.
